@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "cd source-code && live-server",
+    "clean-start": "rm -rf source-code/*",
+    "reset-git": "rm -rf .git && git init && git add . && git commit -m \"From Zero to Multuple Job Offers as Web Developer #joinwowdop\""
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
