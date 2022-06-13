@@ -1,0 +1,143 @@
+[Back to project](../README.md)
+
+## First Big Project
+
+View and practice the next introduction to HTML so you can be ready to meet the rest of the HTML tags later on.
+
+- remove every file and folder present inside `source-code`, to prepare for a clean start.
+- create an `index.html` file inside the `source-code` folder, populate it with minimal HTML structure and content.
+- run `yarn start`, to launch a local development server.
+- Create a folder for each of the next topics, like:
+  For the `Table Sizes` topic you want to create: `source-code/table-sizes`
+- Create one or more experimental HTML files inside that folder, so you can discover and understand more about that topic. For example:
+  - `source-code/table-sizes/my-first-table.html`,
+  - `source-code/table-sizes/i-get-rows-in-tables.html`,
+  - `source-code/table-sizes/tables-are-fun.html`
+- When you reach a moment of good understanding, after enough discover, trial and error with experimental HTML files, create an `index.html` file to make use of all the recent discoveries and summarise your experience.
+- repeat for each of the topics, until every tag has been explored and added to your basic knowledge skills.
+
+### Mimimum tags knowledge to build a website
+
+#### Top 25 tags to start your first web site
+
+##### The must have three
+
+1. the `<html>` tag
+1. the `<head>` tag
+1. the `<body>` tag
+
+   ##### Must know inside the head
+
+1. the `<title>` tag
+1. the `<meta>` tag
+
+   ##### Basic building blocks
+
+1. the `<a>` tag
+1. the `<b>, <i>, <u>` tag
+
+1. the `<h1>` tag
+1. the `<h2>` tag
+
+1. the `<p>` tag
+1. the `<div>` tag
+1. the `<span>` tag
+1. the `<blockquote>` tag
+
+   ##### Basic Lists
+
+1. the `<ul>` tag
+1. the `<ol>` tag
+1. the `<li>` tag
+1. the `<table>` tag
+1. the `<tr>` tag
+1. the `<td>` tag
+
+   ##### Repeatable vs Unique content
+
+1. the `<header>` tag
+1. the `<footer>` tag
+1. the `<aside>` tag
+1. the `<main>` tag
+
+   ##### Embed content
+
+1. the `<img>` tag
+1. the `<iframe>` tag
+
+### Must know
+
+- the `<script>` tag
+- the `<style>` tag
+- the `<link>` tag
+- the `<article>` tag
+- the `<section>` tag
+- the `<nav>` tag
+- the `<h1>` tag
+- the `<h2>` tag
+- the `<h3>` tag
+- the `<h4>` tag
+- the `<h6>` tag
+- the `<h5>` tag
+- the `<hgroup>` tag
+- the `<audio>` tag
+- the `<video>` tag
+- the `<input>` tag
+- the `<button>` tag
+- the `<fieldset>` tag
+- the `<input>` tag
+- the `<label>` tag
+- the `<select>` tag
+- the `<textarea>` tag
+- the `<br>` tag
+- the `<code>` tag
+- the `<datalist>` tag
+- the `<del>` tag
+- the `<embed>` tag
+- the `<fieldset>` tag
+- the `<figure>` tag
+- the `<hr>` tag
+- the `<menu>` tag
+- the `<nav>` tag
+- the `<picture>` tag
+- the `<pre>` tag
+- the `<s>` tag
+- the `<script>` tag
+- the `<section>` tag
+- the `<small>` tag
+- the `<strong>` tag
+- the `<sub>` tag
+- the `<sup>` tag
+- the `<svg>` tag
+- the `<em>` tag
+
+### Good to know
+
+- the `<base>` tag
+- the `<noscript>` tag
+- the `<data>` tag
+- the `<time>` tag
+- the `<bdo>` tag
+- the `<bdi>` tag
+- the `<abbr>` tag
+- the `<address>` tag
+- the `<canvas>` tag
+- the `<cite>` tag
+- the `<details>` tag
+- the `<dfn>` tag
+- the `<dl>` tag
+- the `<ins>` tag
+- the `<kbd>` tag
+- the `<map>` tag
+- the `<mark>` tag
+- the `<math>` tag
+- the `<meter>` tag
+- the `<object>` tag
+- the `<output>` tag
+- the `<progress>` tag
+- the `<q>` tag
+- the `<ruby>` tag
+- the `<samp>` tag
+- the `<template>` tag
+- the `<var>` tag
+- the `<wbr>` tag

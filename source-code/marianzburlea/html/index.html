@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Table and Iframe for the win</title>
+  </head>
+
+  <body style="height: 100%">
+    <table border="1" width="100%" height="90%">
+      <tr>
+        <td colspan="2" align="center">
+          <h1>Welcome to your first website</h1>
+
+          <p>
+            Today we're going to explore HTML in depth and discover how to
+            become able to provide solutions, for all the future projects you'll
+            create.
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="220" valign="top" height="100%">
+          <iframe
+            src="menu.html"
+            frameborder="0"
+            width="100%"
+            style="min-height: 50vh"
+          ></iframe>
+        </td>
+
+        <td valign="top">
+          <iframe
+            src="paragraph.html"
+            frameborder="0"
+            width="100%"
+            name="content"
+            style="height: calc(100vh - 200px)"
+          ></iframe>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <footer>&copy; 2022 - All rights reserved to WoW DoP Limited.</footer>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
