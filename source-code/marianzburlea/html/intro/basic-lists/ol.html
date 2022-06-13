@@ -9,20 +9,108 @@
   </head>
 
   <body>
-    <p>Example:</p>
-    <p>Event steps:</p>
-    <ol>
-      <li>Turn on lights</li>
-      <li>Start the stream</li>
-      <li>Answer to comments</li>
-    </ol>
+    <h1>Use <i>ol</i> tag when you have lists that should be ordered.</h1>
+    <p>
+      You can specify the kinf of marker to use in the list either from CSS or
+      by adding the attribute <b>type</b> to the <b>ol</b> tag
+    </p>
+    <h2><b>type</b> can have these values:</h2>
+
+    <table width="115%">
+      <tr>
+        <td>
+          <h3>type="a"</h3>
+          <h4>Lower letters order</h4>
+        </td>
+        <td>
+          <h3>type="A"</h3>
+          <h4>Uppercase letters</h4>
+        </td>
+      </tr>
+      <tr>
+        <td>Groceries list</td>
+        <td>Chapters to read</td>
+      </tr>
+      <tr>
+        <td>
+          <ol type="a">
+            <li>Bananas</li>
+            <li>Pineapple</li>
+            <li>Strawberries</li>
+            <li>Pizza</li>
+          </ol>
+        </td>
+        <td>
+          <ol type="A">
+            <li>Entering the dungeon</li>
+            <li>The messy hell</li>
+            <li>Painful pity</li>
+            <li>Reborn</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>type="i"</h3>
+          <h4>Lowercase Roman numeral</h4>
+        </td>
+        <td>
+          <h3>type="I"</h3>
+          <h4>Uppercase Roman numeral</h4>
+        </td>
+      </tr>
+      <tr>
+        <td>Places to visit</td>
+        <td>Countries available</td>
+      </tr>
+      <tr>
+        <td>
+          <ol type="i">
+            <li>Hawaii</li>
+            <li>Filipines</li>
+            <li>Indonesia</li>
+            <li>Thailand</li>
+            <li>Japan</li>
+            <li>Bahamas</li>
+          </ol>
+        </td>
+        <td>
+          <ol type="I">
+            <li>Spain</li>
+            <li>Ireland</li>
+            <li>Italy</li>
+            <li>Venezuela</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>type="1"</h3>
+          <h4>Numbers</h4>
+        </td>
+      </tr>
+      <tr>
+        <td>Daily tasks</td>
+      </tr>
+      <tr>
+        <td>
+          <ol type="1">
+            <li>Clean dishes</li>
+            <li>Throw the garbage</li>
+            <li>Buy groceries</li>
+            <li>Cook</li>
+          </ol>
+        </td>
+      </tr>
+    </table>
 
     <p>Code:</p>
     <pre>
-      &lt;ol&gt;
-        &lt;li&gt;Turn on lights&lt;/li&gt;
-        &lt;li&gt;Start the stream&lt;/li&gt;
-        &lt;li&gt;Answer to comments&lt;/li&gt;
+      &lt;ol type="a"&gt;
+        &lt;li&gt;Bananas&lt;/li&gt;
+        &lt;li&gt;Pineapple&lt;/li&gt;
+        &lt;li&gt;Strawberries&lt;/li&gt;
+        &lt;li&gt;Pizza&lt;/li&gt;
       &lt;ol&gt;
     </pre>
   </body>

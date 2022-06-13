@@ -97,7 +97,6 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 - the `<fieldset>` tag
 - the `<figure>` tag
 - the `<hr>` tag
-- the `<menu>` tag
 - the `<nav>` tag
 - the `<picture>` tag
 - the `<pre>` tag
@@ -113,6 +112,7 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 
 ### Good to know
 
+- the `<menu>` tag
 - the `<base>` tag
 - the `<noscript>` tag
 - the `<data>` tag
