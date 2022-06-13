@@ -11,35 +11,45 @@
   <body style="height: 100%">
     <table border="1" width="100%" height="90%">
       <tr>
-        <td colspan="2" align="center">
-          <h1>Welcome to the repeatable versus unique tags example of HTML</h1>
-        </td>
+        <header>
+          <td colspan="2" align="center">
+            <h1>
+              Welcome to the repeatable versus unique tags example of HTML
+            </h1>
+          </td>
+        </header>
       </tr>
 
       <tr>
         <td valign="top">
-          <iframe
-            src="header.html"
-            frameborder="0"
-            width="100%"
-            name="repeatable-vs-unique"
-            style="height: calc(100vh - 200px)"
-          ></iframe>
+          <main>
+            <iframe
+              src="header.html"
+              frameborder="0"
+              width="100%"
+              name="repeatable-vs-unique"
+              style="height: calc(100vh - 200px)"
+            ></iframe>
+          </main>
         </td>
 
         <td width="220" valign="top" height="100%">
-          <iframe
-            src="menu.html"
-            frameborder="0"
-            width="100%"
-            style="min-height: 50vh"
-          ></iframe>
-        </td>
-      </tr>
-
-      <tr>
-        <td colspan="2" align="center">
-          <footer>&copy; 2022 - All rights reserved to WoW DoP Limited.</footer>
+          <aside>
+            <ul>
+              <li>
+                <a href="header.html" target="repeatable-vs-unique">header</a>
+              </li>
+              <li>
+                <a href="footer.html" target="repeatable-vs-unique">footer</a>
+              </li>
+              <li>
+                <a href="aside.html" target="repeatable-vs-unique">aside</a>
+              </li>
+              <li>
+                <a href="main.html" target="repeatable-vs-unique">main</a>
+              </li>
+            </ul>
+          </aside>
         </td>
       </tr>
     </table>
