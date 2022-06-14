@@ -79,65 +79,73 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 - the `<h4>` tag - @iulia-zburlea
 - the `<h5>` tag - @iulia-zburlea
 - the `<h6>` tag - @iulia-zburlea
-- the `<hgroup>` tag
-- the `<audio>` tag
-- the `<video>` tag
-- the `<input>` tag
-- the `<button>` tag
-- the `<fieldset>` tag
-- the `<input>` tag
-- the `<label>` tag
-- the `<select>` tag
-- the `<textarea>` tag
-- the `<br>` tag
-- the `<code>` tag
-- the `<datalist>` tag
-- the `<del>` tag
-- the `<embed>` tag
-- the `<fieldset>` tag
-- the `<figure>` tag
-- the `<hr>` tag
-- the `<nav>` tag
-- the `<picture>` tag
-- the `<pre>` tag
-- the `<s>` tag
-- the `<script>` tag
-- the `<section>` tag
-- the `<small>` tag
-- the `<strong>` tag
-- the `<sub>` tag
-- the `<sup>` tag
-- the `<svg>` tag
-- the `<em>` tag
+
+- the `<audio>` tag - TODO: @marianzburlea
+- the `<video>` tag - TODO: @marianzburlea
+
+- the `<form>` tag - TODO: @marianzburlea
+- the `<input>` tag - TODO: @marianzburlea
+- the `<button>` tag - TODO: @marianzburlea
+- the `<fieldset>` tag - TODO: @marianzburlea
+- the `<input>` tag - TODO: @marianzburlea
+- the `<label>` tag - TODO: @marianzburlea
+- the `<select>` tag - TODO: @marianzburlea
+- the `<textarea>` tag - TODO: @marianzburlea
+- the `<datalist>` tag - TODO: @marianzburlea
+
+- the `<img>` tag - TODO: @MariaTeo
+- the `<embed>` tag - TODO: @MariaTeo
+- the `<figure>` tag - TODO: @MariaTeo
+- the `<picture>` tag - TODO: @MariaTeo
+- the `<svg>` tag - TODO: @MariaTeo
+
+- the `<hr>` tag - TODO: @iulia-zburlea
+- the `<br>` tag - TODO: @iulia-zburlea
+
+- the `<pre>` tag - TODO: @MariaTeo
+- the `<code>` tag - TODO: @MariaTeo
+
+- the `<s>` tag - TODO: @iulia-zburlea
+- the `<del>` tag - TODO: @iulia-zburlea
+- the `<strong>` tag - TODO: @iulia-zburlea
+- the `<b>` tag - TODO: @iulia-zburlea
+- the `<em>` tag - TODO: @iulia-zburlea
+- the `<i>` tag - TODO: @iulia-zburlea
+- the `<u>` tag - TODO: @iulia-zburlea
+
+- the `<small>` tag - TODO: @MariaTeo
+- the `<sub>` tag - TODO: @MariaTeo
+- the `<sup>` tag - TODO: @MariaTeo
 
 ### Good to know
 
-- the `<menu>` tag
-- the `<base>` tag
-- the `<noscript>` tag
-- the `<data>` tag
-- the `<time>` tag
-- the `<bdo>` tag
-- the `<bdi>` tag
-- the `<abbr>` tag
-- the `<address>` tag
-- the `<canvas>` tag
-- the `<cite>` tag
-- the `<details>` tag
-- the `<dfn>` tag
-- the `<dl>` tag
-- the `<ins>` tag
-- the `<kbd>` tag
-- the `<map>` tag
-- the `<mark>` tag
-- the `<math>` tag
-- the `<meter>` tag
-- the `<object>` tag
-- the `<output>` tag
-- the `<progress>` tag
-- the `<q>` tag
-- the `<ruby>` tag
-- the `<samp>` tag
-- the `<template>` tag
-- the `<var>` tag
-- the `<wbr>` tag
+- the `<menu>` tag - TODO: @MariaTeo
+- the `<base>` tag - TODO: @MariaTeo
+- the `<noscript>` tag - TODO: @MariaTeo
+- the `<data>` tag - TODO: @MariaTeo
+- the `<time>` tag - TODO: @MariaTeo
+- the `<bdo>` tag - TODO: @MariaTeo
+- the `<bdi>` tag - TODO: @MariaTeo
+- the `<abbr>` tag - TODO: @MariaTeo
+- the `<address>` tag - TODO: @MariaTeo
+- the `<canvas>` tag - TODO: @MariaTeo
+- the `<cite>` tag - TODO: @MariaTeo
+- the `<details>` tag - TODO: @MariaTeo
+- the `<dfn>` tag - TODO: @MariaTeo
+- the `<dl>` tag - TODO: @MariaTeo
+- the `<ins>` tag - TODO: @MariaTeo
+
+- the `<kbd>` tag - TODO: @iulia-zburlea
+- the `<map>` tag - TODO: @iulia-zburlea
+- the `<mark>` tag - TODO: @iulia-zburlea
+- the `<math>` tag - TODO: @iulia-zburlea
+- the `<meter>` tag - TODO: @iulia-zburlea
+- the `<object>` tag - TODO: @iulia-zburlea
+- the `<output>` tag - TODO: @iulia-zburlea
+- the `<progress>` tag - TODO: @iulia-zburlea
+- the `<q>` tag - TODO: @iulia-zburlea
+- the `<ruby>` tag - TODO: @iulia-zburlea
+- the `<samp>` tag - TODO: @iulia-zburlea
+- the `<template>` tag - TODO: @iulia-zburlea
+- the `<var>` tag - TODO: @iulia-zburlea
+- the `<wbr>` tag - TODO: @iulia-zburlea
