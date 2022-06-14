@@ -119,5 +119,52 @@ Articles can contain articles and usually have a title and a body, with an optio
   </footer>
 </article>
 
-
 ```
+
+### Example 4
+
+Find more about how articles can present data about the temperature of all our plantes in the solar system.
+
+```html:
+<article>
+  <h2>Solar System Weather</h2>
+
+  <section>
+    <h3>Planets are quite interesting</h3>
+
+    <article>
+      <h4>Rank: 1</h4>
+
+      <p>Planet name: Venus</p>
+
+      <footer>
+        864 degrees Fahrenheit
+        <sub>(462 degrees Celsius)</sub>
+      </footer>
+...
+```
+
+visit the <ins>**`article/article-experiment-4.html`**</ins> to see how we structured the data.
+
+### Example 5
+
+```html:
+<article>
+  <h2>Solar System Weather</h2>
+
+  <section>
+    <h3>Planets are quite interesting</h3>
+
+    <article>
+      <h4>Rank: 1</h4>
+
+      <p>Planet name: Venus</p>
+
+      <footer>
+        864 degrees Fahrenheit
+        <sub>(462 degrees Celsius)</sub>
+      </footer>
+...
+```
+
+visit the <ins>**`article/article-experiment-5.html`**</ins> file to find out how we made use of the article tag to display data about a "new way of learning".

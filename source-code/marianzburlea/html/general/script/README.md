@@ -34,7 +34,7 @@ and found
 
 ## Example list
 
-Example 1
+### Example 1
 
 ```javascript:
 <script type="text/javascript">
@@ -42,7 +42,7 @@ var name = "Marian"
 </script>
 ```
 
-Example 2
+### Example 2
 
 ```javascript:
 <script type="text/javascript">
@@ -53,7 +53,7 @@ console.log(sum)
 </script>
 ```
 
-Example 3
+### Example 3
 
 ```javascript:
 <script type="text/javascript">
@@ -62,13 +62,13 @@ callMyName('Marian')
 </script>
 ```
 
-Example 4
+### Example 4
 
 ```javascript:
 <script type="text/javascript" src="js/example-4.js"></script>
 ```
 
-Example 5
+### Example 5
 
 ```javascript:
 <script type="text/javascript" src="js/example-5.js"></script>
