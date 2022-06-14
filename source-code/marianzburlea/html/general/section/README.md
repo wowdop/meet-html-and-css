@@ -4,17 +4,19 @@
 
 I did some research on Google,
 
-[html section tag w3](https://www.google.com/search?q=section+html+tag+example+w3)
+[section html tag example w3](https://www.google.com/search?q=section+html+tag+example+w3)
 
 and found
 
 [HTML Section tag](https://www.w3schools.com/tags/tag_section.asp)
 
-[html section tag mdn](https://www.google.com/search?q=section+html+tag+example+mdn)
+and then searched
+
+[section html tag example mdn](https://www.google.com/search?q=section+html+tag+example+mdn)
 
 and found
 
-[HTML MDn section tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+[HTML mdn section tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
 
 ## Notes
 
