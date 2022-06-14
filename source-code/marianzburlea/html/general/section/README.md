@@ -31,7 +31,7 @@ Also consider these cases:
 
 ## Example list
 
-Example 1
+### Example 1
 
 ```html:
 <section>
@@ -53,7 +53,7 @@ Example 1
 </section>
 ```
 
-Example 2
+### Example 2
 
 ```html:
 <section>
@@ -67,7 +67,7 @@ Example 2
 </section>
 ```
 
-Example 3
+### Example 3
 
 ```html:
 <section>
@@ -78,7 +78,7 @@ Example 3
 </section>
 ```
 
-Example 4
+### Example 4
 
 ```html:
 <section>
@@ -108,7 +108,7 @@ Example 4
 </section>
 ```
 
-Example 5
+### Example 5
 
 ```html:
 <section>
