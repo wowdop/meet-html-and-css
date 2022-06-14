@@ -28,7 +28,7 @@ Common examples of navigation sections are menus, tables of contents, and indexe
 
 ## Example list
 
-Example 1
+### Example 1
 
 ```html:
 <nav>
@@ -46,7 +46,7 @@ Example 1
 </nav>
 ```
 
-Example 2
+### Example 2
 
 ```html:
 <nav class="nav-wrap">
@@ -66,7 +66,7 @@ Example 2
 </section>
 ```
 
-Example 3
+### Example 3
 
 ```html:
 <nav>
@@ -109,7 +109,7 @@ Example 3
 </nav>
 ```
 
-Example 4
+### Example 4
 
 ```html:
 <table border="1">
@@ -148,7 +148,7 @@ Example 4
 </table>
 ```
 
-Example 5
+### Example 5
 
 ```html:
 <nav>

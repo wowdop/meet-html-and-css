@@ -24,7 +24,7 @@ The style attribute will override any style set globally, e.g. styles specified 
 
 ## Example list
 
-Example 1
+### Example 1
 
 ```html:
 <style>
@@ -44,7 +44,7 @@ Example 1
 </style>
 ```
 
-Example 2
+### Example 2
 
 ```html:
 <style>
@@ -68,7 +68,7 @@ Example 2
 </style>
 ```
 
-Example 3
+### Example 3
 
 ```html:
 <style>
@@ -107,7 +107,7 @@ Example 3
 </style>
 ```
 
-Example 4
+### Example 4
 
 ```html:
 <style>
@@ -128,7 +128,7 @@ Example 4
 </style>
 ```
 
-Example 5
+### Example 5
 
 ```html:
 <style>
