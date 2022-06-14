@@ -18,14 +18,14 @@ and found
 
 ## Notes
 
-<section> is a generic sectioning element, and should only be used if there isn't a more specific element to represent it.
+`<section>` is a generic sectioning element, and should only be used if there isn't a more specific element to represent it.
 
 Also consider these cases:
 
-- If the contents of the element represent a standalone, atomic unit of content that makes sense syndicated as a standalone piece (e.g. a blog post or blog comment, or a newspaper article), the <article> element would be a better choice.
-- If the contents represent useful tangential information that works alongside the main content, but is not directly part of it (like related links, or an author bio), use an <aside>.
-- If the contents represent the main content area of a document, use <main>.
-- If you are only using the element as a styling wrapper, use a <div>. An unwritten rule is that a <section> should logically appear in the outline of a document.
+- If the contents of the element represent a standalone, atomic unit of content that makes sense syndicated as a standalone piece (e.g. a blog post or blog comment, or a newspaper article), the `<article>` element would be a better choice.
+- If the contents represent useful tangential information that works alongside the main content, but is not directly part of it (like related links, or an author bio), use an `<aside>`.
+- If the contents represent the main content area of a document, use `<main>`.
+- If you are only using the element as a styling wrapper, use a `<div>`. An unwritten rule is that a `<section>` should logically appear in the outline of a document.
 
 ## Example list
 
