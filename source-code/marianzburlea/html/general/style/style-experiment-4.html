@@ -1,0 +1,44 @@
+<style>
+  h2 {
+    color: red;
+  }
+  p {
+    color: blue;
+  }
+</style>
+<style>
+  h2 {
+    color: green;
+  }
+  p {
+    color: pink;
+  }
+</style>
+
+<h1>Multiple style tags</h1>
+<div class="content">
+  <div>
+    You can have multiple style tags but the computer reads starting from line 1
+    and going down to whatever number of lines you have.
+  </div>
+  <div>
+    Therefore, even if you have more styles for the same elements, the last
+    one's values that are being read will win and your elements will get that
+    style.
+  </div>
+</div>
+<div>For example:</div>
+<h2>This is a sub-heading</h2>
+<p>This is a paragraph.</p>
+<div>And the code looks like this:</div>
+<pre>
+    &lt;style&gt;
+        h2 {color:red;}
+        p {color:blue;}
+    &lt;/style&gt;
+    &lt;style&gt;
+        h2 {color:green;}
+        p {color:pink;}
+    &lt;/style&gt;
+
+</pre>
