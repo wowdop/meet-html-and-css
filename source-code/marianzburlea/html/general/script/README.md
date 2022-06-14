@@ -75,7 +75,7 @@ Example 5
 Example 5
 
 ```javascript:
-<script type="text/javascript" src="example-6"></script>
+<script type="text/javascript" src="js/example-6.js"></script>
 <script>
 addTwoNumbers(2, 5)
 addTwoNumbers(10, 7)
