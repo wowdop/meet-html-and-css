@@ -73,12 +73,12 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 - the `<article>` tag
 - the `<section>` tag - @mariateo
 - the `<nav>` tag - @mariateo
-- the `<h1>` tag
-- the `<h2>` tag
-- the `<h3>` tag
-- the `<h4>` tag
-- the `<h6>` tag
-- the `<h5>` tag
+- the `<h1>` tag - @iulia-zburlea
+- the `<h2>` tag - @iulia-zburlea
+- the `<h3>` tag - @iulia-zburlea
+- the `<h4>` tag - @iulia-zburlea
+- the `<h5>` tag - @iulia-zburlea
+- the `<h6>` tag - @iulia-zburlea
 - the `<hgroup>` tag
 - the `<audio>` tag
 - the `<video>` tag
