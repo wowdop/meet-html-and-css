@@ -146,3 +146,8 @@ Example 5
   }
 </style>
 ```
+
+### Contributors
+
+@mariateo
+@marianzburlea

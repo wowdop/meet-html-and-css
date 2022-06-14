@@ -119,3 +119,8 @@ Example 5
   </p>
 </section>
 ```
+
+### Contributors
+
+@mariateo
+@marianzburlea

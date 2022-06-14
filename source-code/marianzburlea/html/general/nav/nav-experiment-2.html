@@ -1,0 +1,98 @@
+<style>
+  nav {
+    border-bottom: 2px dotted crimson;
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-wrap ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .nav-item {
+    display: inline-block;
+  }
+
+  .nav-item a::after {
+    display: inline-block;
+    color: #000;
+    content: ">";
+    font-weight: bold;
+    padding: 0 3px;
+  }
+
+  section {
+    padding: 0.5rem;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    box-shadow: 2px 2px lightblue;
+  }
+</style>
+
+<nav class="nav-wrap">
+  <ol>
+    <li class="nav-item"><a href="#">Houses</a></li>
+    <li class="nav-item"><a href="#">Villa</a></li>
+    <li class="nav-item">Villa Mella</li>
+  </ol>
+</nav>
+
+<section>
+  <h1>Villa Mella</h1>
+  <p>
+    This mega villa has an amazing yard spread over 700 square meters. It has
+    its own private forest as well with the access to one side of the river.
+  </p>
+</section>
+
+<br />
+
+<div>Code example:</div>
+<pre>
+  &lt;style&gt;
+    nav {
+      border-bottom: 2px dotted crimson;
+      margin-bottom: 0.5rem;
+    }
+
+    .nav-wrap ol {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .nav-item {
+      display: inline-block;
+    }
+
+    .nav-item a::after {
+      display: inline-block;
+      color: #000;
+      content: "&gt;";
+      font-weight: bold;
+      padding: 0 3px;
+    }
+
+    section {
+      padding: 0.5rem;
+      background-color: lightgrey;
+      border: 1px solid grey;
+      box-shadow: 2px 2px lightblue;
+    }
+  &lt;/style&gt;
+
+  &lt;nav class="nav-wrap"&gt;
+    &lt;ol&gt;
+      &lt;li class="nav-item"&gt;&lt;a href="#"&gt;Houses&lt;/a&gt;&lt;/li&gt;
+      &lt;li class="nav-item"&gt;&lt;a href="#"&gt;Villa&lt;/a&gt;&lt;/li&gt;
+      &lt;li class="nav-item"&gt;Villa Mella&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/nav&gt;
+
+  &lt;section&gt;
+    &lt;h1&gt;Villa Mella&lt;/h1&gt;
+    &lt;p&gt;
+      This mega villa has an amazing yard spread over 700 square meters. It has
+      its own private forest as well with the access to one side of the river.
+    &lt;/p&gt;
+  &lt;/section&gt;
+</pre>
