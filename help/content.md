@@ -67,12 +67,12 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 
 ### Must know
 
-- the `<script>` tag
-- the `<style>` tag
-- the `<link>` tag
+- the `<script>` tag - @marianzburlea
+- the `<style>` tag - @mariateo, @marianzburlea
+- the `<link>` tag - @mariateo, @marianzburlea
 - the `<article>` tag
-- the `<section>` tag
-- the `<nav>` tag
+- the `<section>` tag - @mariateo
+- the `<nav>` tag - @mariateo
 - the `<h1>` tag - @iulia-zburlea
 - the `<h2>` tag - @iulia-zburlea
 - the `<h3>` tag - @iulia-zburlea
