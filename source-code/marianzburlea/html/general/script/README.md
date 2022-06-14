@@ -10,7 +10,9 @@ and found
 
 [HTML Script Tag](https://www.w3schools.com/tags/tag_script.asp)
 
-[html mdn script tag](https://www.google.com/search?q=html+mdn)
+and then searched for
+
+[html mdn script tag](https://www.google.com/search?q=html+mdn+script+tag)
 
 and found
 
