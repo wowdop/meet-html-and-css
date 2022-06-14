@@ -1,0 +1,24 @@
+blockquote {
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: ghostwhite;
+}
+
+img {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    height: 8.5rem;
+    width: 6rem;
+    padding: 0.5rem;
+    background-color: gainsboro;
+    border: 2px dashed gray;
+    border-radius: 1rem;
+}
+p {
+    position: absolute;
+    top: 6rem;
+    width: 70%;
+    left: 11rem;
+    }
