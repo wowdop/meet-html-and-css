@@ -88,23 +88,7 @@ Visit the <ins>**`text-break/text-break-ex-3.html`**</ins> file to find out how 
 
 ```html:
 ...
- <td>
-      <h3>
-        "There is no one who loves pain itself,<br />
-        who seeks after it and wants to have it, simply because it is pain..."
-      </h3>
-    </td>
-  </tr>
 
-  <tr>
-    <td colspan="2">
-      <h4>
-        Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the
-        1500s, when an unknown printer took a galley of type and scrambled it to
-        make a type specimen book.
-
-        <hr style="height: 2px; background-color: rgb(0, 255, 132)" />
 ...
 ```
 
@@ -130,3 +114,5 @@ Visit the <ins>**`text-break/text-break-ex-4.html`**</ins> file to find out how 
   articles.
 </p>
 ```
+
+@iulia-zburlea
