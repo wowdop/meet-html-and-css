@@ -1,27 +1,3 @@
-<style>
-  div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 1rem;
-  }
-
-  wrap {
-    background-color: rosybrown;
-    display: flex;
-    flex-direction: column;
-    padding: 0.75rem;
-    border-radius: 1rem;
-    box-shadow: 2px 3px #b4504b;
-  }
-
-  text-logo {
-    margin: 0;
-    color: rgb(245, 242, 56);
-  }
-</style>
-
 <h1>This is an image embeded using the <i>embed</i> tag</h1>
 <p>
   I made use of a simple <b>embed</b> tag and I set the value for
@@ -38,62 +14,36 @@
 
 <h2>Let's make now a logo with some text.</h2>
 <p>Place it in the middle of the page and give it a pretty background.</p>
-<div>
-  <wrap>
-    <embed
-      src="../../../../public/image/logo-rocket-plume.svg"
-      alt="An image that was embeded and it represent the Plum Rocket logo"
-      type="image/jpeg"
-      width="100"
-      height="100"
-    />
-    <text-logo>Boost your career</text-logo>
-  </wrap>
-</div>
 
-<p>Code example:</p>
-<pre>
-  &lt;style&gt;
-    div {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-bottom: 1rem;
-    }
-
-    wrap {
-      background-color: rosybrown;
-      display: flex;
-      flex-direction: column;
-      padding: 0.75rem;
-      border-radius: 1rem;
-      box-shadow: 2px 3px #b4504b;
-    }
-
-    text-logo {
-      margin: 0;
-      color: rgb(245, 242, 56);
-    }
-  &lt;/style&gt;
-
-  &lt;embed
-  src="../../../../public/image/html.jpeg"
-  alt="An image that was embeded and it represent the HTML logo"
-  width="100"
-  height="100"
-  type="image/jpeg"
-  /&gt;
-
-  &lt;div&gt;
-    &lt;wrap&gt;
-      &lt;embed
+<table>
+  <tr>
+    <td bgcolor="red">
+      <embed
         src="../../../../public/image/logo-rocket-plume.svg"
+        alt="An image that was embeded and it represent the Plum Rocket logo"
         type="image/jpeg"
         width="100"
         height="100"
-      /&gt;
-      &lt;text-logo&gt;Boost your career&lt;/text-logo&gt;
-    &lt;/wrap&gt;
-  &lt;/div&gt;
+      />
+      <p>Boost your career</p>
+    </td>
+  </tr>
+</table>
+
+<p>Code example:</p>
+<pre>
+  &lt;table&gt;
+    &lt;tr&gt;
+      &lt;td bgcolor="red"&gt;
+        &lt;embed
+          src="../../../../public/image/logo-rocket-plume.svg"
+          alt="An image that was embeded and it represent the Plum Rocket logo"
+          type="image/jpeg"
+          width="100"
+          height="100"
+        /&gt;
+        &lt;p&gt;Boost your career&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
 </pre>

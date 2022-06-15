@@ -204,13 +204,6 @@ Note: Also, always specify the width and height of an image. If width and height
 ### Example 2
 
 ```html:
-<style>
-  img {
-    padding: 1rem;
-    border: 1px solid grey;
-  }
-</style>
-
 <img
   src="https://picsum.photos/200/300?grayscale"
   alt="A pretty random picture"
@@ -222,14 +215,6 @@ Note: Also, always specify the width and height of an image. If width and height
 ### Example 3
 
 ```html:
-<style>
-  img {
-    padding: 1rem;
-    border: 5px ridge grey;
-    background-color: rgb(196, 196, 196);
-  }
-</style>
-
 <img
   src="https://picsum.photos/200/300?grayscale"
   alt="A pretty random picture"
@@ -281,21 +266,6 @@ The Html `<text>` tag is used to define the single-line text field on a web page
 ### Example 2
 
 ```html:
-<style>
-  .logo {
-    height: 60px;
-    width: 100;
-    background-color: #5377ac;
-    border: 1px solid grey;
-    border-radius: 0.5rem;
-    box-shadow: 2px 2px rgb(62, 62, 161);
-  }
-
-  text {
-    text-shadow: 1px 1px whitesmoke;
-  }
-</style>
-
 <svg class="logo">
   <text fill="#c23d66" font-size="25" font-family="Verdana" x="22" y="38">
     SVG
@@ -360,17 +330,20 @@ You can use the object-position property to adjust the positioning of the embedd
 ### Example 2
 
 ```html:
-<div>
-  <wrap>
-    <embed
-      src="../../../../public/image/logo-rocket-plume.svg"
-      type="image/jpeg"
-      width="100"
-      height="100"
-    />
-    <text-logo>Boost your career</text-logo>
-  </wrap>
-</div>
+<table>
+  <tr>
+    <td bgcolor="red">
+      <embed
+        src="../../../../public/image/logo-rocket-plume.svg"
+        alt="An image that was embeded and it represent the Plum Rocket logo"
+        type="image/jpeg"
+        width="100"
+        height="100"
+      />
+      <p>Boost your career</p>
+    </td>
+  </tr>
+</table>
 ```
 
 ### Example 3
@@ -382,14 +355,6 @@ You can use the object-position property to adjust the positioning of the embedd
 ### Example 4
 
 ```html:
-<style>
-  .single-page {
-    border: 1rem groove tan;
-    padding: 1rem;
-    width: 80%;
-  }
-</style>
-
 <embed
   class="single-page"
   src="../style/style-experiment-1.html"
@@ -413,41 +378,29 @@ You can use the object-position property to adjust the positioning of the embedd
 ### Example 6
 
 ```html:
-<style>
-  div {
-    display: flex;
-    flex-direction: row;
-    border: 0.5rem dotted crimson;
-    padding: 0.5rem;
-    gap: 2rem;
-  }
-</style>
-
-<div>
-  <embed
+<embed
     src="../../../../public/video/realtime-edit.mp4"
     type="video/webm"
     width="500"
     height="200"
   />
 
-  <wrap>
-    <h3>
-      This video is representing how multiple people can work in the same time
-      on Figma.
-    </h3>
+<div>
+  <h3>
+    This video is representing how multiple people can work in the same time
+    on Figma.
+  </h3>
 
-    <p>
-      This allows people to become more efficient and the design can be finished
-      earlier.
-    </p>
+  <p>
+    This allows people to become more efficient and the design can be finished
+    earlier.
+  </p>
 
-    <p>
-      It is also an advantage as this allows all the team members to access the
-      design any time and see real time updates as long as they are connected to
-      the internet.
-    </p>
-  </wrap>
+  <p>
+    It is also an advantage as this allows all the team members to access the
+    design any time and see real time updates as long as they are connected to
+    the internet.
+  </p>
 </div>
 ```
 
@@ -512,7 +465,7 @@ For more details check <ins>figure-experiment-2.html</ins>
 
 ```html:
 <figure>
-  <p style="white-space: pre">
+  <p>
     Hold fast to dreams <br />
     For if dreams die <br />
     Life is a broken-winged bird <br />
