@@ -4,13 +4,13 @@
 
 h tags in html
 
-[h tags links](https://www.google.com/search?q=h+tags+in+html&rlz=1C5CHFA_enRO982RO982&sxsrf=ALiCzsZ8JT0mvgd3QjGfCYj8woBQBkGpYA%3A1655230569476&ei=adCoYszJHOuPxc8PlJyFmAM&ved=0ahUKEwiMovWwxq34AhXrR_EDHRROATMQ4dUDCA4&uact=5&oq=h+tags+in+html&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEMsBMgYIABAeEAUyBggAEB4QBToHCAAQRxCwAzoHCAAQsAMQQzoECAAQEzoKCAAQHhAHEAUQEzoICAAQHhAIEBM6CAgAEB4QBxAFOgYIABAeEAg6CAgAEB4QBxATSgQIQRgASgQIRhgAUPcFWJMRYPoWaAFwAXgAgAF8iAHNA5IBAzAuNJgBAKABAcgBCcABAQ&sclient=gws-wiz)
+[h tags in html](https://www.google.com/search?q=h+tags+in+html)
 
 and found
 
 HTML Tags acording to "w3schools"
 
-[html article tag w3](https://www.w3schools.com/tags/tag_hn.asp)
+[html h tag w3](https://www.w3schools.com/tags/tag_hn.asp)
 
 ## Notes
 
