@@ -11,6 +11,9 @@ and found
 HTML Tags acording to "w3schools"
 
 [html hr tags w3](https://www.w3schools.com/tags/tag_hr.asp)
+
+and
+
 [html br tags w3](https://www.w3schools.com/tags/tag_br.asp)
 
 ## Notes
