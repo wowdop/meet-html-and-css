@@ -1,0 +1,73 @@
+<style>
+  .logo {
+    height: 60px;
+    width: 100;
+    background-color: #5377ac;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px rgb(62, 62, 161);
+  }
+
+  text {
+    text-shadow: 1px 1px whitesmoke;
+  }
+</style>
+
+<h1>You can create a simple rectangle</h1>
+
+<div>Code example:</div>
+<pre>
+    &lt;svg width="200" height="100"&gt;
+      &lt;rect
+        width="200"
+        height="100"
+        style="fill: rgb(92, 150, 106); stroke-width: 8; stroke: rgb(164, 75, 75)"
+      /&gt;
+    &lt;/svg&gt;
+</pre>
+
+<svg width="200" height="100">
+  <rect
+    width="200"
+    height="100"
+    style="fill: rgb(92, 150, 106); stroke-width: 8; stroke: rgb(164, 75, 75)"
+  />
+</svg>
+
+<h2>Or even add some text in it if you want to make it look like a logo</h2>
+
+<p>
+  <b>Note:</b> We made use of <b>text</b> tag as it is the only one that is
+  accepted in the <b>svg</b> tag. You can find more details in the
+  <b>README.md</b> file
+</p>
+
+<div>Code example:</div>
+<pre>
+    &lt;style&gt;
+      .logo {
+        height: 60px;
+        width: 100;
+        background-color: #5377ac;
+        border: 1px solid grey;
+        border-radius: 0.5rem;
+        box-shadow: 2px 2px rgb(62, 62, 161);
+      }
+
+      text {
+        text-shadow: 1px 1px whitesmoke;
+      }
+    &lt;/style&gt;
+
+    &lt;svg class="logo"&gt;
+      &lt;text fill="#c23d66" font-size="25" font-family="Verdana" x="22" y="38"&gt;
+        SVG
+      &lt;/text&gt;
+    &lt;/svg&gt;
+</pre>
+
+<svg class="logo">
+  <text fill="#c23d66" font-size="25" font-family="Verdana" x="22" y="38">
+    SVG
+  </text>
+</svg>

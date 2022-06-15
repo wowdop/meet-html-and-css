@@ -1,0 +1,64 @@
+<style>
+  figure {
+    border: 5px ridge #847171;
+    flex-flow: column;
+    padding: 0.5rem;
+    background-color: rgb(181, 170, 213);
+  }
+
+  figcaption {
+    background-color: rgb(26, 30, 38);
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    padding: 0.5rem;
+  }
+</style>
+
+<h1>Make use of figure to display a quote from someone</h1>
+<p>
+  Let's create a <b>figure</b> tag and inside to make use of
+  <b>figcaption</b> and <b>blockquote</b>.
+</p>
+<p>Then let's add some style so whoever looks at it will read it super easy.</p>
+
+<h2>
+  Today I was doing some research and I notice this interesting quote that gave
+  me something to think about.
+</h2>
+
+<figure>
+  <blockquote>
+    If debugging is the process of removing software bugs, then programming must
+    be the process of putting them in.
+  </blockquote>
+  <figcaption><cite>Edsger Dijkstra:</cite></figcaption>
+</figure>
+
+<p>Code example:</p>
+<pre>
+  &lt;style&gt;
+    figure {
+      border: 5px ridge #847171;
+      flex-flow: column;
+      padding: 0.5rem;
+      background-color: rgb(181, 170, 213);
+    }
+
+    figcaption {
+      background-color: rgb(26, 30, 38);
+      color: #fff;
+      font: italic smaller sans-serif;
+      padding: 3px;
+      padding: 0.5rem;
+    }
+  &lt;/style&gt;
+
+  &lt;figure&gt;
+    &lt;figcaption&gt;&lt;cite&gt;Edsger Dijkstra:&lt;/cite&gt;&lt;/figcaption&gt;
+    &lt;blockquote&gt;
+      If debugging is the process of removing software bugs, then programming must
+      be the process of putting them in.
+    &lt;/blockquote&gt;
+  &lt;/figure&gt;
+</pre>

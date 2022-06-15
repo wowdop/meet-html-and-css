@@ -1,0 +1,49 @@
+<style>
+  .single-page {
+    border: 1rem groove tan;
+    padding: 1rem;
+    width: 80%;
+  }
+</style>
+
+<h1>This is an html file embeded using the <i>embed</i> tag</h1>
+<p>
+  I made use of a simple <b>embed</b> tag and I changed the value for attribute
+  <b>type</b> to <i>text/html</i>
+</p>
+
+<embed src="../style/index.html" width="100%" height="300" type="text/html" />
+
+<h2>Let's try something else</h2>
+<p>
+  Let's embed a different HTML file and style it with some border to make it
+  stand out.
+</p>
+
+<embed
+  class="single-page"
+  src="../style/style-experiment-1.html"
+  type="text/html"
+  width="100%"
+  height="200"
+/>
+
+<p>Code example:</p>
+<pre>
+  &lt;style&gt;
+    .single-page {
+      border: 1rem groove tan;
+      padding: 1rem;
+      width: 80%;
+    }
+  &lt;/style&gt;
+  &lt;embed src="../style/index.html" width="100%" height="300" type="text/html" /&gt;
+
+  &lt;embed
+    class="single-page"
+    src="../style/style-experiment-1.html"
+    type="text/html"
+    width="100%"
+    height="200"
+  /&gt;
+</pre>

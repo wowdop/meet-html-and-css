@@ -1,0 +1,77 @@
+<style>
+  figure {
+    border: thin #949494 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 0.5rem;
+    max-width: 220px;
+    margin: auto;
+    background-color: cadetblue;
+  }
+
+  img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    padding: 0.5rem;
+  }
+</style>
+
+<h1>Make use of figure to display an image with some text</h1>
+<p>
+  Let's create a <b>figure</b> tag and inside to make use of
+  <b>figcaption</b> and <b>img</b> tags.
+</p>
+<p>Then let's add some style so whoever looks at it will find it appealing.</p>
+
+<figure>
+  <img
+    src="https://picsum.photos/200/300/?blur"
+    alt="This will always be a random image with blur"
+  />
+  <figcaption>This is a lovely blurred picture</figcaption>
+</figure>
+
+<p>Code example:</p>
+<pre>
+  &lt;style&gt;
+    figure {
+      border: thin #949494 solid;
+      display: flex;
+      flex-flow: column;
+      padding: 0.5rem;
+      max-width: 220px;
+      margin: auto;
+      background-color: cadetblue;
+    }
+
+    img {
+      max-width: 220px;
+      max-height: 150px;
+    }
+
+    figcaption {
+      background-color: #222;
+      color: #fff;
+      font: italic smaller sans-serif;
+      padding: 3px;
+      text-align: center;
+      padding: 0.5rem;
+    }
+  &lt;/style&gt;
+
+  &lt;figure&gt;
+    &lt;img
+      src="https://picsum.photos/200/300/?blur"
+      alt="This will always be a random image with blur"
+    /&gt;
+    &lt;figcaption&gt;This is a lovely blurred picture&lt;/figcaption&gt;
+  &lt;/figure&gt;
+</pre>
