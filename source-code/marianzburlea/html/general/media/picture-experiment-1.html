@@ -1,0 +1,32 @@
+<h1>Make use of <i>picture</i> tag</h1>
+
+<p>Resize the browser window to be able to see all the pictures</p>
+
+<picture>
+  <source
+    media="(min-width:650px)"
+    srcset="../../../../public/image/peony.png"
+  />
+  <source
+    media="(min-width:465px)"
+    srcset="../../../../public/image/flower.png"
+    style="width: 100px; height: 200px"
+  />
+  <img src="../../../../public/image/rose.png" alt="rose" style="width: auto" />
+</picture>
+
+<p>Code example:</p>
+<pre>
+  &lt;picture&gt;
+    &lt;source
+      media="(min-width:650px)"
+      srcset="../../../../public/image/peony.png"
+    /&gt;
+    &lt;source
+      media="(min-width:465px)"
+      srcset="../../../../public/image/flower.png"
+      style="width: 100px; height: 200px"
+    /&gt;
+    &lt;img src="../../../../public/image/rose.png" alt="rose" style="width: auto" /&gt;
+  &lt;/picture&gt;
+</pre>
