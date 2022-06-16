@@ -100,18 +100,18 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 - the `<svg>` tag - TODO: @MariaTeo
 
 - the `<hr>` tag - TODO: @iulia-zburlea
-- the `<br>` tag - TODO: @iulia-zburlea
+- the `<br>` tag - @iulia-zburlea
 
 - the `<pre>` tag - TODO: @MariaTeo
 - the `<code>` tag - TODO: @MariaTeo
 
-- the `<s>` tag - TODO: @iulia-zburlea
-- the `<del>` tag - TODO: @iulia-zburlea
-- the `<strong>` tag - TODO: @iulia-zburlea
-- the `<b>` tag - TODO: @iulia-zburlea
-- the `<em>` tag - TODO: @iulia-zburlea
-- the `<i>` tag - TODO: @iulia-zburlea
-- the `<u>` tag - TODO: @iulia-zburlea
+- the `<s>` tag - @iulia-zburlea
+- the `<del>` tag - @iulia-zburlea
+- the `<strong>` tag - @iulia-zburlea
+- the `<b>` tag - @iulia-zburlea
+- the `<em>` tag - @iulia-zburlea
+- the `<i>` tag - @iulia-zburlea
+- the `<u>` tag - @iulia-zburlea
 
 - the `<small>` tag - TODO: @MariaTeo
 - the `<sub>` tag - TODO: @MariaTeo
