@@ -102,8 +102,8 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 - the `<hr>` tag - TODO: @iulia-zburlea
 - the `<br>` tag - TODO: @iulia-zburlea
 
-- the `<pre>` tag - TODO: @MariaTeo
-- the `<code>` tag - TODO: @MariaTeo
+- the `<pre>` tag - @MariaTeo
+- the `<code>` tag - @MariaTeo
 
 - the `<s>` tag - TODO: @iulia-zburlea
 - the `<del>` tag - TODO: @iulia-zburlea
@@ -113,9 +113,9 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 - the `<i>` tag - TODO: @iulia-zburlea
 - the `<u>` tag - TODO: @iulia-zburlea
 
-- the `<small>` tag - TODO: @MariaTeo
-- the `<sub>` tag - TODO: @MariaTeo
-- the `<sup>` tag - TODO: @MariaTeo
+- the `<small>` tag - @MariaTeo
+- the `<sub>` tag - @MariaTeo
+- the `<sup>` tag - @MariaTeo
 
 ### Good to know
 
