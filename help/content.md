@@ -119,21 +119,21 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 
 ### Good to know
 
-- the `<menu>` tag - TODO: @MariaTeo
-- the `<base>` tag - TODO: @MariaTeo
-- the `<noscript>` tag - TODO: @MariaTeo
-- the `<data>` tag - TODO: @MariaTeo
-- the `<time>` tag - TODO: @MariaTeo
-- the `<bdo>` tag - TODO: @MariaTeo
-- the `<bdi>` tag - TODO: @MariaTeo
-- the `<abbr>` tag - TODO: @MariaTeo
-- the `<address>` tag - TODO: @MariaTeo
-- the `<canvas>` tag - TODO: @MariaTeo
-- the `<cite>` tag - TODO: @MariaTeo
-- the `<details>` tag - TODO: @MariaTeo
-- the `<dfn>` tag - TODO: @MariaTeo
-- the `<dl>` tag - TODO: @MariaTeo
-- the `<ins>` tag - TODO: @MariaTeo
+- the `<menu>` tag - @MariaTeo
+- the `<base>` tag - @MariaTeo
+- the `<noscript>` tag - @MariaTeo
+- the `<data>` tag - @MariaTeo
+- the `<time>` tag - @MariaTeo
+- the `<bdo>` tag - @MariaTeo
+- the `<bdi>` tag - @MariaTeo
+- the `<abbr>` tag - @MariaTeo
+- the `<address>` tag - @MariaTeo
+- the `<canvas>` tag - TODO In JavaScript
+- the `<cite>` tag - @MariaTeo
+- the `<details>` tag - @MariaTeo
+- the `<dfn>` tag - @MariaTeo
+- the `<dl>` tag - @MariaTeo
+- the `<ins>` tag - @MariaTeo
 
 - the `<kbd>` tag - TODO: @iulia-zburlea
 - the `<map>` tag - TODO: @iulia-zburlea

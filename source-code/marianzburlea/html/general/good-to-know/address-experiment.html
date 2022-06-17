@@ -1,0 +1,91 @@
+<h1>Let's play with <i>address</i> tag</h1>
+
+<h2>Usage</h2>
+
+<p>It is typically used for:</p>
+
+<ul>
+	<li>
+		The <b>&lt;address&gt;</b> element can only be used to represent the contact
+		information for its nearest <b>&lt;article&gt;</b> or
+		<b>&lt;body&gt;</b> element ancestor.
+	</li>
+
+	<li>
+		This element should not contain more information than the contact
+		information, like a publication date (which belongs in a
+		<b>&lt;time&gt;</b> element).
+	</li>
+
+	<li>
+		Typically an <b>&lt;address&gt;</b> element can be placed inside the
+		<b>&lt;footer&gt;</b> element of the current section, if any.
+	</li>
+</ul>
+
+<h2>Examples:</h2>
+
+<h3>Example 1, along with <i>article</i> tag</h3>
+
+<p>Contact the author of this article:</p>
+
+<article>
+	<h3>House for sale</h3>
+	<p>Contact me for more details.</p>
+</article>
+
+<address>
+	<a href="mailto:mark@gmail.com">mark@gmail.com</a><br />
+	<a href="tel:+13115552368">(311) 555-2368</a>
+</address>
+
+<h3>Example 2</h3>
+
+<p>Contact details for the developers:</p>
+
+<address>
+	You can contact me for a website at
+	<a href="http://www.somedomain.com/contact"> www.somedomain.com</a>.
+	<br />
+	If you see any bugs, please
+	<a href="mailto:webmaster@somedomain.com"> contact webmaster</a>.
+	<br />
+	London
+	<br />
+	Canary Wharf, E13
+	<br />
+	UK
+</address>
+
+<h3>Example 3, along with <i>footer</i> tag</h3>
+
+<table border="1" cellpadding="10" cellspacing="10">
+	<caption>
+		My page looks like this
+	</caption>
+
+	<tr>
+		<td>
+			I have created this web page just to show you how you can make use of a
+			table and place an address inside a footer.
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<footer>
+				<address>
+					&copy; Maria 2022
+					<br />
+					Send <a href="#"> an email</a>.<br />
+					Phone number:
+					<a href="tel:+447910185253">(791) 018 5253</a>
+					<br />
+					London<br />
+					Canary Wharf, E13<br />
+					UK
+				</address>
+			</footer>
+		</td>
+	</tr>
+</table>
