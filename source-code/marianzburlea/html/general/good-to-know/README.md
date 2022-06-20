@@ -48,8 +48,6 @@ and
 and
 [address tag html](https://www.google.com/search?q=address+tag+html)
 and
-[canvas tag html](https://www.google.com/search?q=canvas+tag+html)
-and
 [cite tag html](https://www.google.com/search?q=cite+tag+html)
 and
 [details tag html](https://www.google.com/search?q=details+tag+html)
@@ -104,8 +102,6 @@ and
 [abbr tag html](https://www.w3schools.com/tags/tag_abbr.asp)
 and
 [address tag html](https://www.w3schools.com/tags/address_kbd.asp)
-and
-[canvas tag html](https://www.w3schools.com/tags/tag_canvas.asp)
 and
 [cite tag html](https://www.w3schools.com/tags/tag_cite.asp)
 and
@@ -830,9 +826,9 @@ Tip: Also look at the `<del>` tag to markup deleted text.
 
 #### Attributes
 
-- cite - this attribute defines the URI of a resource that explains the change, such as a link to meeting minutes or a ticket in a troubleshooting system.
+- **cite** - this attribute defines the URI of a resource that explains the change, such as a link to meeting minutes or a ticket in a troubleshooting system.
 
-- datetime - this attribute indicates the time and date of the change and must be a valid date with an optional time string. If the value cannot be parsed as a date with an optional time string, the element does not have an associated time stamp. For the format of the string without a time, see Format of a valid date string. The format of the string if it includes both date and time is covered in Format of a valid local date and time string.
+- **datetime** - this attribute indicates the time and date of the change and must be a valid date with an optional time string. If the value cannot be parsed as a date with an optional time string, the element does not have an associated time stamp. For the format of the string without a time, see Format of a valid date string. The format of the string if it includes both date and time is covered in Format of a valid local date and time string.
 
 ## Example list
 
