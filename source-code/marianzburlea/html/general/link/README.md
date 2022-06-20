@@ -77,5 +77,46 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
 ### Example 1
 
 ```html:
-
+<link rel="stylesheet" href="style-experiment-1.css" />
 ```
+
+### Example 1
+
+```html:
+<link rel="icon" type="image/png" href="/public/image/logo-rocket-plume.svg" />
+```
+
+### Example 1
+
+```html:
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
+
+	<style>
+		body {
+			font-family: 'Sofia', sans-serif;
+		}
+	</style>
+</head>
+```
+
+### Example 1
+
+````html:
+<link
+	href="mobile.css"
+	rel="stylesheet"
+	media="screen and (max-width: 600px)"
+/>
+```
+
+### Example 1
+
+```html:
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="style-experiment-5.css"
+	hreflang="en-us"
+/>
+````
