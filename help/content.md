@@ -135,17 +135,17 @@ View and practice the next introduction to HTML so you can be ready to meet the 
 - the `<dl>` tag - @MariaTeo
 - the `<ins>` tag - @MariaTeo
 
-- the `<kbd>` tag - TODO: @iulia-zburlea
-- the `<map>` tag - TODO: @iulia-zburlea
-- the `<mark>` tag - TODO: @iulia-zburlea
-- the `<math>` tag - TODO: @iulia-zburlea
-- the `<meter>` tag - TODO: @iulia-zburlea
-- the `<object>` tag - TODO: @iulia-zburlea
-- the `<output>` tag - TODO: @iulia-zburlea
-- the `<progress>` tag - TODO: @iulia-zburlea
-- the `<q>` tag - TODO: @iulia-zburlea
-- the `<ruby>` tag - TODO: @iulia-zburlea
-- the `<samp>` tag - TODO: @iulia-zburlea
-- the `<template>` tag - TODO: @iulia-zburlea
-- the `<var>` tag - TODO: @iulia-zburlea
-- the `<wbr>` tag - TODO: @iulia-zburlea
+- the `<kbd>` tag - @iulia-zburlea
+- the `<map>` tag - @iulia-zburlea
+- the `<mark>` tag - @iulia-zburlea
+- the `<math>` tag - @iulia-zburlea
+- the `<meter>` tag - @iulia-zburlea
+- the `<object>` tag - @iulia-zburlea
+- the `<output>` tag - @iulia-zburlea
+- the `<progress>` tag - @iulia-zburlea
+- the `<q>` tag - @iulia-zburlea
+- the `<ruby>` tag - @iulia-zburlea
+- the `<samp>` tag - @iulia-zburlea
+- the `<template>` tag - (this will be presented in JavaScript): @iulia-zburlea
+- the `<var>` tag - @iulia-zburlea
+- the `<wbr>` tag - @iulia-zburlea

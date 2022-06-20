@@ -1,36 +1,34 @@
-# Meet the Good to know tags: kbd, map, mark, math, meter, object, output,progress, q, ruby, samp, template, var & wbr
+# Meet the Good to know tags: kbd, map, mark, math, meter, object, output,progress, q, ruby, samp, var & wbr
 
 ## Research
 
 Good to know tags in html
 
-[kbd tags in html](https://www.google.com/search?q=kbd+tag+html)
+[kbd tag html](https://www.google.com/search?q=kbd+tag+html)
 and
-[map tags in html](https://www.google.com/search?q=map+tag+html)
+[map tag html](https://www.google.com/search?q=map+tag+html)
 and
-[mark tags in html](https://www.google.com/search?q=kbd+tag+html)
+[mark tag html](https://www.google.com/search?q=mark+tag+html)
 and
-[math tags in html](https://www.google.com/search?q=kbd+tag+html)
+[math tag html](https://www.google.com/search?q=math+tag+html)
 and
-[meter tags in html](https://www.google.com/search?q=kbd+tag+html)
+[meter tag html](https://www.google.com/search?q=meter+tag+html)
 and
-[object tags in html](https://www.google.com/search?q=kbd+tag+html)
+[object tag html](https://www.google.com/search?q=object+tag+html)
 and
-[output tags in html](https://www.google.com/search?q=kbd+tag+html)
+[output tag html](https://www.google.com/search?q=output+tag+html)
 and
-[progress tags in html](https://www.google.com/search?q=kbd+tag+html)
+[progress tag html](https://www.google.com/search?q=progress+tag+html)
 and
-[q tags in html](https://www.google.com/search?q=kbd+tag+html)
+[q tag html](https://www.google.com/search?q=q+tag+html)
 and
-[ruby tags in html](https://www.google.com/search?q=kbd+tag+html)
+[ruby tag html](https://www.google.com/search?q=ruby+tag+html)
 and
-[samp tags in html](https://www.google.com/search?q=kbd+tag+html)
+[samp tag html](https://www.google.com/search?q=samp+tag+html)
 and
-[template tags in html](https://www.google.com/search?q=kbd+tag+html)
+[var tag html](https://www.google.com/search?q=var+tag+html)
 and
-[var tags in html](https://www.google.com/search?q=kbd+tag+html)
-and
-[wbr tags in html](https://www.google.com/search?q=kbd+tag+html)
+[wbr tag html](https://www.google.com/search?q=wbr+tag+html)
 and
 [menu tag html](https://www.google.com/search?q=menu+tag+html)
 and
@@ -71,29 +69,23 @@ HTML Tags acording to "w3schools"
 and
 [html map tag w3](https://www.w3schools.com/tags/tag_map.asp)
 and
-[html mark tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
+[html mark tag w3](https://www.w3schools.com/tags/tag_mark.asp)
 and
-[html math tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
+[html meter tag w3](https://www.w3schools.com/tags/tag_meter.asp)
 and
-[html meter tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
+[html object tag w3](https://www.w3schools.com/tags/tag_object.asp)
 and
-[html object tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
+[html output tag w3](https://www.w3schools.com/tags/tag_output.asp)
 and
-[html output tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
+[html progress tag w3](https://www.w3schools.com/tags/tag_progress.asp)
 and
-[html progress tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
+[html q tag w3](https://www.w3schools.com/tags/tag_q.asp)
 and
-[html q tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
+[html ruby tag w3](https://www.w3schools.com/tags/tag_ruby.asp)
 and
-[html ruby tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
+[html samp tag w3](https://www.w3schools.com/tags/tag_samp.asp)
 and
-[html samp tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
-and
-[html template tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
-and
-[html var tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
-and
-[html wbr tag w3](https://www.w3schools.com/tags/tag_kbd.asp)
+[html var tag w3](https://www.w3schools.com/tags/tag_var.asp)
 and
 [menu tag html](https://www.w3schools.com/tags/tag_menu.asp)
 and
@@ -125,52 +117,151 @@ and
 and
 [ins tag html](https://www.w3schools.com/tags/tag_ins.asp)
 and
+[html wbr tag w3](https://www.w3schools.com/tags/tag_wbr.asp)
+
+and Other sites:
+[html math tag](https://iq.opengenus.org/using-mathml-in-html/)
+[html output tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output)
 
 ## Notes
 
-... <ins>**`kbd`**</ins>, <ins>**`map`**</ins>, <ins>**`mark`**</ins>, <ins>**`math`**</ins>, <ins>**`meter`**</ins>, <ins>**`object`**</ins>, <ins>**`output`**</ins>, <ins>**`progress`**</ins>, <ins>**`q`**</ins>, <ins>**`ruby`**</ins>, <ins>**`samp`**</ins>, <ins>**`template`**</ins>, <ins>**`var`**</ins> & <ins>**`wbr`**</ins> .....
+More about the <ins>**`kbd`**</ins>, <ins>**`map`**</ins>, <ins>**`mark`**</ins>, <ins>**`math`**</ins>, <ins>**`meter`**</ins>, <ins>**`object`**</ins>, <ins>**`output`**</ins>, <ins>**`progress`**</ins>, <ins>**`q`**</ins>, <ins>**`ruby`**</ins>, <ins>**`samp`**</ins>, <ins>**`var`**</ins> & <ins>**`wbr`**</ins> tags in the examples underneath.
 
 ## Example list
 
 ### Example 1
 
 ```html:
-<h1 style="text-align: center">This is the <b>H1</b> tag.</h1>
+...
+ <p>
+    Press <kbd>Command</kbd> + <kbd>V</kbd> to paste text from different
+    sources.
+  </p>
+  <p>
+    Code: Press &lt;kbd&gt;Command&lt;/kbd&gt; + &lt;kbd&gt;V&lt;/kbd&gt; to
+    paste text from different sources.
+  </p>
+...
+ <p>
+    <label for="my-pie">Slices for Pie 1:</label>
+    <meter id="my-pie" value="5" min="0" max="10">
+      5 out of 10
+    </meter>
+  </p>
+  ...
 ```
 
-Visit the <ins>**`good-to-know/good-to-know-ex-1.html`**</ins> file to find out how we made use of the <ins>**`h`**</ins> tags to tell the website how to display the code written inside the page.
+Visit the <ins>**`good-to-know/kbd-map-mark-math-meter.html`**</ins> file to find out how we made use of the <ins>**`kbd`**</ins>, <ins>**`map`**</ins>, <ins>**`mark`**</ins>, <ins>**`math`**</ins>, <ins>**`meter`**</ins> tags to tell the website how to display the code written inside the page.
 
 ### Example 2
 
 ```html:
-<h1 style="text-align: center">This is the <b>H1</b> tag.</h1>
+...
+ <object
+    data="https://picsum.photos/500/300?random=1"
+    width="500"
+    height="300"
+  ></object>
+...
+<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+      <input type="range" name="b" id="b" value="50" /> +
+      <input type="range" name="a" id="a" value="10" /> =
+      <output name="result" for="a b">60</output>
+    </form>
+...
+<label for="steps-for-the-minimum-details">Personal Details:</label>
+    <progress id="steps-for-the-minimum-details" value="70" max="100">
+      70%
+    </progress>
+...
+ <ruby>
+      攻殻
+      <rp>(</rp>
+      <rt>こrうかく</rt>
+      <rp>)</rp>
+    </ruby>
+...
 ```
 
-Visit the <ins>**`good-to-know/good-to-know-ex-2.html`**</ins> file to find out how we made use of the <ins>**`h`**</ins> tags to tell the website how to display the code written inside the page.
+Visit the <ins>**`good-to-know/object-output-progress-ruby.html`**</ins> file to find out how we made use of the <ins>**`object`**</ins>, <ins>**`output`**</ins>, <ins>**`progress`**</ins> & <ins>**`ruby`**</ins> tags to tell the website how to display the code written inside the page.
 
 ### Example 3
 
 ```html:
-<h1 style="text-align: center">This is the <b>H1</b> tag.</h1>
+...
+ <p>
+    You can totally do this.
+    <q>Click to find out more.</q>
+    No pressure, no diamonds.
+  </p>
+...
+ <p>When following the steps please make sure you don't get this error:</p>
+
+    <p>
+      <samp>
+        Error "too much coding",
+        <br />
+        take a break you crazy geek.
+      </samp>
+    </p>
+...
+ <p>Another way of solving that is by using <var>x</var> * <var>y</var> = <var>z</var> syntax.</p>
+...
+<p>
+      This one is how long it is: Fernstraßenbauprivatfinanzierungsgesetz
+    </p>
+    <p>
+      This one is how you tell the browser to break it appart when the window is resizing:
+      Fernstraßen<wbr>bau<wbr>privat<wbr>finanzierungs<wbr>gesetz
+    </p>
+...
 ```
 
-Visit the <ins>**`good-to-know/good-to-know-ex-3.html`**</ins> file to find out how we made use of the <ins>**`h`**</ins> tags to tell the website how to display the code written inside the page.
+Visit the <ins>**`good-to-know/q-samp-var-wbr.html`**</ins> file to find out how we made use of the <ins>**`q`**</ins>, <ins>**`samp`**</ins>, <ins>**`var`**</ins> & <ins>**`wbr`**</ins> tags to tell the website how to display the code written inside the page.
 
 ### Example 4
 
 ```html:
-<h1 style="text-align: center">This is the <b>H1</b> tag.</h1>
+<p>
+    When talking about <b><mark>Figma</mark></b
+    >, here there are some examples of some short-cuts that you'll use:
+  </p>
+
+  <ul>
+    <li>
+      Placing a component inside a regular frame:
+      <br />
+      <kbd>command</kbd> + <kbd>option</kbd> + <kbd>G</kbd>
+      <br />
+      (<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>G</kbd>)
+    </li>
+    <li>
+      Search in the Asset section:
+      <br />
+      <kbd>Option</kbd> + <kbd>2</kbd>
+    </li>
+    <li>
+      Returns to the layers display:
+      <br />
+      <kbd>Option</kbd> + <kbd>1</kbd> = returns to the layers display.
+    </li>
+  </ul>
+
+  <div>
+    <label for="my-figma">Figma short-cuts examples read:</label>
+    <meter id="my-figma" value="2" min="0" max="3">2 out of 3 read</meter>
+  </div>
+
+  <div>
+    <label for="figma-short-cuts-steps">Personal Details:</label>
+    <progress id="figma-short-cuts-steps" value="67" max="100">
+      67%
+    </progress>
+  </div>
+...
 ```
 
-Visit the <ins>**`good-to-know/good-to-know-ex-4.html`**</ins> file to find out how we made use of the <ins>**`h`**</ins> tags to tell the website how to display the code written inside the page.
-
-### Example 5
-
-```html:
-<h1 style="text-align: center">This is the <b>H1</b> tag.</h1>
-```
-
-Visit the <ins>**`good-to-know/good-to-know-ex-5.html`**</ins> file to find out how we made use of the <ins>**`h`**</ins> tags to tell the website how to display the code written inside the page.
+Visit the <ins>**`good-to-know/combo.html`**</ins> file to find out how we made use of the <ins>**`kbd`**</ins>, <ins>**`map`**</ins>, <ins>**`mark`**</ins>, <ins>**`math`**</ins>, <ins>**`meter`**</ins>, <ins>**`object`**</ins>, <ins>**`output`**</ins>, <ins>**`progress`**</ins>, <ins>**`q`**</ins>, <ins>**`ruby`**</ins>, <ins>**`samp`**</ins>, <ins>**`var`**</ins> & <ins>**`wbr`**</ins> tags to tell the website how to display the code written inside the page.
 
 ## Notes
 
