@@ -30,6 +30,48 @@ The `<link>` HTML element specifies relationships between the current document a
 
 This simple example provides the path to the stylesheet inside an **href** attribute, and a **rel** attribute with a value of stylesheet. The **rel** stands for "relationship", and is probably one of the key features of the `<link>` element — the value denotes how the item being linked to is related to the containing document.
 
+### Attributes
+
+| Attribute                 | Value                                           |
+| ------------------------- | ----------------------------------------------- |
+| <ins>as</ins>             | audio, document, embed,                         |
+|                           | fetch, font, image, object,                     |
+|                           | script, style, track, video, worker             |
+| <ins>crossorigin</ins>    | anonymous, use-credentials                      |
+| <ins>disabled</ins>       | boolean                                         |
+| <ins>fetchpriority</ins>  | high, low, auto                                 |
+| <ins>href</ins>           | _URL_                                           |
+| <ins>hreflang</ins>       | https://datatracker.ietf.org/doc/html/rfc5646   |
+| <ins>imagesizes</ins>     | auto                                            |
+| <ins>imagesrcset</ins>    | _URL_                                           |
+| <ins>media</ins>          |                                                 |
+| <ins>prefetch</ins>       |                                                 |
+| <ins>referrerpolicy</ins> | no-referrer, no-referrer-when-downgrade, origin |
+|                           | origin-when-cross-origin, unsafe-url            |
+| <ins>rel</ins>            | no-referrer, no-referrer-when-downgrade, origin |
+| <ins>sizes</ins>          | pixels                                          |
+| <ins>title</ins>          | word                                            |
+| <ins>type</ins>           | word                                            |
+| <ins>methods </ins>       |                                                 |
+| <ins>target </ins>        | word                                            |
+| <ins>type</ins>           | word                                            |
+
+### Usage
+
+- including a stylesheet
+- providing alternative stylesheets
+- providing icons for different usage contexts
+- conditionally loading resources with media queries
+- stylesheet load events
+- Preload examples
+
+### Link types
+
+In HTML, link types indicate the relationship between two documents, in which one links to the other using an <a>, <area>, <form>, or <link> element.
+
+For more details, please take a look at the website below:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
+
 ## Example list
 
 ### Example 1

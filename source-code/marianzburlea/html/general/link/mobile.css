@@ -1,0 +1,8 @@
+h1 {
+  color: red;
+}
+
+p {
+  padding: 1rem;
+  border: 2px dashed slategray;
+}
