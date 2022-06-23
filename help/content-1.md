@@ -183,12 +183,12 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
 ##### Must Know CSS properties
 
-1. the `<color>` tag
-1. the `<background-color>` tag
-1. the `<background-image>` tag
+1. the `<color>` tag `````````` - color & font section - @iulia-zburlea
+1. the `<background-color>` tag - color & font section - @MariaTeo
+1. the `<background-image>` tag - color & font section - @MariaTeo
 1. the `<display>` tag
-1. the `<height>` tag
-1. the `<width>` tag
+1. the `<height>` tag - color & font section - @MariaTeo
+1. the `<width>` tag - color & font section - @MariaTeo
 1. the `<min-width>` tag
 1. the `<min-height>` tag
 1. the `<max-height>` tag
@@ -200,10 +200,11 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<border-width>` tag
 1. the `<border-style>` tag
 1. the `<border-radius>` tag
-1. the `<font>` tag
-1. the `<font-family>` tag
-1. the `<font-style>` tag
-1. the `<font-weight>` tag
+1. the `<font>` tag `````````````- color & font section - @iulia-zburlea
+1. the `<font-family>` tag ``````- color & font section - @iulia-zburlea
+1. the `<font-style>` tag ```````- color & font section - @iulia-zburlea
+1. the `<font-weight>` tag ``````- color & font section - @iulia-zburlea
+1. the `<font-size>` tag ````````- color & font section - @iulia-zburlea
 1. the `<position>` tag
 1. the `<z-index>` tag
 
@@ -340,8 +341,8 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
    ##### Dimension Properties
 
-1. the `<height>` tag - See Must Know Tags
-1. the `<width>` tag - See Must Know Tags
+1. the `<height>` tag - See Must Know Tags ````- @MariaTeo
+1. the `<width>` tag - See Must Know Tags `````- @MariaTeo
 
 1. the `<min-heigth>` tag - See Must Know Tags
 1. the `<max-heigth>` tag - See Must Know Tags
@@ -367,6 +368,7 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<font-variant>` tag
 1. the `@font-face` tag
 1. the `<font-size-adjust>` tag
+1. the `<font-size>` tag - See Must Know Tags
 1. the `<font-stretch>` tag
 
    ##### Generated Content Properties

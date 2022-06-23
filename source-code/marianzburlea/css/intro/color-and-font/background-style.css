@@ -1,0 +1,10 @@
+p {
+  background-color: khaki;
+}
+
+div {
+  background-image: url("/public/image/rose.png");
+  width: 200;
+  height: 250;
+  background-color: purple;
+}
