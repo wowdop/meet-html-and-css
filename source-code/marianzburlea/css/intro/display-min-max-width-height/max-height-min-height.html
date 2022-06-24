@@ -1,0 +1,99 @@
+<style>
+	.max-height {
+		max-height: 100px;
+		background-color: thistle;
+	}
+
+	.min-height {
+		min-height: 200px;
+		background-color: wheat;
+	}
+</style>
+
+<h1>Max-height</h1>
+
+<p>
+	The <b>max-height</b> property defines the maximum height of an element. If
+	the content is larger than the maximum height, it will overflow. How the
+	container will handle the overflowing content is defined by the overflow
+	property. If the content is smaller than the maximum height, the
+	<b>max-height</b>
+	property has no effect.
+</p>
+
+<p>
+	<b><i>Note:</i></b> This prevents the value of the height property from
+	becoming larger than max-height. The value of the max-height property
+	overrides the height property.
+</p>
+
+<h2>Example using <b>max-heigth</b></h2>
+
+<div class="max-height">
+	<p>Take a look at this example:</p>
+	<p>
+		This is a very long paragraph and since we added a max-heigth, it takes the
+		width as much as this element is and the heigth is fixed.
+	</p>
+</div>
+
+<p>I made use of <b>max-height: 100px</b></p>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+	.max-height {
+		max-height: 100px;
+		background-color: thistle;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="max-height"&gt;
+    &lt;p&gt;Take a look at this example&lt;/p&gt;
+
+    &lt;p&gt;
+			This is a very long paragraph and since we added a max-heigth, it takes the
+			width as much as this element is and the heigth is fixed.
+    &lt;/p&gt;
+  &lt;/div&gt;
+</pre>
+
+<h2>Min-height</h2>
+
+<p>
+	The min-height property defines the minimum height of an element. If the
+	content is smaller than the minimum height, the minimum height will be
+	applied. If the content is larger than the minimum height, the min-height
+	property has no effect.
+</p>
+
+<p>
+	<b><i>Note:</i></b> This prevents the value of the height property from
+	becoming smaller than min-height.
+</p>
+
+<p class="min-height">
+	This text is in a <b>p</b> tag that has a <b>min-height</b> set to 200px.
+</p>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+		.min-height {
+			min-height: 200px;
+			background-color: wheat;
+		}
+	&lt;/style&gt;
+
+
+  &lt;p class="min-height"&gt;
+    This text is in a &lt;b&gt;p&lt;/b&gt; tag that has a &lt;b&gt;min-height&lt;/b&gt; set to 200px.
+  &lt;/p&gt;
+</pre>
+
+<p>
+	Take a look at the Read Me as well to find more details:
+	<a href="./README.md">Read me</a> file
+</p>

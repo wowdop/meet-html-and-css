@@ -1,0 +1,88 @@
+<style>
+	.max-width {
+		max-width: 50px;
+	}
+
+	.min-width {
+		min-width: 100px;
+		color: red;
+	}
+</style>
+
+<h1>Max-width</h1>
+
+<p>
+	The <b>max-width</b> property defines the maximum width of an element. If the
+	content is larger than the maximum width, it will automatically change the
+	height of the element.
+</p>
+
+<h2>Example using <b>max-width</b></h2>
+
+<div class="max-width">
+	<p>Take a look at this example</p>
+	<p>
+		This is a very long paragraph and since we added a max-width, it takes the
+		height as much as this element is and the width is fixed.
+	</p>
+</div>
+
+<p>I made use of <b>max-width: 50px</b></p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+    .max-width {
+      max-width: 50px;
+    }
+  &lt;/style&gt;
+
+  &lt;div class="max-width"&gt;
+    &lt;p&gt;Take a look at this example&lt;/p&gt;
+
+    &lt;p&gt;
+      This is a very long paragraph and since we added a max-width, it takes the
+      height as much as this element is and the width is fixed.
+    &lt;/p&gt;
+  &lt;/div&gt;
+</pre>
+
+<h2>Min-width</h2>
+
+<p>
+	The min-width property defines the minimum width of an element. If the content
+	is smaller than the minimum width, the minimum width will be applied. If the
+	content is larger than the minimum width, the min-width property has no
+	effect.
+</p>
+
+<p>
+	<b><i>Note:</i></b> This prevents the value of the width property from
+	becoming smaller than min-width.
+</p>
+
+<p class="min-width">
+	This text is in a <b>p</b> tag that has a <b>min-width</b> set to 100px.
+</p>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+    .min-width {
+      min-width: 100px;
+      color: red;
+    }
+	&lt;/style&gt;
+
+
+  &lt;p class="min-width"&gt;
+    This text is in a &lt;b&gt;p&lt;/b&gt; tag that has a &lt;b&gt;min-width&lt;/b&gt; set to 100px.
+  &lt;/p&gt;
+</pre>
+
+<p>
+	Take a look at the Read Me as well to find more details:
+	<a href="./README.md">Read me</a> file
+</p>

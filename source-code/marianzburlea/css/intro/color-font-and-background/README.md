@@ -243,54 +243,6 @@ table {
 }
 ```
 
-### display
-
-The <b>width</b> property sets the width of an element.
-
-The <b>width</b> of an element does not include padding, borders, or margins!
-
-Note: The <b>min-width</b> and <b>max-width</b> properties override the <b>width</b> property.
-
-#### Values:
-
-| **Value**                     | **Description**                                                                                                                                         |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ins>inline </ins>            | Displays an element as an inline element (like <span>). Any height and width properties will have no effect                                             |
-| <ins>block</ins>              | Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width                                                |
-| <ins>contents</ins>           | Makes the container disappear, making the child elements children of the element the next level up in the DOM                                           |
-| <ins>flex</ins>               | Displays an element as a block-level flex container                                                                                                     |
-| <ins>grid</ins>               | Displays an element as a block-level grid container                                                                                                     |
-| <ins>inline-block</ins>       | Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values |
-| <ins>inline-flex</ins>        | Displays an element as an inline-level flex container                                                                                                   |
-| <ins>inline-grid</ins>        | Displays an element as an inline-level flex container                                                                                                   |
-| <ins>inline-table</ins>       | The element is displayed as an inline-level table                                                                                                       |
-| <ins>list-item</ins>          | Let the element behave like a &lt;li&gt; element                                                                                                        |
-| <ins>run-in</ins>             | Displays an element as either block or inline, depending on context                                                                                     |
-| <ins>table</ins>              | Let the element behave like a &lt;table&gt; element                                                                                                     |
-| <ins>table-caption</ins>      | Let the element behave like a <caption> element                                                                                                         |
-| <ins>table-column-group</ins> | Let the element behave like a <colgroup> element                                                                                                        |
-| <ins>table-header-group</ins> | Let the element behave like a <thead> element                                                                                                           |
-| <ins>table-footer-group</ins> | Let the element behave like a <tfoot> element                                                                                                           |
-| <ins>table-row-group</ins>    | Let the element behave like a <tbody> element                                                                                                           |
-| <ins>table-cell</ins>         | Let the element behave like a <td> element                                                                                                              |
-| <ins>table-column</ins>       | Let the element behave like a <col> element                                                                                                             |
-| <ins>table-row</ins>          | Let the element behave like a <tr> element                                                                                                              |
-| <ins>none</ins>               | The element is completely removed                                                                                                                       |
-| <ins>initial</ins>            | Sets this property to its default value                                                                                                                 |
-| <ins>inherit</ins>            | Inherits this property from its parent element                                                                                                          |
-
-## Example list
-
-### Example 1
-
-```html:
-
-```
-
-<!-- de aici -->
-<!-- de aici -->
-<!-- de aici-->
-
 ### Color and Font
 
 The **color** property sets the color for and element's text content and its decorations. In reality this could be easily called text-color.This is an uniform color, for more variations you can use **gradient**.
@@ -396,7 +348,7 @@ style>
 
 Visit the <ins>**`color-and-font/color-and-font-internal.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
 
-@flivanov92
+@iulia-zburlea
 @MariaTeo
 
 ```

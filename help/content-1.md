@@ -183,30 +183,30 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
 ##### Must Know CSS properties
 
-1. the `<color>` tag `````````` - color & font section - @iulia-zburlea
-1. the `<background-color>` tag - color & font section - @MariaTeo
-1. the `<background-image>` tag - color & font section - @MariaTeo
-1. the `<display>` tag
-1. the `<height>` tag - color & font section - @MariaTeo
-1. the `<width>` tag - color & font section - @MariaTeo
-1. the `<min-width>` tag
-1. the `<min-height>` tag
-1. the `<max-height>` tag
-1. the `<max-width>` tag
-1. the `<margin>` tag
-1. the `<padding>` tag
-1. the `<border>` tag
-1. the `<border-color>` tag
-1. the `<border-width>` tag
-1. the `<border-style>` tag
-1. the `<border-radius>` tag
-1. the `<font>` tag `````````````- color & font section - @iulia-zburlea
-1. the `<font-family>` tag ``````- color & font section - @iulia-zburlea
-1. the `<font-style>` tag ```````- color & font section - @iulia-zburlea
-1. the `<font-weight>` tag ``````- color & font section - @iulia-zburlea
-1. the `<font-size>` tag ````````- color & font section - @iulia-zburlea
-1. the `<position>` tag
-1. the `<z-index>` tag
+1. the `<color>` tag `````````` - color, background & font section - @iulia-zburlea
+1. the `<background-color>` tag - section: color, background & font - @MariaTeo
+1. the `<background-image>` tag - section: color, background & font - @MariaTeo
+1. the `<display>` tag `````````- section: display-min-max-width-height - @MariaTeo
+1. the `<height>` tag ``````````- section: color, background & font - @MariaTeo
+1. the `<width>` tag ```````````- section: color, background & font - @MariaTeo
+1. the `<min-width>` tag ```````- section: display-min-max-width-height - @MariaTeo
+1. the `<min-height>` tag ``````- section: display-min-max-width-height - @MariaTeo
+1. the `<max-height>` tag ``````- section: display-min-max-width-height - @MariaTeo
+1. the `<max-width>` tag ```````- section: display-min-max-width-height - @MariaTeo
+1. the `<margin>` tag ``````````- section: margin & padding section - @iulia-zburlea
+1. the `<padding>` tag `````````- section: margin & padding section - @iulia-zburlea
+1. the `<border>` tag ``````````- section: border - @iulia-zburlea
+1. the `<border-color>` tag ````- section: border - @iulia-zburlea
+1. the `<border-width>` tag ````- section: border - @iulia-zburlea
+1. the `<border-style>` tag ````- section: border - @iulia-zburlea
+1. the `<border-radius>` tag ```- section: border - @iulia-zburlea
+1. the `<font>` tag ````````````- section: color, background & font - @iulia-zburlea
+1. the `<font-family>` tag `````- section: color, background & font - @iulia-zburlea
+1. the `<font-style>` tag ``````- section: color, background & font - @iulia-zburlea
+1. the `<font-weight>` tag `````- section: color, background & font - @iulia-zburlea
+1. the `<font-size>` tag ```````- section: color, background & font - @iulia-zburlea
+1. the `<position>` tag ````````- section: position & z-index - @MariaTeo
+1. the `<z-index>` tag `````````- section: position & z-index - @MariaTeo
 
    ##### CSS Selectors
 

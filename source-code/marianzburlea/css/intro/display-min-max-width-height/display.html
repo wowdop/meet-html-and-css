@@ -1,0 +1,99 @@
+<style>
+	.flex {
+		display: flex;
+		flex-direction: column;
+		background-color: beige;
+	}
+
+	.inline {
+		display: inline;
+		color: red;
+	}
+</style>
+
+<h1>Display in CSS</h1>
+
+<p>
+	The display property specifies the display behavior (the type of rendering
+	box) of an element. In HTML, the default display property value is taken from
+	the HTML specifications or from the browser/user default style sheet. The
+	default value in XML is inline, including SVG elements.
+</p>
+
+<h2>Example using <b>flex</b></h2>
+
+<div class="flex">
+	<p>Take a look at this example</p>
+	<p>
+		There are two paragraphs here displayed in a column, with a background
+		color.
+	</p>
+</div>
+
+<p>
+	I made use of <b>display: flex</b> and another CSS property called
+	<b>flex-direction</b> that has only four values: <b>row</b> to place all the
+	elements from inside in a row, <b>column</b>, that places all the elements in
+	a column. <b>row-reverse</b> places the elements starting from the last and
+	displays them in a row and <b>column-reverse</b> also starts from the last
+	element and displays them in a column
+</p>
+
+<p>
+	<b><i>Note:</i></b> If you do not specify the direction, the default value is
+	<b>row</b>
+</p>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+		.flex {
+			display: flex;
+			flex-direction: column;
+			background-color: beige;
+		}
+	&lt;/style&gt;
+
+	&lt;div class="flex"&gt;
+		&lt;p&gt;Take a look at this example&lt;/p&gt;
+		&lt;p&gt;
+			There are two paragraphs here displayed in a column, with a background
+			color.
+		&lt;/p&gt;
+	&lt;/div&gt;
+</pre>
+
+<h2>Example using inline</h2>
+
+<div>
+	This text is inside a div and
+	<p class="inline">this text is in a <b>p</b> tag</p>
+</div>
+
+<p>
+	I made use of <b>display: inline </b> and it made the <b>p</b> element be on
+	the same line with the rest of the text
+</p>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+		.inline {
+			display: inline;
+			color: red;
+		}
+	&lt;/style&gt;
+
+
+	&lt;div&gt;
+		This text is inside a div and
+		&lt;p class="inline"&gt;this text is in a &lt;b&gt;p&lt;/b&gt; tag&lt;/p&gt;
+	&lt;/div&gt;
+</pre>
+
+<p>
+	Take a look at the Read Me as well to find more details:
+	<a href="./README.md">Read me</a> file
+</p>
