@@ -1,0 +1,99 @@
+h1 {
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.example-one {
+  margin: 30px 20px 5px 45px;
+  padding: 30px 20px 5px 45px;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: aquamarine;
+}
+
+.example-two {
+  margin: 10px 25px 5px;
+  padding: 10px 25px 5px;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: coral;
+}
+
+.example-three {
+  margin: 25px 5px;
+  padding: 25px 5px;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: blue;
+}
+
+.example-four {
+  margin: 20px;
+  padding: 20px;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: darkgreen;
+}
+
+/* From here you have the above examples, but using tags (top,right, bottom, left) for each value. */
+
+.example-five {
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-left: 45px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 45px;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: aquamarine;
+}
+
+.example-six {
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: coral;
+}
+
+.example-seven {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: blue;
+}
+
+.example-eight {
+  margin: 20px;
+  padding: 20px;
+  border-width: thick;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: darkgreen;
+}
