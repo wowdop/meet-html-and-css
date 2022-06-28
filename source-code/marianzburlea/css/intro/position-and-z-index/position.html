@@ -14,7 +14,7 @@
 		background: blue;
 	}
 
-	.absolute {
+	.paragraph {
 		background: aqua;
 		border: 3px solid blue;
 		padding: 10px;
@@ -26,6 +26,24 @@
 		background: yellow;
 		top: 900px;
 		left: 50px;
+	}
+
+	.parent4 {
+		position: fixed;
+		border: 1px solid blue;
+		background-color: rgba(255, 200, 200, 0.5);
+		width: 500px;
+		height: 100px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.child4 {
+		position: absolute;
+		border: 1px solid red;
+		top: 70px;
+		right: 15px;
 	}
 </style>
 
@@ -87,9 +105,7 @@
 	<b>top</b>, <b>right</b>, <b>bottom</b>, and <b>left</b>.
 </p>
 
-<h1>Absolute positioning</h1>
-
-<p class="absolute">
+<p class="paragraph">
 	I am a basic block level element. My adjacent block level elements sit on new
 	lines below me.
 </p>
@@ -100,16 +116,18 @@
 	border width/height.
 </p>
 
-<p class="absolute">
+<p class="paragraph">
 	We are separated by our margins. Because of margin collapsing, we are
 	separated by the width of one of our margins, not both.
 </p>
+
+<br />
 
 <p>Code example:</p>
 
 <pre>
   &lt;style&gt;
-    .absolute {
+    .paragraph {
       background: aqua;
       border: 3px solid blue;
       padding: 10px;
@@ -124,7 +142,7 @@
     }
   &lt;/style&gt;
 
-  &lt;p class="absolute"&gt;
+  &lt;p class="paragraph"&gt;
     I am a basic block level element. My adjacent block level elements sit on new
     lines below me.
   &lt;/p&gt;
@@ -135,8 +153,80 @@
     border width/height.
   &lt;/p&gt;
 
-  &lt;p class="absolute"&gt;
+  &lt;p class="paragraph"&gt;
     We are separated by our margins. Because of margin collapsing, we are
     separated by the width of one of our margins, not both.
   &lt;/p&gt;
 </pre>
+
+<h2>Position Fixed</h2>
+
+<p>
+	The element is removed from the normal document flow, and no space is created
+	for the element in the page layout. It is positioned relative to the initial
+	containing block established by the viewport, except when one of its ancestors
+	has a transform, perspective, or filter property set to something other than
+	none (see the CSS Transforms Spec), in which case that ancestor behaves as the
+	containing block. (Note that there are browser inconsistencies with
+	perspective and filter contributing to containing block formation.) Its final
+	position is determined by the values of <b>top</b>, <b>right</b>,
+	<b>bottom</b>, and <b>left</b>.
+</p>
+
+<small>
+	This value always creates a new stacking context. In printed documents, the
+	element is placed in the same position on every page.
+</small>
+
+<br />
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+    .parent4 {
+      position: fixed;
+      border: 1px solid blue;
+      background-color: rgba(255, 200, 200, 0.5);
+      width: 500px;
+      height: 100px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .child4 {
+      position: absolute;
+      border: 1px solid red;
+      top: 70px;
+      right: 15px;
+    }
+  &lt;/style&gt;
+
+  &lt;p&gt;
+    The Parent4 element has position: fixed, and will NOT remain in the natural
+    flow of the page. It will position itself according to the viewport. It will
+    also act as anchor point for the absolutely positioned Child4 element:
+  &lt;/p&gt;
+  &lt;div class="parent4"&gt;
+    Parent4: position: fixed, bottom: 0, left: 0, right: 0.
+    &lt;div class="child4"&gt;Child4: position: absolute, right: 15px, top: 70px&lt;/div&gt;
+  &lt;/div&gt;
+</pre>
+
+<p>
+	The Parent4 element has position: fixed, and will NOT remain in the natural
+	flow of the page. It will position itself according to the viewport. It will
+	also act as anchor point for the absolutely positioned Child4 element:
+</p>
+<div class="parent4">
+	Parent4: position: fixed, bottom: 0, left: 0, right: 0.
+	<div class="child4">Child4: position: absolute, right: 15px, top: 70px</div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

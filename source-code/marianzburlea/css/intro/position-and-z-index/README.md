@@ -18,7 +18,7 @@ and
 
 ## Notes:
 
-### display
+### position
 
 The <b>position</b> property specifies the type of positioning method used for an element (static, relative, absolute, fixed, or sticky)
 
@@ -107,3 +107,18 @@ The <b>position</b> property specifies the type of positioning method used for a
 
 <div class="box" id="one">One</div>
 ```
+
+### z-index
+
+**Z Index** (z-index) is a CSS property that defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index.
+
+**Note:** Z index only works on positioned elements (position:absolute, position:relative, or position:fixed).
+
+#### Values:
+
+| **Value**          | **Description**                                                   |
+| ------------------ | ----------------------------------------------------------------- |
+| <ins>auto </ins>   | Sets the stack order equal to its parents. This is default        |
+| <ins>number</ins>  | Sets the stack order of the element. Negative numbers are allowed |
+| <ins>initial</ins> | Sets this property to its default value.                          |
+| <ins>inherit</ins> | Inherits this property from its parent element.                   |

@@ -245,19 +245,7 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<:link>` tag
 1. the `<:not()>` tag
 
-   ##### Animation Properties
-
-1. the `<@keyframes>` tag
-1. the `<animation>` tag
-1. the `<animation-name>` tag
-1. the `<animation-duration>` tag
-1. the `<animation-timing-function>` tag
-1. the `<animation-delay>` tag
-1. the `<animation-iteration-count>` tag
-1. the `<animation-direction>` tag
-1. the `<animation-play-state>` tag
-
-1. ##### Backgound Properties
+   ##### Backgound Properties
 
 1. the `<backgroung>` tag
 1. the `<background-attachment>` tag
@@ -269,43 +257,55 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<background-origin>` tag
 1. the `<background-size>` tag
 
+   ##### Color Properties
+
+1. the `<color-profile>` tag
+1. the `<opacity>` tag
+1. the `<rendering-intent>` tag
+
    ##### Border and Outline Properties
 
 1. the `<border>` tag - See Must Know Tags
-1. the `<border-bottom>` tag
-1. the `<border-bottom-color>` tag
-1. the `<border-bottom-style>` tag
-1. the `<border-bottom-width>` tag
-1. the `<border-color>` tag - See Must Know Tags
-1. the `<border-left>` tag
-1. the `<border-left-color>` tag
-1. the `<border-left-style>` tag
-1. the `<border-left-width>` tag
-1. the `<border-right>` tag
-1. the `<border-right-color>` tag
-1. the `<border-right-style>` tag
-1. the `<border-right-width>` tag
-1. the `<border-style>` tag - See Must Know Tags
 1. the `<border-top>` tag
+1. the `<border-right>` tag
+1. the `<border-bottom>` tag
+1. the `<border-left>` tag
+
+1. the `<border-color>` tag - See Must Know Tags
 1. the `<border-top-color>` tag
+1. the `<border-right-color>` tag
+1. the `<border-bottom-color>` tag
+1. the `<border-left-color>` tag
+
+1. the `<border-style>` tag - See Must Know Tags
 1. the `<border-top-style>` tag
-1. the `<border-top-width>` tag
+1. the `<border-right-style>` tag
+1. the `<border-bottom-style>` tag
+1. the `<border-left-style>` tag
+
 1. the `<border-width>` tag - See Must Know Tags
+1. the `<border-top-width>` tag
+1. the `<border-right-width>` tag
+1. the `<border-bottom-width>` tag
+1. the `<border-left-width>` tag
+
 1. the `<outline>` tag
 1. the `<outline-color>` tag
 1. the `<outline-style>` tag
 1. the `<outline-width>` tag
-1. the `<border-bottom-left-radius>` tag
-1. the `<border-bottom-right-radius>` tag
+
 1. the `<border-image>` tag
-1. the `<border-image-outset>` tag
 1. the `<border-image-repeat>` tag
+1. the `<border-image-outset>` tag
 1. the `<border-image-slice>` tag
 1. the `<border-image-source>` tag
 1. the `<border-image-width>` tag
+
 1. the `<border-radius>` tag - See Must Know Tags
-1. the `<border-top-left-radius>` tag
 1. the `<border-top-right-radius>` tag
+1. the `<border-top-left-radius>` tag
+1. the `<border-bottom-right-radius>` tag
+1. the `<border-bottom-left-radius>` tag
 1. the `<box-decoration-break>` tag
 1. the `<box-shadow></box-shadow>` tag
 
@@ -316,82 +316,6 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<overflow-style>` tag
 1. the `<rotation>` tag
 1. the `<rotation-point>` tag
-
-   ##### Color Properties
-
-1. the `<color-profile>` tag
-1. the `<opacity>` tag
-1. the `<rendering-intent>` tag
-
-   ##### Content and Paged Media Properties
-
-1. the `<bookmark-label>` tag
-1. the `<bookmark-level>` tag
-1. the `<bookmark-target>` tag
-1. the `<float-offset>` tag
-1. the `<hyphenate-after>` tag
-1. the `<hyphenate-before>` tag
-1. the `<hyphenate-character>` tag
-1. the `<hyphenate-lines>` tag
-1. the `<hyphenate-resources>` tag
-1. the `<hyphens>` tag
-1. the `<image-resolution>` tag
-1. the `<marks>` tag
-1. the `<string-set>` tag
-
-   ##### Dimension Properties
-
-1. the `<height>` tag - See Must Know Tags ````- @MariaTeo
-1. the `<width>` tag - See Must Know Tags `````- @MariaTeo
-
-1. the `<min-heigth>` tag - See Must Know Tags
-1. the `<max-heigth>` tag - See Must Know Tags
-1. the `<min-width>` tag - See Must Know Tags
-1. the `<max-width>` tag - See Must Know Tags
-
-   ##### Flexible Box Properties
-
-1. the `<box-align>` tag
-1. the `<box-direction>` tag
-1. the `<box-flex>` tag
-1. the `<box-flex-group>` tag
-1. the `<box-lines>` tag
-1. the `<box-ordinal-group>` tag
-1. the `<box-orient>` tag
-1. the `<box-pack>` tag
-
-   ##### Font Properties
-
-1. the `<font>` tag - See Must Know Tags
-1. the `<font-family>` tag - See Must Know Tags
-1. the `<font-style>` tag - See Must Know Tags
-1. the `<font-variant>` tag
-1. the `@font-face` tag
-1. the `<font-size-adjust>` tag
-1. the `<font-size>` tag - See Must Know Tags
-1. the `<font-stretch>` tag
-
-   ##### Generated Content Properties
-
-1. the `<content>` tag
-1. the `<counter-increment>` tag
-1. the `<counter-reset>` tag
-1. the `<quotes>` tag
-1. the `<crop>` tag
-1. the `<move-to>` tag
-1. the `<page-policy>` tag
-
-   ##### Grid Properties
-
-1. the `<grid-columns>` tag
-1. the `<grid-rows>` tag
-
-   ##### Hyperlink Properties
-
-1. the `<target>` tag
-1. the `<target-name>` tag
-1. the `<target-new>` tag
-1. the `<target-position>` tag
 
    ##### Linebox Properties
 
@@ -415,12 +339,26 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
 1. the `<text-height>` tag
 
-   ##### List Properties
+   ##### Flexible Box Properties
 
-1. the `<list-style>` tag
-1. the `<list-style-image>` tag
-1. the `<list-style-position>` tag
-1. the `<list-style-type>` tag
+1. the `<box-align>` tag
+1. the `<box-direction>` tag
+1. the `<box-flex>` tag
+1. the `<box-flex-group>` tag
+1. the `<box-lines>` tag
+1. the `<box-ordinal-group>` tag
+1. the `<box-orient>` tag
+1. the `<box-pack>` tag
+
+   ##### Dimension Properties
+
+1. the `<height>` tag - See Must Know Tags ````- @MariaTeo
+1. the `<width>` tag - See Must Know Tags `````- @MariaTeo
+
+1. the `<min-heigth>` tag - See Must Know Tags
+1. the `<max-heigth>` tag - See Must Know Tags
+1. the `<min-width>` tag - See Must Know Tags
+1. the `<max-width>` tag - See Must Know Tags
 
    ##### Margin Properties
 
@@ -430,27 +368,6 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<margin-left>` tag
 1. the `<margin-right>` tag
 
-   ##### Marquee Properties
-
-1. the `<marque-direction>` tag
-1. the `<marque-play-count>` tag
-1. the `<marque-speed>` tag
-1. the `<marque-style>` tag
-
-   ##### Multi-column Properties
-
-1. the `<columns>` tag
-1. the `<column-count>` tag
-1. the `<column-fill>` tag
-1. the `<column-width>` tag
-1. the `<column-span>` tags
-1. the `<column-gap>` tag
-
-1. the `<column-rule>` tag
-1. the `<column-rule-color>` tag
-1. the `<column-rule-style>` tag
-1. the `<column-rule-width>` tag
-
    ##### Padding Properties
 
 1. the `<padding>` tag - See Must Know Tags
@@ -458,16 +375,6 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<padding-top>` tag
 1. the `<padding-left>` tag
 1. the `<padding-right>` tag
-
-   ##### Paged Media Properties
-
-1. the `<page>` tag
-
-1. the `<fit>` tag
-1. the `<size>` tag
-
-1. the `<fit-position>` tag
-1. the `<image-orientation>` tag
 
    ##### Positioning Properties
 
@@ -491,49 +398,16 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<cursor>` tag
 1. the `<z-index>` tag
 
-   ##### Print Properties
+   ##### Font Properties
 
-1. the `<orphans>` tag
-1. the `<widows>` tag
-
-1. the `<page-break-before>` tag
-1. the `<page-break-inside>` tag
-1. the `<page-breakafter>` tag
-
-   ##### Ruby Properties
-
-1. the `<ruby-align>` tag
-1. the `<ruby-position>` tag
-1. the `<ruby-overhang>` tag
-
-   ##### Speech Properties
-
-1. the `<mark>` tag
-1. the `<mark-before>` tag
-1. the `<mark-after>` tag
-
-1. the `<rest>` tag
-1. the `<rest-before>` tag
-1. the `<rest-after>` tag
-
-1. the `<voice-balance>` tag
-1. the `<voice-duration>` tag
-1. the `<voice-pitch>` tag
-1. the `<voice-range>` tag
-1. the `<voice-rate>` tag
-1. the `<voice-stress>` tag
-1. the `<voice-volume>` tag
-
-1. the `<phonemes>` tag
-
-   ##### Table Properties
-
-1. the `<border-spacing>` tag
-1. the `<border-collapse>` tag
-1. the `<empty-cells>` tag
-
-1. the `<table-layout>` tag
-1. the `<caption-side>` tag
+1. the `<font>` tag - See Must Know Tags
+1. the `<font-family>` tag - See Must Know Tags
+1. the `<font-style>` tag - See Must Know Tags
+1. the `<font-variant>` tag
+1. the `@font-face` tag
+1. the `<font-size-adjust>` tag
+1. the `<font-size>` tag - See Must Know Tags
+1. the `<font-stretch>` tag
 
    ##### Text Properties
 
@@ -567,6 +441,140 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<unicode-bidi>` tag
 1. the `<white-space>` tag
 
+   ##### Speech Properties
+
+1. the `<mark>` tag
+1. the `<mark-before>` tag
+1. the `<mark-after>` tag
+
+1. the `<rest>` tag
+1. the `<rest-before>` tag
+1. the `<rest-after>` tag
+
+1. the `<voice-balance>` tag
+1. the `<voice-duration>` tag
+1. the `<voice-pitch>` tag
+1. the `<voice-range>` tag
+1. the `<voice-rate>` tag
+1. the `<voice-stress>` tag
+1. the `<voice-volume>` tag
+
+1. the `<phonemes>` tag
+
+   ##### Grid Properties
+
+1. the `<grid-columns>` tag
+1. the `<grid-rows>` tag
+
+   ##### Table Properties
+
+1. the `<border-spacing>` tag
+1. the `<border-collapse>` tag
+1. the `<empty-cells>` tag
+
+1. the `<table-layout>` tag
+1. the `<caption-side>` tag
+
+   ##### Multi-column Properties
+
+1. the `<columns>` tag
+1. the `<column-count>` tag
+1. the `<column-fill>` tag
+1. the `<column-width>` tag
+1. the `<column-span>` tags
+1. the `<column-gap>` tag
+
+1. the `<column-rule>` tag
+1. the `<column-rule-color>` tag
+1. the `<column-rule-style>` tag
+1. the `<column-rule-width>` tag
+
+   ##### List Properties
+
+1. the `<list-style>` tag
+1. the `<list-style-image>` tag
+1. the `<list-style-position>` tag
+1. the `<list-style-type>` tag
+
+##### Hyperlink Properties
+
+1. the `<target>` tag
+1. the `<target-name>` tag
+1. the `<target-new>` tag
+1. the `<target-position>` tag
+
+   ##### Content and Paged Media Properties
+
+1. the `<bookmark-label>` tag
+1. the `<bookmark-level>` tag
+1. the `<bookmark-target>` tag
+
+1. the `<hyphenate-after>` tag
+1. the `<hyphenate-before>` tag
+1. the `<hyphenate-character>` tag
+1. the `<hyphenate-lines>` tag
+1. the `<hyphenate-resources>` tag
+
+1. the `<float-offset>` tag
+1. the `<hyphens>` tag
+1. the `<image-resolution>` tag
+1. the `<marks>` tag
+1. the `<string-set>` tag
+
+   ##### Generated Content Properties
+
+1. the `<content>` tag
+1. the `<counter-increment>` tag
+1. the `<counter-reset>` tag
+1. the `<quotes>` tag
+1. the `<crop>` tag
+1. the `<move-to>` tag
+1. the `<page-policy>` tag
+
+   ##### Marquee Properties
+
+1. the `<marque-direction>` tag
+1. the `<marque-play-count>` tag
+1. the `<marque-speed>` tag
+1. the `<marque-style>` tag
+
+   ##### Paged Media Properties
+
+1. the `<page>` tag
+
+1. the `<fit>` tag
+1. the `<size>` tag
+
+1. the `<fit-position>` tag
+1. the `<image-orientation>` tag
+
+   ##### Print Properties
+
+1. the `<orphans>` tag
+1. the `<widows>` tag
+
+1. the `<page-break-before>` tag
+1. the `<page-break-inside>` tag
+1. the `<page-breakafter>` tag
+
+   ##### Ruby Properties
+
+1. the `<ruby-align>` tag
+1. the `<ruby-position>` tag
+1. the `<ruby-overhang>` tag
+
+   ##### Animation Properties
+
+1. the `<@keyframes>` tag
+1. the `<animation>` tag
+1. the `<animation-name>` tag
+1. the `<animation-duration>` tag
+1. the `<animation-timing-function>` tag
+1. the `<animation-delay>` tag
+1. the `<animation-iteration-count>` tag
+1. the `<animation-direction>` tag
+1. the `<animation-play-state>` tag
+
    ##### 2D/3D Transform Properties
 
 1. the `<tranform>` tag
@@ -589,40 +597,45 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `<appearance>` tag
 1. the `<box-sizing>` tag
 1. the `<icon>` tag
-1. the `<nav-down>` tag
-1. the `<nav-index>` tag
-1. the `<nav-left>` tag
-1. the `<nav-right>` tag
-1. the `<nav-up>` tag
 1. the `<outline-offset>` tag
 1. the `<resize>` tag
+
+1. the `<nav-index>` tag
+1. the `<nav-up>` tag
+1. the `<nav-right>` tag
+1. the `<nav-down>` tag
+1. the `<nav-left>` tag
 
    ##### Other Properties
 
 1. the `<align-items>` tag
 1. the `<calc>` tag
-1. the `<flex-direction>` tag
-1. the `<flex-flow>` tag
-1. the `<flex-grow>` tag
-1. the `<flex-shrink>` tag
-1. the `<flex-wrap>` tag
+1. the `<url>` tag
 1. the `<hsl>` tag
 1. the `<hsla>` tag
 1. the `<justify-content>` tag
 1. the `<@media>` tag
 1. the `<opacity>` tag
+
+1. the `<flex-direction>` tag
+1. the `<flex-flow>` tag
+1. the `<flex-grow>` tag
+1. the `<flex-shrink>` tag
+1. the `<flex-wrap>` tag
+
 1. the `<rotateX>` tag
 1. the `<rotateY>` tag
 1. the `<rotateZ>` tag
+
 1. the `<scaleX>` tag
 1. the `<scaleY>` tag
 1. the `<scaleZ>` tag
+
 1. the `<translate>` tag
 1. the `<translateX>` tag
 1. the `<translateY>` tag
 1. the `<translateZ>` tag
 1. the `<translate3d>` tag
-1. the `<url>` tag
 
 <!--
 Reference link no. 1:
