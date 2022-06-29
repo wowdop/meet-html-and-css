@@ -122,3 +122,47 @@ The <b>position</b> property specifies the type of positioning method used for a
 | <ins>number</ins>  | Sets the stack order of the element. Negative numbers are allowed |
 | <ins>initial</ins> | Sets this property to its default value.                          |
 | <ins>inherit</ins> | Inherits this property from its parent element.                   |
+
+## Example list
+
+### Example 1 with position relative
+
+```html:
+<style>
+	.box {
+		border: 6px ridge rosybrown;
+	}
+
+	.wrapper {
+		height: 100px;
+		position: relative;
+	}
+
+	#green {
+		background-color: green;
+		position: absolute;
+		z-index: 1;
+		opacity: 0.7;
+		top: 20px;
+	}
+
+	#yellow {
+		background-color: yellow;
+		position: absolute;
+		left: 250px;
+		top: 20px;
+	}
+	#blue {
+		background-color: blue;
+		position: absolute;
+		left: 150px;
+		opacity: 0.8;
+	}
+</style>
+
+<div class="wrapper">
+	<div class="box" id="green">I am green and sit on top</div>
+	<div class="box" id="yellow">I am yellow and I am at the very bottom</div>
+	<div class="box" id="blue">I am blue and I sit inbetween</div>
+</div>
+```
