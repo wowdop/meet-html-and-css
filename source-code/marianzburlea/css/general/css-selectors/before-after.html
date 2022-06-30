@@ -1,0 +1,107 @@
+<style>
+	.before::before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: green;
+		left: 10px;
+	}
+
+	.before {
+		padding-left: 16px;
+	}
+
+	.after::after {
+		content: 'REMEMBER ME';
+		background-color: yellow;
+		color: red;
+	}
+</style>
+
+<h1>::before and ::after in CSS</h1>
+
+<h2>::before</h2>
+
+<p>
+	The <b>::before</b> selector inserts something before the content of each
+	selected element(s).
+</p>
+
+<p>Use the content property to specify the content to insert.</p>
+
+<p>Use the <b>::after</b> selector to insert something after the content.</p>
+
+<p>
+	<b>Note:</b> If you leave the value of <b>content</b> to be: <i>" "</i> then
+	you need to add <b>display</b> property with the value of <i>block</i> like in
+	my example, to create bullet points.
+</p>
+
+<h3>Example using <b>:active</b></h3>
+
+<div class="before">
+	I will add a circle using the <b>::before</b> property.
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.before::before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background-color: green;
+		left: 10px;
+	}
+
+	.before {
+		padding-left: 16px;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="before"&gt;
+    I will add a circle using the &lt;b&gt;::before&lt;/b&gt; property.
+  &lt;/div&gt;
+</pre>
+
+<h2>::after</h2>
+
+<p>
+	The <b>::after</b> selector inserts something after the content of each
+	selected element(s).
+</p>
+
+<p>Use the content property to specify the content to insert.</p>
+
+<p>Use the <b>::before</b> selector to insert something before the content.</p>
+
+<h3>Example using <b>::active</b></h3>
+
+<div class="after">
+	This is a reminder, so after me it will be some colourful text to express
+	that.
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+    .after::after {
+      content: 'REMEMBER ME';
+      background-color: yellow;
+      color: red;
+    }
+  &lt;/style&gt;
+
+  <div class="after">
+    This is a reminder, so after me it will be some colourful text to express
+    that.
+  </div>
+</pre>

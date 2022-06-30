@@ -1,0 +1,133 @@
+<style>
+	input:enabled {
+		background-color: cornsilk;
+	}
+
+	input:disabled {
+		background-color: paleturquoise;
+	}
+
+  input:checked {
+    height: 15px;
+    width: 15px;
+  }
+
+	button:enabled,
+	button:disabled {
+		color: white;
+		padding: 8px;
+    border-color: black;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 16px;
+	}
+
+	button:enabled {
+		background-color: green;
+	}
+
+	button:disabled {
+		background-color: red;
+	}
+</style>
+
+<div class="form-no-1">
+	<form action="">
+		First Name:
+		<input
+    type="text"
+    value="Zuper" />
+		<br />
+
+		Last Name:
+		<input
+    type="text"
+    value="Human" />
+		<br />
+
+		Country:
+		<input
+    type="text"
+    value="Imagination Country"
+    disabled />
+		<br />
+
+		Password:
+		<input
+    type="password"
+    name="psw"
+    value="type your password"
+    disabled />
+		<br />
+
+		E-mail:
+		<input
+    type="email"
+    name="user-email"
+    value="email@gmail.com"
+    disabled />
+  </div>
+
+  <div class="form-no-2">
+    <p>Select your gender:</p>
+    <form action="">
+      Female
+      <input
+      type="radio"
+      checked="checked"
+      name="gender"
+      value="female" />
+
+      Male
+      <input
+      type="radio"
+      checked="checked"
+      name="gender"
+      value="male" />
+
+      Others
+      <input
+      type="radio"
+      checked="checked"
+      name="gender"
+      value="Others" />
+      <br>
+    <p>Select the languages you speak/understand:</p>
+    <input
+    type="checkbox"
+    checked="checked"
+    name="language"
+    value="English" />
+    I am speaking English.
+
+      <br>
+
+      <input
+      type="checkbox"
+      checked="checked"
+      name="language"
+      value="French" />
+      Je parle Française.
+      <br>
+
+      <input
+      type="checkbox"
+      checked="checked"
+      name="language"
+      value="Italian" />
+      Io parlo Italiano.
+    </form>
+  </form>
+</div>
+
+<br>
+
+<div>
+  <button enabled>
+    I am enabled
+  </button>
+
+  <button disabled>
+    I am disabled
+  </button>
+</div>
