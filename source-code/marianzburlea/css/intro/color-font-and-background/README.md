@@ -308,7 +308,7 @@ HTML File with the import of the CSS file:
 ...
 ```
 
-Visit the <ins>**`color-and-font/color-and-font-external.html`**</ins> & <ins>**`color-and-font/color-and-font-style.css`**</ins> files to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
+Visit the <ins>**`color-and-font/color-and-font-external.html`**</ins> & <ins>**`color-and-font/color-and-font-style.css`**</ins> files to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
 
 ### Example 2 - Color and Font - Inline CSS
 
@@ -327,7 +327,7 @@ h1
   ...
 ````
 
-Visit the <ins>**`color-and-font/color-and-font-inline.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
+Visit the <ins>**`color-and-font/color-and-font-inline.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
 
 ### Example 3 - Color and Font - Internal CSS
 
@@ -346,7 +346,7 @@ style>
 
 ```
 
-Visit the <ins>**`color-and-font/color-and-font-internal.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
+Visit the <ins>**`color-and-font/color-and-font-internal.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
 
 @iulia-zburlea
 @MariaTeo

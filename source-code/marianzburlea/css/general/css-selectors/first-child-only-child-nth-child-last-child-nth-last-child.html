@@ -1,0 +1,80 @@
+<style>
+	p:first-child {
+		background-color: seagreen;
+		color: aliceblue;
+	}
+</style>
+
+<h1>
+	:first-child, :only-child, :nth-child(), :last-child and :nth-last-child() in
+	CSS
+</h1>
+
+<h2>:first-child</h2>
+
+<p>
+	The <b>:first-child</b> selector is used to select the specified selector,
+	only if it is the first child of its parent.
+</p>
+
+<h3>Example using <b>:first-child</b></h3>
+
+<div>
+	<p>Here lies some text</p>
+	<p>Being spread across</p>
+	<p>Multiple paragraphs</p>
+	<p>Only the first child has style.</p>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	p:first-child {
+		background-color: seagreen;
+		color: aliceblue;
+	}
+  &lt;/style&gt;
+
+  &lt;div&gt;
+    &lt;p&gt;Here lies some text&lt;/p&gt;
+    &lt;p&gt;Being spread across&lt;/p&gt;
+    &lt;p&gt;Multiple paragraphs&lt;/p&gt;
+    &lt;p&gt;Only the first child has style.&lt;/p&gt;
+  &lt;/div&gt;
+</pre>
+
+<h2>:only-child</h2>
+
+<p>
+	The <b>::after</b> selector inserts something after the content of each
+	selected element(s).
+</p>
+
+<p>Use the content property to specify the content to insert.</p>
+
+<p>Use the <b>::before</b> selector to insert something before the content.</p>
+
+<h3>Example using <b>::active</b></h3>
+
+<div class="after">
+	This is a reminder, so after me it will be some colourful text to express
+	that.
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+    .after::after {
+      content: 'REMEMBER ME';
+      background-color: yellow;
+      color: red;
+    }
+  &lt;/style&gt;
+
+  <div class="after">
+    This is a reminder, so after me it will be some colourful text to express
+    that.
+  </div>
+</pre>

@@ -162,7 +162,7 @@ border-color: aquamarine;
 
 ```
 
-Visit the <ins>**`margin-and-padding/margin-and-padding-external.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
+Visit the <ins>**`margin-and-padding/margin-and-padding-external.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
 
 ### Example 2
 
@@ -204,7 +204,7 @@ Visit the <ins>**`margin-and-padding/margin-and-padding-external.html`**</ins> f
 
 ```
 
-Visit the <ins>**`margin-and-padding/margin-and-padding-internal.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
+Visit the <ins>**`margin-and-padding/margin-and-padding-internal.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
 
 ### Example 3
 
@@ -238,6 +238,6 @@ Visit the <ins>**`margin-and-padding/margin-and-padding-internal.html`**</ins> f
 
 ```
 
-Visit the <ins>**`margin-and-padding/margin-and-padding-inline.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
+Visit the <ins>**`margin-and-padding/margin-and-padding-inline.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
 
 @iulia-zburlea

@@ -166,7 +166,7 @@ ul {
     ...
 ```
 
-Visit the <ins>**`border/border-external.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
+Visit the <ins>**`border/border-external.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
 
 ### Example 2
 
@@ -194,7 +194,7 @@ style>
 ...
 ```
 
-Visit the <ins>**`border/border-internal.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
+Visit the <ins>**`border/border-internal.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
 
 ### Example 3
 
@@ -223,6 +223,6 @@ ul
 ...
 ```
 
-Visit the <ins>**`border/border-inline.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style tags that tell the website how to display the code written inside the HTML page.
+Visit the <ins>**`border/border-inline.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
 
 @iulia-zburlea
