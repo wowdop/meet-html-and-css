@@ -234,10 +234,12 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `:nth-last-of-type` property ``` - section: general/css-selectors - @iulia-zburlea
 1. the `:last-of-type` property ``````` - section: general/css-selectors - @iulia-zburlea
 
-1. the `:first-letter` property
-1. the `:first-line` property
+1. the `:first-letter` property ``````` - section: general/css-selectors - @iulia-zburlea
+1. the `:first-line` property ````````` - section: general/css-selectors - @iulia-zburlea
 
-1. the `:root` property
+<!-- HERE - we left it -->
+
+1. the `:root` property ```
 1. the `:selection` property
 1. the `:focus` property
 1. the `:empty` property
@@ -249,8 +251,8 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
 1. the `backgroung` property
 1. the `background-attachment` property
-1. the `background-color` property - See Must Know Tags
-1. the `background-image` property - See Must Know Tags
+1. the `background-color` property - See intro/color-font-and-background
+1. the `background-image` property - See intro/color-font-and-background
 1. the `background-position` property
 1. the `background-repeat` property
 1. the `background-clip` property
