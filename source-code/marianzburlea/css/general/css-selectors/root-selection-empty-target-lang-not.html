@@ -1,0 +1,244 @@
+<style>
+	:root {
+		background-color: lightyellow;
+		color: darkgreen;
+	}
+
+	.selection::selection {
+		color: white;
+		background-color: brown;
+	}
+
+	.empty:empty {
+		background-color: brown;
+		height: 30px;
+	}
+
+	:target {
+		border: 2px solid #88e9a0;
+		background-color: #d3ccee;
+		z-index: 12;
+	}
+
+	p:lang(ro) {
+		background-color: blue;
+		color: yellow;
+		border: 2px solid red;
+	}
+
+	p:lang(it) {
+		background-color: green;
+		color: white;
+		border: 2px solid blue;
+	}
+</style>
+
+<h1>:root, ::selection, :empty, :target, :lang and :not() in CSS</h1>
+
+<h2>:root</h2>
+
+<p>The <b>:root</b> selector matches the document's root element.</p>
+<p>In <b>HTML</b>, the root element is always the html element.</p>
+
+<h3>Example using <b>:root</b></h3>
+
+<p>
+	This whole page has the style from <b>:root</b> which is the background color
+	and the text color
+</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	:root {
+		background-color: darkblue;
+		color: mintcream;
+	}
+  &lt;/style&gt;
+</pre>
+
+<h2>:selection</h2>
+
+<p>
+	The <b>::selection</b> selector matches the portion of an element that is
+	selected by a user.
+</p>
+<p>
+	Only a few CSS properties can be applied to the <b>::selection</b> selector:
+	color, background, cursor, and outline.
+</p>
+
+<h3>Example using <b>::selection</b></h3>
+
+<p class="selection">Select this whole text and watch how it all changes.</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.selection::selection {
+		color: white;
+		background-color: brown;
+	}
+  &lt;/style&gt;
+
+  &lt;p class="selection"&gt;Select this whole text and watch how it all changes.&lt;/p&gt;
+
+</pre>
+
+<h2>:empty</h2>
+
+<p>
+	The <b>:empty</b> selector matches every element that has no children
+	(including text nodes).
+</p>
+
+<h3>Example using <b>:empty</b></h3>
+
+<div class="empty"></div>
+
+<p>
+	There is an empty <b>above</b>. You can see it because I made use of the
+	<b>:empty</b> CSS selector to add some color and height to it.
+</p>
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.empty:empty {
+		background-color: brown;
+		height: 30px;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="empty"&gt;&lt;/div&gt;
+</pre>
+
+<h2>:target</h2>
+
+<p>
+	URLs with an # followed by an anchor name link to a certain element within a
+	document. The element being linked to is the target element.
+</p>
+<p>
+	The :target selector can be used to style the current active target element.
+</p>
+
+<h3>Example using <b>:target</b></h3>
+
+<table border="2" cellpadding="10" cellspacing="10">
+	<tr>
+		<td>
+			<p><a href="#article1">Jump to Article content 1</a></p>
+		</td>
+		<td>
+			<p><a href="#article2">Jump to Article content 2</a></p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<p id="article1"><b>Article content 1...</b></p>
+		</td>
+		<td>
+			<p id="article2"><b>Article content 2...</b></p>
+		</td>
+	</tr>
+</table>
+
+<p>
+	Click on the links above and the <b>:target</b> selector highlight the current
+	active HTML anchor.
+</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	:target {
+		border: 2px solid #88e9a0;
+		background-color: #d3ccee;
+	}
+  &lt;/style&gt;
+
+  &lt;table border="2" cellpadding="10" cellspacing="10"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p&gt;&lt;a href="#article1"&gt;Jump to Article content 1&lt;/a&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p&gt;&lt;a href="#article2"&gt;Jump to Article content 2&lt;/a&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;p id="article1"&gt;&lt;b&gt;Article content 1...&lt;/b&gt;&lt;/p&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+        &lt;p id="article2"&gt;&lt;b&gt;Article content 2...&lt;/b&gt;&lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+</pre>
+
+<h2>:lang()</h2>
+
+<p>
+	The <b>:lang()</b> selector is used to select elements with a lang attribute
+	with the specified value.
+</p>
+<p>
+	<b>Note:</b> The lang attribute value is most often a two-letter language
+	code, like lang="fr" (for French), or two language codes combined, like
+	lang="fr-ca" (for Canadian French).
+</p>
+
+<h3>Example using <b>:lang</b></h3>
+
+<p>Look here!</p>
+
+<p lang="ro">Vezi aici!</p>
+
+<p lang="it">Vedere qui!</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+    p:lang(ro) {
+      background-color: blue;
+      color: yellow;
+      border: 2px solid red;
+    }
+
+    p:lang(it) {
+      background-color: green;
+      color: white;
+      border: 2px solid blue;
+    }
+  &lt;/style&gt;
+
+  &lt;p&gt;Look here!&lt;/p&gt;
+
+  &lt;p lang="ro"&gt;Vezi aici!&lt;/p&gt;
+
+  &lt;p lang="it"&gt;Vedere qui!&lt;/p&gt;
+</pre>
+
+<h2>:not()</h2>
+
+<p>
+	The <b>:not(selector)</b> selector matches every element that is NOT the
+	specified element/selector.
+</p>
+
+<h3>Example using <b>:not()</b></h3>
+
+<span>This is some text in a span HTML element.</span>
+
+<p>
+	I am making use of <b>:not(p)</b> to select everything else but the paragraphs
+	and add some style.
+</p>
+
+<a href="not-example.html">Click here to see the example</a>

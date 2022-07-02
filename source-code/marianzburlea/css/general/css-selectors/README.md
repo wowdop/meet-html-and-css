@@ -24,7 +24,16 @@ and
 [:first-child css](https://www.google.com/search?q=:first-child+css)
 and
 
+[:only-child css](https://www.google.com/search?q=:only-child+css)
+and
+
 [:nth-child() css](<https://www.google.com/search?q=:nth-child()+css>)
+and
+
+[:nth-last-child() css](<https://www.google.com/search?q=:nth-last-child()+css>)
+and
+
+[:last-child css](<https://www.google.com/search?q=:last-child()+css>)
 and
 
 [:first-of-type css](https://www.google.com/search?q=%3Afirst-of-type+css)
@@ -46,6 +55,27 @@ and
 
 and
 [:first-letter css](https://www.google.com/search?q=%3Afirst-letter+css)
+
+and
+[:focus css](https://www.google.com/search?q=%3Afocus+css)
+
+and
+[:root css](https://www.google.com/search?q=%3Aroot+css)
+
+and
+[:selection css](https://www.google.com/search?q=%3Aselection+css)
+
+and
+[:empty css](https://www.google.com/search?q=%3Aempty+css)
+
+and
+[:target css](https://www.google.com/search?q=%3Atarget+css)
+
+and
+[:lang css](https://www.google.com/search?q=%3Alang+css)
+
+and
+[:not() css](<https://www.google.com/search?q=%3Anot()+css>)
 
 And found
 
@@ -72,6 +102,15 @@ and
 [CSS :nth-child() selector in W3](https://www.w3schools.com/cssref/sel_nth-child.asp)
 and
 
+[CSS :only-child selector in W3](https://www.w3schools.com/cssref/sel_only-childsp)
+and
+
+[CSS :nth-last-child() selector in W3](https://www.w3schools.com/cssref/sel_nth-last-child.asp)
+and
+
+[CSS :last-child selector in W3](https://www.w3schools.com/cssref/sel_last-child.asp)
+and
+
 [CSS :first-of-type selector in W3](https://www.w3schools.com/cssref/sel_first-of-type.asp)
 and
 
@@ -88,6 +127,27 @@ and
 and
 
 [CSS :first-letter selector in W3](https://www.w3schools.com/cssref/sel_first-letter.asp)
+and
+
+[CSS :focus selector in W3](https://www.w3schools.com/cssref/sel_focus.asp)
+and
+
+[CSS :root selector in W3](https://www.w3schools.com/cssref/sel_root.asp)
+and
+
+[CSS :selection selector in W3](https://www.w3schools.com/cssref/sel_selection.asp)
+and
+
+[CSS :s=empty selector in W3](https://www.w3schools.com/cssref/sel_s=empty.asp)
+and
+
+[CSS :target selector in W3](https://www.w3schools.com/cssref/sel_target.asp)
+and
+
+[CSS :lang selector in W3](https://www.w3schools.com/cssref/sel_lang.asp)
+and
+
+[CSS :not() selector in W3](<https://www.w3schools.com/cssref/sel_not().asp>)
 and
 
 Also Found
@@ -582,9 +642,21 @@ The **:nth-last-child(n)** selector matches every element that is the **nth** ch
 
 ```html:
 <style>
-
+	.nth-last-child:nth-last-child(3) {
+		background-color: powderblue;
+		color: indigo;
+	}
 </style>
 
+<div>
+	<p class="nth-last-child">This is an example</p>
+	<p class="nth-last-child">Using <b>:nth-last-child</b></p>
+	<p class="nth-last-child">There are multiple children</p>
+	<p class="nth-last-child">And the style will be different</p>
+	<p class="nth-last-child">Counting from the last child</p>
+	<p class="nth-last-child">Look at this</p>
+	<p class="nth-last-child">This is the result</p>
+</div>
 
 ```
 
@@ -883,6 +955,184 @@ A **first line** has only meaning in a block-container box, therefore the ::firs
 ```
 
 Visit the <ins>**`../css-selectors/first-letter-and-line.html`**</ins> file to find out more about the <ins>**`CSS`**</ins> style properties that tell the website how to display the code written inside the HTML page.
+
+# :root selector
+
+The **:root** selector matches the document's root element.
+
+In **HTML**, the root element is always the html element.
+
+## Example list
+
+### Example
+
+```html:
+<style>
+	:root {
+		background-color: darkblue;
+		color: mintcream;
+	}
+</style>
+```
+
+# ::selection selector
+
+The **::selection** selector matches the portion of an element that is selected by a user.
+
+Only a few CSS properties can be applied to the **::selection** selector: color, background, cursor, and outline.
+
+## Example list
+
+### Example
+
+```html:
+<style>
+	.selection::selection {
+		color: white;
+		background-color: brown;
+	}
+</style>
+
+<p class="selection">Select this whole text and watch how it all changes.</p>
+```
+
+# :focus selector
+
+The **:focus** selector is used to select the element that has focus.
+
+**Tip:** The **:focus** selector is allowed on elements that accept keyboard events or other user inputs.
+
+## Example list
+
+### Example
+
+```html:
+<style>
+	.focus:focus {
+		background-color: brown;
+		color: aquamarine;
+		border-radius: 4px;
+	}
+</style>
+
+<button class="focus">
+	This is a button with <b>:focus</b> selector style
+</button>
+```
+
+# :empty selector
+
+The **:empty** selector matches every element that has no children (including text nodes).
+
+## Example list
+
+### Example
+
+```html:
+<style>
+	.empty:empty {
+		background-color: brown;
+		height: 30px;
+	}
+</style>
+
+<div class="empty"></div>
+```
+
+# :target selector
+
+URLs with an # followed by an anchor name link to a certain element within a document. The element being linked to is the target element.
+
+The **:target** selector can be used to style the current active target element.
+
+## Example list
+
+### Example
+
+```html:
+<style>
+	:target {
+		border: 2px solid #88e9a0;
+		background-color: #d3ccee;
+	}
+</style>
+
+<table border="2" cellpadding="10" cellspacing="10">
+	<tr>
+		<td>
+			<p><a href="#article1">Jump to Article content 1</a></p>
+		</td>
+		<td>
+			<p><a href="#article2">Jump to Article content 2</a></p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<p id="article1"><b>Article content 1...</b></p>
+		</td>
+		<td>
+			<p id="article2"><b>Article content 2...</b></p>
+		</td>
+	</tr>
+</table>
+```
+
+# :lang() selector
+
+The **:lang()** selector is used to select elements with a lang attribute with the specified value.
+
+**Note:** The lang attribute value is most often a two-letter language code, like lang="fr" (for French), or two language codes combined, like lang="fr-ca" (for Canadian French).
+
+## Example list
+
+### Example
+
+```html:
+<style>
+	p:lang(ro) {
+		background-color: blue;
+		color: yellow;
+		border: 2px solid red;
+	}
+
+	p:lang(it) {
+		background-color: green;
+		color: white;
+		border: 2px solid blue;
+	}
+</style>
+
+<p>Look here!</p>
+
+<p lang="ro">Vezi aici!</p>
+
+<p lang="it">Vedere qui!</p>
+```
+
+# :not() selector
+
+The **:not(selector)** selector matches every element that is NOT the specified element/selector.
+
+## Example list
+
+### Example
+
+```html:
+<style>
+	p {
+  color: #000000;
+	}
+
+	:not(p) {
+		color: #ff0000;
+	}
+</style>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<div>This is some text in a div element.</div>
+```
 
 @iulia-zburlea
 @mariateo

@@ -28,6 +28,11 @@
 		background-color: darkmagenta;
 		color: chartreuse;
 	}
+
+	.nth-last-child:nth-last-child(3) {
+		background-color: powderblue;
+		color: indigo;
+	}
 </style>
 
 <h1>
@@ -239,14 +244,49 @@
 
 <h2>:nth-last-child()</h2>
 
+<p>
+	The :nth-last-child(n) selector matches every element that is the nth child,
+	regardless of type, of its parent, counting from the last child.
+</p>
+<p>
+	<i><b>n</b></i> can be a number, a keyword, or a formula.
+</p>
+
+<p>
+	<strong> Tip: </strong> Look at the :nth-last-of-type() selector to select the
+	element that is the nth child, of a specified type, of its parent, counting
+	from the last child.
+</p>
+
 <h3>Example using <b>:nth-last-child()</b></h3>
+
+<div>
+	<p class="nth-last-child">This is an example</p>
+	<p class="nth-last-child">Using <b>:nth-last-child</b></p>
+	<p class="nth-last-child">There are multiple children</p>
+	<p class="nth-last-child">And the style will be different</p>
+	<p class="nth-last-child">Counting from the last child</p>
+	<p class="nth-last-child">Look at this</p>
+	<p class="nth-last-child">This is the result</p>
+</div>
 
 <p>Code example:</p>
 
 <pre>
   &lt;style&gt;
-
+	.nth-last-child:nth-last-child(3) {
+		background-color: powderblue;
+		color: indigo;
+	}
   &lt;/style&gt;
 
-
+	&lt;div&gt;
+		&lt;p class="nth-last-child"&gt;This is an example&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;Using &lt;b&gt;:nth-last-child&lt;/b&gt;&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;There are multiple children&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;And the style will be different&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;Counting from the last child&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;Look at this&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;This is the result&lt;/p&gt;
+	&lt;/div&gt;
 </pre>

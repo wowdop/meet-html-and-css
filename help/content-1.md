@@ -237,15 +237,13 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `:first-letter` property ``````` - section: general/css-selectors - @iulia-zburlea
 1. the `:first-line` property ````````` - section: general/css-selectors - @iulia-zburlea
 
-<!-- HERE - we left it -->
-
-1. the `:root` property ```
-1. the `:selection` property
-1. the `:focus` property
-1. the `:empty` property
-1. the `:target` property
-1. the `:lang` property
-1. the `:not()` property
+1. the `:root` property - section: general/css-selectors - @mariateo
+1. the `:selection` property - section: general/css-selectors - @mariateo
+1. the `:focus` property - section: general/css-selectors - @mariateo
+1. the `:empty` property - section: general/css-selectors - @mariateo
+1. the `:target` property - section: general/css-selectors - @mariateo
+1. the `:lang()` property - section: general/css-selectors - @mariateo
+1. the `:not()` property - section: general/css-selectors - @mariateo
 
    ##### Backgound Properties
 

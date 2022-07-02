@@ -29,6 +29,12 @@
 	button:disabled {
 		background-color: red;
 	}
+
+	.focus:focus {
+		background-color: brown;
+		color: aquamarine;
+		border-radius: 4px;
+	}
 </style>
 
 <div class="form-no-1">
@@ -88,3 +94,21 @@
 
 	<button disabled>I am disabled</button>
 </div>
+
+<strong>:focus selector in CSS</strong>
+
+<p>The <b>:focus</b> selector is used to select the element that has focus.</p>
+<p>
+	<b>Tip:</b> The <b>:focus</b> selector is allowed on elements that accept
+	keyboard events or other user inputs.
+</p>
+
+<p>Take a look at the example below:</p>
+
+<button class="focus">
+	This is a button with <b>:focus</b> selector style
+</button>
+
+<small>
+	*TIP: You need to click on the button to activate the <b>:focus</b> CSS style.
+</small>
