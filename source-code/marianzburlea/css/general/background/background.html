@@ -1,0 +1,84 @@
+<style>
+	.background {
+		background: rgb(153, 203, 247);
+	}
+
+	.background-two {
+		background: content-box radial-gradient(yellowgreen, skyblue);
+		width: 100px;
+		height: 80px;
+	}
+
+	.beach {
+		background: url('https://i.picsum.photos/id/179/2048/1365.jpg?hmac=GJyDjrvfBfjPfJPqSBd2pX6sjvsGbG10d21blr5bTS8');
+		width: 100%;
+		height: 800px;
+	}
+</style>
+
+<h1>background in CSS</h1>
+
+<h2>background</h2>
+
+<p>The background property is a shorthand property for:</p>
+
+<ul>
+	<li>background-color</li>
+	<li>background-image</li>
+	<li>background-position</li>
+	<li>background-size</li>
+	<li>background-repeat</li>
+	<li>background-origin</li>
+	<li>background-clip</li>
+	<li>background-attachment</li>
+</ul>
+
+<p>
+	It does not matter if one of the values above are missing, e.g.
+	<b> background:#ff0000 url(smiley.gif);</b>
+	is allowed.
+</p>
+
+<p>
+	The background shorthand CSS property sets all background style properties at
+	once, such as color, image, origin and size, or repeat method.
+</p>
+
+<h3>Example using background:</h3>
+
+<div class="background">This text only will have some background color.</div>
+
+<div class="background-two">Here will be some weird gradient</div>
+
+<p>Below you will see a beach..</p>
+
+<div class="beach"></div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+    .background {
+      background: rgb(153, 203, 247);
+    }
+
+    .background-two {
+      background: content-box radial-gradient(yellowgreen, skyblue);
+      width: 100px;
+      height: 80px;
+    }
+
+    .beach {
+      background: url('https://i.picsum.photos/id/179/2048/1365.jpg?hmac=GJyDjrvfBfjPfJPqSBd2pX6sjvsGbG10d21blr5bTS8');
+      hmac=GJyDjrvfBfjPfJPqSBd2pX6sjvsGbG10d21blr5bTS8');
+      width: 100%;
+      height: 800px;
+	  }
+  &lt;/style&gt;
+
+  &lt;div class="background"&gt;This text only will have some background color.&lt;/div&gt;
+
+  &lt;div class="background-two"&gt;Here will be some weird gradient&lt;/div&gt;
+
+  &lt;div class="beach"&gt;&lt;/div&gt;
+</pre>

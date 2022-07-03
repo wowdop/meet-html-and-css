@@ -1,0 +1,96 @@
+<style>
+	body {
+		background-image: url('https://picsum.photos/id/1/200/300');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right bottom;
+	}
+
+	.image {
+		background-image: url('https://picsum.photos/200/300?grayscale');
+		background-repeat: no-repeat;
+		height: 300px;
+	}
+</style>
+
+<h1>background-position and background-repeat in CSS</h1>
+
+<h2>background-position</h2>
+
+<p>
+	The <b>background-position</b> property sets the starting position of a
+	background image.
+</p>
+
+<p>
+	<b>Tip:</b> By default, a background-image is placed at the top-left corner of
+	an element, and repeated both vertically and horizontally.
+</p>
+
+<h3>Example using background-position:</h3>
+
+<p>
+	I added a background picture that is placed in the right corner in the
+	<b>body</b> tag style.
+</p>
+
+<p>I also made use of <b>background-repeat</b> css selector.</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+		body {
+			background-image: url('https://picsum.photos/id/1/200/300');
+			background-attachment: fixed;
+			width: 200px;
+			height: 200px;
+		}
+  &lt;/style&gt;
+
+</pre>
+
+<h2>background-repeat</h2>
+
+<p>
+	The <b>background-repeat</b> property sets if/how a background image will be
+	repeated.
+</p>
+
+<p>
+	By default, a <b>background-image</b> is repeated both vertically and
+	horizontally.
+</p>
+<p>
+	<b>Tip:</b> The background image is placed according to the
+	<b>background-position</b> property. If no <b>background-position</b> is
+	specified, the image is always placed at the element's top left corner.
+</p>
+
+<h3>Example using background-repeat:</h3>
+
+<p>
+	I added a background picture that is placed in the right corner in the
+	<b>body</b> tag style.
+</p>
+
+<p>
+	I made use of <b>background-repeat: norepeat;</b> in the style so that the
+	image does not repeat across the whole space that is has available.
+</p>
+
+<div class="image">Here lies some grey scaled image</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+		.image {
+			background-image: url('https://picsum.photos/200/300?grayscale');
+			background-repeat: no-repeat;
+			height: 300px;
+			}
+  &lt;/style&gt;
+
+	&lt;div class="image"&gt;Here lies some grey scaled image&lt;/div&gt;
+</pre>

@@ -247,15 +247,15 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
    ##### Backgound Properties
 
-1. the `backgroung` property
-1. the `background-attachment` property
+1. the `backgroung` property ```````- section: general/background - @mariateo
+1. the `background-attachment` property ```````- section: general/background - @mariateo
 1. the `background-color` property - See intro/color-font-and-background
-1. the `background-image` property - See intro/color-font-and-background
-1. the `background-position` property
-1. the `background-repeat` property
-1. the `background-clip` property
-1. the `background-origin` property
-1. the `background-size` property
+1. the `background-image`tproperty - See intro/color-font-and-background
+1. the `background-position` property ```````- section: general/background - @mariateo
+1. the `background-repeat` property ```````- section: general/background - @mariateo
+1. the `background-clip` property ```````- section: general/background - @mariateo
+1. the `background-origin` property ```````- section: general/background - @mariateo
+1. the `background-size` property ```````- section: general/background - @mariateo
 
    ##### Color Properties
 
