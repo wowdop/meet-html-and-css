@@ -1,0 +1,158 @@
+<style>
+	.serif {
+		font-family: serif;
+	}
+
+	.sans-serif {
+		font-family: sans-serif;
+	}
+
+	.monospace {
+		font-family: monospace;
+	}
+
+	.cursive {
+		font-family: cursive;
+	}
+
+	.fantasy {
+		font-family: fantasy;
+	}
+
+	.italic {
+		font-style: italic;
+	}
+
+	.oblique {
+		font-style: oblique;
+	}
+</style>
+
+<h1>font, font-family and font-style in CSS</h1>
+
+<h2>font</h2>
+
+<p>
+	Choosing the right font has a huge impact on how the readers experience a
+	website.
+</p>
+<p>The right font can create a strong identity for your brand.</p>
+<p>
+	Using a font that is easy to read is important. The font adds value to your
+	text. It is also important to choose the correct color and text size for the
+	font.
+</p>
+
+<h3>Generic Font Families</h3>
+<p>In CSS there are five generic font families:</p>
+
+<ul>
+	<li class="serif">
+		<b>Serif fonts</b> have a small stroke at the edges of each letter. They
+		create a sense of formality and elegance.
+	</li>
+	<li class="sans-serif">
+		<b>Sans-serif fonts</b> have clean lines (no small strokes attached). They
+		create a modern and minimalistic look.
+	</li>
+	<li class="monospace">
+		<b>Monospace fonts</b> - here all the letters have the same fixed width.
+		They create a mechanical look.
+	</li>
+	<li class="cursive"><b>Cursive fonts</b> imitate human handwriting.</li>
+	<li class="fantasy"><b>Fantasy fonts</b> are decorative/playful fonts.</li>
+</ul>
+
+<p>All the different font names belong to one of the generic font families.</p>
+
+<h2>font-family</h2>
+
+<p>
+	In CSS, we use the <b>font-family</b> property to specify the font of a text.
+</p>
+
+<p>
+	<strong>Tip:</strong> The <b>font-family:</b> property should hold several
+	font names as a "fallback" system, to ensure maximum compatibility between
+	browsers/operating systems. Start with the font you want, and end with a
+	generic family (to let the browser pick a similar font in the generic family,
+	if no other fonts are available). The font names should be separated with
+	comma.
+</p>
+<p>
+	<strong>Note:</strong> If the font name is more than one word, it must be in
+	quotation marks, like: <b>"Times New Roman"</b>.
+</p>
+
+<h3>Example using font-family:</h3>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.serif {
+		font-family: serif;
+	}
+
+	.sans-serif {
+		font-family: sans-serif;
+	}
+
+	.monospace {
+		font-family: monospace;
+	}
+
+	.cursive {
+		font-family: cursive;
+	}
+
+	.fantasy {
+		font-family: fantasy;
+	}
+  &lt;/style&gt;
+</pre>
+
+<h2>font-style</h2>
+
+<p>The <b>font-style</b> property specifies the font style for a text.</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>normal</td>
+		<td>The browser displays a normal font style. This is default</td>
+	</tr>
+	<tr class="italic">
+		<td>italic</td>
+		<td>The browser displays an italic font style</td>
+	</tr>
+	<tr class="oblique">
+		<td>oblique</td>
+		<td>The browser displays an oblique font style</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<p>Code example using font-style:</p>
+
+<pre>
+	&lt;style&gt;
+	.italic {
+		font-style: italic;
+	}
+
+	.oblique {
+		font-style: oblique;
+	}
+	&lt;/style&gt;
+</pre>

@@ -259,55 +259,98 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
    ##### Color Properties
 
-1. the `color-profile` property
-1. the `opacity` property
-1. the `rendering-intent` property
+1. the `color-profile` property ``````````- section: general/color-and-font - @iulia-zburlea
+1. the `opacity` property ````````````````- section: general/color-and-font - @iulia-zburlea
+1. the `rendering-intent` property ```````- section: general/color-and-font - @iulia-zburlea
+
+   ##### Font Properties
+
+1. the `font` property ``````````- See Must Know Tags
+1. the `font-family` property ```- See Must Know Tags
+1. the `font-style` property ```- See Must Know Tags
+1. the `font-variant` property ```- section: general/color-and-font - @mariateo
+1. the `@font-face` property `````- section: general/color-and-font - @mariateo
+1. the `font-size-adjust` property - section: general/color-and-font - @mariateo
+1. the `font-size` property ``````- See Must Know Tags ```````- section: general/color-and-font - @mariateo
+1. the `font-stretch` property ```- section: general/color-and-font - @mariateo
+
+   ##### Text Properties
+
+1. the `color` property - See Must Know Tags - section: general/text - @mariateo
+
+1. the `direction` property ````````````` - section: general/text - @mariateo - in progress
+1. the `line-height` property ``````````` - section: general/text - @mariateo - in progress
+1. the `text-decoration` property ``````` - section: general/text - @mariateo - in progress
+1. the `text-indent` property ``````````` - section: general/text - @mariateo - in progress
+1. the `text-transform` property ```````` - section: general/text - @mariateo - in progress
+
+1. the `letter-spacing` property ```````` - section: general/text - @mariateo - in progress
+1. the `word-spacing` property `````````` - section: general/text - @mariateo - in progress
+
+1. the `text-align` property ```````````` - section: general/text - @mariateo - in progress
+1. the `vertical-align` property ```````` - section: general/text - @mariateo - in progress
+1. the `text-align-last` property ``````` - section: general/text - @mariateo - in progress
+
+1. the `hanging-punctuation` property ``` - section: general/text - @mariateo - in progress
+1. the `punctuation-trim` property `````` - section: general/text - @mariateo - in progress
+
+1. the `text-justify` property `````````` - section: general/text - @mariateo - in progress
+1. the `text-outline` property `````````` - section: general/text - @mariateo - in progress
+1. the `text-overflow` property ````````` - section: general/text - @mariateo - in progress
+1. the `text-shadow` property ``````````` - section: general/text - @mariateo - in progress
+
+1. the `text-wrap` property ````````````` - section: general/text - @mariateo - in progress
+1. the `word-break` property ```````````` - section: general/text - @mariateo - in progress
+1. the `word-wrap` property ````````````` - section: general/text - @mariateo - in progress
+
+1. the `unicode-bidi` property `````````` - section: general/text - @mariateo - in progress
+1. the `white-space` property ``````````` - section: general/text - @mariateo - in progress
 
    ##### Border and Outline Properties
 
 1. the `border` property - See Must Know Tags
-1. the `border-top` property
-1. the `border-right` property
-1. the `border-bottom` property
-1. the `border-left` property
+1. the `border-top` property `````````````` - section: general/border-and-outline - @iulia-zburlea
+1. the `border-right` property ```````````` - section: general/border-and-outline - @iulia-zburlea
+1. the `border-bottom` property ``````````` - section: general/border-and-outline - @iulia-zburlea
+1. the `border-left` property ````````````` - section: general/border-and-outline - @iulia-zburlea
 
 1. the `border-color` property - See Must Know Tags
-1. the `border-top-color` property
-1. the `border-right-color` property
-1. the `border-bottom-color` property
-1. the `border-left-color` property
+1. the `border-top-color` property ```````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-right-color` property `````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-bottom-color` property ````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-left-color` property ``````` - section: general/border-and-outline - @iulia-zburlea - in progress
 
 1. the `border-style` property - See Must Know Tags
-1. the `border-top-style` property
-1. the `border-right-style` property
-1. the `border-bottom-style` property
-1. the `border-left-style` property
+1. the `border-top-style` property ```````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-right-style` property `````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-bottom-style` property ````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-left-style` property ``````` - section: general/border-and-outline - @iulia-zburlea - in progress
 
 1. the `border-width` property - See Must Know Tags
-1. the `border-top-width` property
-1. the `border-right-width` property
-1. the `border-bottom-width` property
-1. the `border-left-width` property
+1. the `border-top-width` property ```````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-right-width` property `````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-bottom-width` property ````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-left-width` property ``````` - section: general/border-and-outline - @iulia-zburlea - in progress
 
-1. the `outline` property
-1. the `outline-color` property
-1. the `outline-style` property
-1. the `outline-width` property
+1. the `outline` property ```` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `outline-color` property ``````````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `outline-style` property ``````````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `outline-width` property ``````````` - section: general/border-and-outline - @iulia-zburlea - in progress
 
-1. the `border-image` property
-1. the `border-image-repeat` property
-1. the `border-image-outset` property
-1. the `border-image-slice` property
-1. the `border-image-source` property
-1. the `border-image-width` property
+1. the `border-image` property ``` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-image-repeat` property ````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-image-outset` property ````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-image-slice` property `````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-image-source` property ````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-image-width` property `````` - section: general/border-and-outline - @iulia-zburlea - in progress
 
 1. the `border-radius` property - See Must Know Tags
-1. the `border-top-right-radius` property
-1. the `border-top-left-radius` property
-1. the `border-bottom-right-radius` property
-1. the `border-bottom-left-radius` property
-1. the `box-decoration-break` property
-1. the `box-shadow/box-shadow` property
+1. the `border-top-right-radius` property `` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-top-left-radius` property ``` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-bottom-right-radius` property - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `border-bottom-left-radius` property - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `box-decoration-break` property ````` - section: general/border-and-outline - @iulia-zburlea - in progress
+1. the `box-shadow/box-shadow` property ```` - section: general/border-and-outline - @iulia-zburlea - in progress
 
    ##### Box Properties
 
@@ -397,49 +440,6 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
 1. the `cursor` property
 1. the `z-index` property
-
-   ##### Font Properties
-
-1. the `font` property - See Must Know Tags
-1. the `font-family` property - See Must Know Tags
-1. the `font-style` property - See Must Know Tags
-1. the `font-variant` property
-1. the `@font-face` property
-1. the `font-size-adjust` property
-1. the `font-size` property - See Must Know Tags
-1. the `font-stretch` property
-
-   ##### Text Properties
-
-1. the `color` property - See Must Know Tags
-
-1. the `direction` property
-1. the `line-height` property
-1. the `text-decoration` property
-1. the `text-indent` property
-1. the `text-transform` property
-
-1. the `letter-spacing` property
-1. the `word-spacing` property
-
-1. the `text-align` property
-1. the `vertical-align` property
-1. the `text-align-last` property
-
-1. the `hanging-punctuation` property
-1. the `punctuation-trim` property
-
-1. the `text-justify` property
-1. the `text-outline` property
-1. the `text-overflow` property
-1. the `text-shadow` property
-
-1. the `text-wrap` property
-1. the `word-break` property
-1. the `word-wrap` property
-
-1. the `unicode-bidi` property
-1. the `white-space` property
 
    ##### Speech Properties
 

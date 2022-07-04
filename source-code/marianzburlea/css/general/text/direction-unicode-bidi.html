@@ -1,0 +1,139 @@
+<style>
+	.dir {
+		direction: rtl;
+	}
+
+	.embed {
+		direction: rtl;
+		unicode-bidi: embed;
+	}
+</style>
+
+<h1>direction and unicode-bidi in CSS</h1>
+
+<h2>direction</h2>
+
+<p>
+	The <b>direction</b> property specifies the text direction/writing direction
+	within a block-level element.
+</p>
+
+<p>
+	<b>Tip:</b> Use this property together with the unicode-bidi property to set
+	or return whether the text should be overridden to support multiple languages
+	in the same document.
+</p>
+
+<table border="1" cellpadding="10">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>ltr</td>
+		<td>Text direction goes from left-to-right. This is default</td>
+	</tr>
+	<tr>
+		<td>rtl</td>
+		<td>Text direction goes from right-to-left</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using direction:</h3>
+
+<p>Take a look below at the text.</p>
+
+<div class="dir">This text is from right to left.</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.dir {
+		direction: rtl;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="dir"&gt;This text is from right to left.&lt;/div&gt;
+</pre>
+
+<h2>unicode-bidi</h2>
+
+<p>
+	The <b>unicode-bidi</b> property is used together with the
+	<b>direction</b> property to set or return whether the text should be
+	overridden to support multiple languages in the same document.
+</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>normal</td>
+		<td>
+			The element does not open an additional level of embedding. This is
+			default
+		</td>
+	</tr>
+	<tr>
+		<td>embed</td>
+		<td>
+			For inline elements, this value opens an additional level of embedding
+		</td>
+	</tr>
+	<tr>
+		<td>bidi-override</td>
+		<td>
+			For inline elements, this creates an override. For block elements, this
+			creates an override for inline-level descendants not within another block
+			element
+		</td>
+	</tr>
+	<tr>
+		<td>isolate</td>
+		<td>The element is isolated from its siblings</td>
+	</tr>
+	<tr>
+		<td>isolate-override</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>plaintext</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using unicode-bidi:</h3>
+
+<div class="embed">Take a look at this funky text.</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.embed {
+		direction: rtl;
+		unicode-bidi: embed;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="embed"&gt;Take a look at this funky text.&lt;/div&gt;
+</pre>
