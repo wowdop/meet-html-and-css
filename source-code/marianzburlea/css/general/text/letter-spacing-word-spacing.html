@@ -1,0 +1,151 @@
+<style>
+	.letter {
+		letter-spacing: 5px;
+	}
+
+	.spacing {
+		letter-spacing: -1px;
+	}
+
+	.word {
+		word-spacing: 10px;
+	}
+
+	.space {
+		word-spacing: 0.6cm;
+	}
+</style>
+
+<h1>letter-spacing and word-spacing in CSS</h1>
+
+<h2>letter-spacing</h2>
+
+<p>
+	The <b>letter-spacing</b> property increases or decreases the space between
+	characters in a text.
+</p>
+
+<table border="1" cellpadding="10">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>normal</td>
+		<td>Defines normal space between characters. This is default</td>
+	</tr>
+	<tr>
+		<td>length</td>
+		<td>
+			Defines a length that is used as the space between characters (negative
+			values are also allowed).
+		</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using letter-spacing:</h3>
+
+<div class="letter">
+	This text has <b>letter-spacing</b> with the value of <b><i>5px</i></b>
+</div>
+
+<div class="spacing">
+	This text has <b>letter-spacing</b> with the value of <b><i>-1px</i></b>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.letter {
+		letter-spacing: 5px;
+	}
+
+	.spacing {
+		letter-spacing: -1px;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="letter"&gt;
+    This text has &lt;b&gt;letter-spacing&lt;/b&gt; with the value of &lt;b&gt;&lt;i&gt;5px&lt;/i&gt;&lt;/b&gt;
+  &lt;/div&gt;
+
+  &lt;div class="spacing"&gt;
+    This text has &lt;b&gt;letter-spacing&lt;/b&gt; with the value of &lt;b&gt;&lt;i&gt;-1px&lt;/i&gt;&lt;/b&gt;
+  &lt;/div&gt;
+</pre>
+
+<h2>word-spacing</h2>
+
+<p>
+	The <b>word-spacing</b> property increases or decreases the white space
+	between words.
+</p>
+
+<p><b>Note:</b> Negative values are allowed.</p>
+
+<table border="1" cellpadding="10">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>normal</td>
+		<td>Defines normal space between words (0.25em) . This is default</td>
+	</tr>
+	<tr>
+		<td>length</td>
+		<td>
+			Defines an additional space between words (in px, pt, cm, em, etc).
+			Negative values are allowed.
+		</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using word-spacing:</h3>
+
+<div class="word">
+	This text has <b>word-spacing</b> with the value of <b><i>10px</i></b>
+</div>
+<div class="space">
+	This text has <b>word-spacing</b> with the value of <b><i>0.6cm</i></b>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+
+	.word {
+		word-spacing: 10px;
+	}
+
+	.space {
+		word-spacing: 0.6cm;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="word"&gt;
+    This text has &lt;b&gt;word-spacing&lt;/b&gt; with the value of &lt;b&gt;&lt;i&gt;10px&lt;/i&gt;&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;div class="space"&gt;
+    This text has &lt;b&gt;word-spacing&lt;/b&gt; with the value of &lt;b&gt;&lt;i&gt;0.6cm&lt;/i&gt;&lt;/b&gt;
+  &lt;/div&gt;
+
+</pre>

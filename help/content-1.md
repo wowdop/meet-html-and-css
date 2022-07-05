@@ -278,33 +278,33 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
 1. the `color` property - See Must Know Tags - section: general/text - @mariateo
 
-1. the `direction` property ````````````` - section: general/text - @mariateo - in progress
-1. the `line-height` property ``````````` - section: general/text - @mariateo - in progress
-1. the `text-decoration` property ``````` - section: general/text - @mariateo - in progress
-1. the `text-indent` property ``````````` - section: general/text - @mariateo - in progress
-1. the `text-transform` property ```````` - section: general/text - @mariateo - in progress
+1. the `direction` property ````````````` - section: general/text - @mariateo
+1. the `line-height` property ``````````` - section: general/text - @mariateo
+1. the `text-decoration` property ``````` - section: general/text - @mariateo
+1. the `text-indent` property ``````````` - section: general/text - @mariateoß
+1. the `text-transform` property ```````` - section: general/text - @mariateoß
 
-1. the `letter-spacing` property ```````` - section: general/text - @mariateo - in progress
-1. the `word-spacing` property `````````` - section: general/text - @mariateo - in progress
+1. the `letter-spacing` property ```````` - section: general/text - @mariateoß
+1. the `word-spacing` property `````````` - section: general/text - @mariateoß
 
-1. the `text-align` property ```````````` - section: general/text - @mariateo - in progress
-1. the `vertical-align` property ```````` - section: general/text - @mariateo - in progress
-1. the `text-align-last` property ``````` - section: general/text - @mariateo - in progress
+1. the `text-align` property ```````````` - section: general/text - @mariateoß
+1. the `vertical-align` property ```````` - section: general/text - @mariateoß
+1. the `text-align-last` property ``````` - section: general/text - @mariateoß
 
-1. the `hanging-punctuation` property ``` - section: general/text - @mariateo - in progress
-1. the `punctuation-trim` property `````` - section: general/text - @mariateo - in progress
+1. the `hanging-punctuation` property ``` - section: general/text - @mariateoß
+1. the `punctuation-trim` property `````` - section: general/text - @mariateoß
 
-1. the `text-justify` property `````````` - section: general/text - @mariateo - in progress
-1. the `text-outline` property `````````` - section: general/text - @mariateo - in progress
-1. the `text-overflow` property ````````` - section: general/text - @mariateo - in progress
-1. the `text-shadow` property ``````````` - section: general/text - @mariateo - in progress
+1. the `text-justify` property `````````` - section: general/text - @mariateoß
+1. the `text-outline` property `````````` - section: general/text - @mariateoß
+1. the `text-overflow` property ````````` - section: general/text - @mariateoß
+1. the `text-shadow` property ``````````` - section: general/text - @mariateoß
 
-1. the `text-wrap` property ````````````` - section: general/text - @mariateo - in progress
-1. the `word-break` property ```````````` - section: general/text - @mariateo - in progress
-1. the `word-wrap` property ````````````` - section: general/text - @mariateo - in progress
+1. the `text-wrap` property ````````````` - section: general/text - @mariateoß
+1. the `word-break` property ```````````` - section: general/text - @mariateoß
+1. the `word-wrap` property ````````````` - section: general/text - @mariateoß
 
-1. the `unicode-bidi` property `````````` - section: general/text - @mariateo - in progress
-1. the `white-space` property ``````````` - section: general/text - @mariateo - in progress
+1. the `unicode-bidi` property `````````` - section: general/text - @mariateoß
+1. the `white-space` property ``````````` - section: general/text - @mariateoß
 
    ##### Border and Outline Properties
 
