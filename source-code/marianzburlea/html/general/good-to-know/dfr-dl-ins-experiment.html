@@ -1,0 +1,315 @@
+<h1>Meet <i>dfr</i>, <i>dl</i> and <i>ins</i> tags</h1>
+
+<h2>Let's take a look at example 1 that also contains the definition.</h2>
+
+<hr />
+<p>
+	The <strong>HTML Definition element</strong> (
+	<strong> <dfn>&lt;dfn&gt;</dfn> </strong>) is used to indicate the term being
+	defined within the context of a definition phrase or sentence.
+</p>
+<hr />
+
+<b>
+	<p>Code example:</p>
+</b>
+
+<pre>
+  &lt;p&gt;
+    The &lt;strong&gt;HTML Definition element&lt;/strong&gt;
+    (&lt;strong&gt;
+    &lt;dfn&gt;&lt;dfn&gt;&lt;/dfn&gt;
+    &lt;/strong&gt;) is used to indicate the term being defined within the context of a
+    definition phrase or sentence.
+  &lt;/p&gt;
+</pre>
+
+<h3>Let's take a look at example 2</h3>
+
+<h4>
+	You can also add links to the definitions, you create the link the same way
+	you always do, with the &lt;a&gt; element.
+</h4>
+
+<hr />
+
+<p>
+	The <strong>HTML Definition element</strong> (
+	<strong> <dfn>&lt;dfn&gt;</dfn> </strong>) is used to indicate the term being
+	defined within the context of a definition phrase or sentence.
+</p>
+
+<p>
+	Because of all of that, we decided to use the
+	<code><a href="README.md">&lt;dfn&gt;</a></code> element for this project. if
+	you click on the link, a page will be open with more details and explanations
+</p>
+
+<hr />
+
+<b>
+	<p>Code example:</p>
+</b>
+
+<pre>
+  &lt;p&gt;
+    The &lt;strong&gt;HTML Definition element&lt;/strong&gt; (
+    &lt;strong&gt; &lt;dfn&gt;&lt;dfn&gt;&lt;/dfn&gt; &lt;/strong&gt;) is used to indicate the term being
+    defined within the context of a definition phrase or sentence.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    Because of all of that, we decided to use the
+    &lt;code&gt;&lt;a href="README.md"&gt;&lt;dfn&gt;&lt;/a&gt;&lt;/code&gt; element for this project. if
+    you click on the link, a page will be open with more details and explanations
+  &lt;/p&gt;
+</pre>
+
+<h2>Dl tag</h2>
+
+<p>
+	The &lt;dl&gt; tag defines a description list. The &lt;dl&gt; tag is used in
+	conjunction with &lt;dt&gt; (defines terms/names) and &lt;dd&gt; (describes
+	each term/name).
+</p>
+
+<h3>Example 1 with single term and description:</h3>
+
+<dl>
+	<dt>Firefox</dt>
+	<dd>
+		A free, open source, cross-platform, graphical web browser developed by the
+		Mozilla Corporation and hundreds of volunteers.
+	</dd>
+</dl>
+
+<b>
+	<p>Code example:</p>
+</b>
+
+<pre>
+  &lt;dl&gt;
+    &lt;dt&gt;Firefox&lt;/dt&gt;
+
+    &lt;dd&gt;
+      A free, open source, cross-platform, graphical web browser developed by the
+      Mozilla Corporation and hundreds of volunteers.
+    &lt;/dd&gt;
+  &lt;/dl&gt;
+</pre>
+
+<h3>Example 2 with single term and description:</h3>
+
+<dl>
+	<dt>Firefox</dt>
+	<dd>
+		A free, open source, cross-platform, graphical web browser developed by the
+		Mozilla Corporation and hundreds of volunteers.
+	</dd>
+</dl>
+
+<b>
+	<p>Code example:</p>
+</b>
+
+<pre>
+  &lt;dl&gt;
+    &lt;dt&gt;Firefox&lt;/dt&gt;
+
+    &lt;dd&gt;
+      A free, open source, cross-platform, graphical web browser developed by the
+      Mozilla Corporation and hundreds of volunteers.
+    &lt;/dd&gt;
+  &lt;/dl&gt;
+</pre>
+
+<h3>Example 3 with multiple terms, single description:</h3>
+
+<dl>
+	<dt>Firefox</dt>
+	<dt>Mozilla Firefox</dt>
+	<dt>Fx</dt>
+
+	<dd>
+		A free, open source, cross-platform, graphical web browser developed by the
+		Mozilla Corporation and hundreds of volunteers.
+	</dd>
+</dl>
+
+<b>
+	<p>Code example:</p>
+</b>
+
+<pre>
+  &lt;dl&gt;
+    &lt;dt&gt;Firefox&lt;/dt&gt;
+    &lt;dt&gt;Mozilla Firefox&lt;/dt&gt;
+    &lt;dt&gt;Fx&lt;/dt&gt;
+
+    &lt;dd&gt;
+      A free, open source, cross-platform, graphical web browser developed by the
+      Mozilla Corporation and hundreds of volunteers.
+    &lt;/dd&gt;
+  &lt;/dl&gt;
+</pre>
+
+<h3>Example 4 with single term, multiple descriptions:</h3>
+
+<dl>
+	<dt>Firefox</dt>
+
+	<dd>
+		A free, open source, cross-platform, graphical web browser developed by the
+		Mozilla Corporation and hundreds of volunteers.
+	</dd>
+
+	<dd>
+		The Red Panda also known as the Lesser Panda, Wah, Bear Cat or Firefox, is a
+		mostly herbivorous mammal, slightly larger than a domestic cat (60 cm long).
+	</dd>
+</dl>
+
+<b>
+	<p>Code example:</p>
+</b>
+
+<pre>
+  &lt;dl&gt;
+    &lt;dt&gt;Firefox&lt;/dt&gt;
+
+    &lt;dd&gt;
+      A free, open source, cross-platform, graphical web browser developed by the
+      Mozilla Corporation and hundreds of volunteers.
+    &lt;/dd&gt;
+
+    &lt;dd&gt;
+      The Red Panda also known as the Lesser Panda, Wah, Bear Cat or Firefox, is a
+      mostly herbivorous mammal, slightly larger than a domestic cat (60 cm long).
+    &lt;/dd&gt;
+  &lt;/dl&gt;
+</pre>
+
+<h3>Example 5 with multiple terms and descriptions:</h3>
+
+<dl>
+	<dt>Name</dt>
+	<dd>Godzilla</dd>
+	<dt>Born</dt>
+	<dd>1952</dd>
+	<dt>Birthplace</dt>
+	<dd>Japan</dd>
+	<dt>Color</dt>
+	<dd>Green</dd>
+</dl>
+
+<b>
+	<p>Code example:</p>
+</b>
+
+<pre>
+  &lt;dl&gt;
+    &lt;dt&gt;Name&lt;/dt&gt;
+    &lt;dd&gt;Godzilla&lt;/dd&gt;
+    &lt;dt&gt;Born&lt;/dt&gt;
+    &lt;dd&gt;1952&lt;/dd&gt;
+    &lt;dt&gt;Birthplace&lt;/dt&gt;
+    &lt;dd&gt;Japan&lt;/dd&gt;
+    &lt;dt&gt;Color&lt;/dt&gt;
+    &lt;dd&gt;Green&lt;/dd&gt;
+  &lt;/dl&gt;
+</pre>
+
+<h3>Example 6 with wrapping name-value groups in div elements:</h3>
+
+<dl>
+	<div>
+		<dt>Name</dt>
+		<dd>Godzilla</dd>
+	</div>
+
+	<div>
+		<dt>Born</dt>
+		<dd>1952</dd>
+	</div>
+
+	<div>
+		<dt>Birthplace</dt>
+		<dd>Japan</dd>
+	</div>
+
+	<div>
+		<dt>Color</dt>
+		<dd>Green</dd>
+	</div>
+</dl>
+
+<b>
+	<p>Code example:</p>
+</b>
+
+<pre>
+  &lt;dl&gt;
+    &lt;div&gt;
+      &lt;dt&gt;Name&lt;/dt&gt;
+      &lt;dd&gt;Godzilla&lt;/dd&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;dt&gt;Born&lt;/dt&gt;
+      &lt;dd&gt;1952&lt;/dd&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;dt&gt;Birthplace&lt;/dt&gt;
+      &lt;dd&gt;Japan&lt;/dd&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;dt&gt;Color&lt;/dt&gt;
+      &lt;dd&gt;Green&lt;/dd&gt;
+    &lt;/div&gt;
+  &lt;/dl&gt;
+</pre>
+
+<h2>Ins tag</h2>
+
+<p>
+	It defines a text that has been inserted into a document. Browsers will
+	usually underline inserted text.
+</p>
+
+<p>
+	It has two attributes: <b>cite</b> - this attribute defines the URI of a
+	resource that explains the change, such as a link to meeting minutes or a
+	ticket in a troubleshooting system and <b>datetime</b> this attribute
+	indicates the time and date of the change and must be a valid date with an
+	optional time string.
+</p>
+
+<h3>Example:</h3>
+
+<p>“You're late!”</p>
+
+<del>
+	<p>“I apologize for the delay.”</p>
+</del>
+
+<ins cite="../howtobeawizard.html" datetime="2022-07">
+	<p>“A wizard is never late …”</p>
+</ins>
+
+<b>
+	<p>Code example</p>
+</b>
+
+<pre>
+  &lt;p&gt;“You're late!”&lt;/p&gt;
+
+  &lt;del&gt;
+    &lt;p&gt;“I apologize for the delay.”&lt;/p&gt;
+  &lt;/del&gt;
+
+  &lt;ins cite="../howtobeawizard.html" datetime="2022-07"&gt;
+    &lt;p&gt;“A wizard is never late …”&lt;/p&gt;
+  &lt;/ins&gt;
+</pre>

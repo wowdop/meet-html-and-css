@@ -1,0 +1,143 @@
+<div class="object-tag">
+  <p><b>&lt;object&gt;</b> tag</p>
+
+  <p>
+    The &lt;object&gt; tag defines a container for an external resource.
+    <br />
+    The external resource can be a web page, a picture, a media player, or a
+    plug-in application.
+  </p>
+
+  <p>An embedded image:</p>
+  <object
+    data="https://picsum.photos/500/300?random=1"
+    width="500"
+    height="300"
+  ></object>
+
+  <p>An embedded HTML page:</p>
+  <object data="https://wowdop.com/" width="500" height="300"></object>
+
+  <p>An embedded video:</p>
+  <object
+    data="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    width="500"
+    height="300"
+  ></object>
+</div>
+
+<hr />
+
+<div class="output-tag">
+  <p><b>&lt;output&gt; </b>tag</p>
+
+  <p>
+    The &lt;output&gt; tag is used to represent the result of a calculation or
+    the outcome of a user action.
+  </p>
+
+  <p>
+    Attributes used for the <b>output</b> tag: for (element_id), form (form_id)
+    and name.
+  </p>
+  <div align="center" class="form-range-range">
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+      <input type="range" name="b" id="b" value="50" /> +
+      <input type="range" name="a" id="a" value="10" /> =
+      <output name="result" for="a b">60</output>
+    </form>
+  </div>
+  <!-- see how the simple change from "range" to "number" changes how the "form" behaves-->
+
+  <div align="center" class="form-range-number">
+    <p>Or</p>
+
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+      <input type="range" name="b" id="b" value="50" /> +
+      <input type="number" name="a" id="a" value="10" /> =
+      <output name="result" for="a b">60</output>
+    </form>
+  </div>
+
+  <p>Code: &lt;output name="result" for="a b"&gt;60&lt;/output&gt;</p>
+</div>
+
+<hr />
+
+<div class="progress-tag">
+  <p>
+    <b> &lt;progress&gt; </b>
+    tag
+  </p>
+
+  <p>
+    The &lt;progress&gt; tag displays an indicator showing the the completion,
+    progress of a task, typically displayed as a progress bar.
+  </p>
+
+  <p>Attributes necessary: max & value</p>
+
+  <div class="label-example-1">
+    <label for="steps-for-the-minimum-details">Personal Details:</label>
+    <progress id="steps-for-the-minimum-details" value="70" max="100">
+      70%
+    </progress>
+  </div>
+
+  <p>OR</p>
+
+  <div class="label-example-2">
+    <label>
+      Billing Details:
+      <progress value="20" max="100">20%</progress>
+    </label>
+  </div>
+</div>
+
+<hr />
+
+<div class="ruby-tag">
+  <p><b>&lt;ruby&gt;</b> tag</p>
+
+  <p>
+    A ruby annotation represents small annotations that are rendered above,
+    below, or next to base text, usually used for showing the pronunciation of
+    East Asian characters. It can also be used for annotating other kinds of
+    text, but this usage is less common.
+  </p>
+
+  <div>
+    <p>Use &lt;ruby&gt; together with &lt;rt&gt; and &lt;rp&gt;:</p>
+    <br />
+    <ul>
+      <li>
+        The &lt;ruby&gt; element consists of one or more characters that needs
+        an explanation/pronunciation.
+      </li>
+      <li>The &lt;rt&gt; element that gives that information.</li>
+      <li>
+        An optional &lt;rp&gt; element that defines what to show for browsers
+        that do not support ruby annotations.
+        <br />
+        Surrounds the ruby parentheses for the browsers that do not support ruby
+        HTML text.
+      </li>
+    </ul>
+  </div>
+
+  <div class="ruby-examples" align="center">
+    <ruby>
+      明日
+      <rt>Ashita</rt>
+    </ruby>
+
+    <p>OR</p>
+
+    <ruby>
+      攻殻
+      <rp>(</rp>
+      <rt>こrうかく</rt>
+      <rp>)</rp>
+    </ruby>
+  </div>
+</div>

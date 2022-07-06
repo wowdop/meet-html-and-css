@@ -1,0 +1,118 @@
+<h1>Let's play arund with <i>bdo</i>, <i>bdi</i> and <i>abbr</i> tags</h1>
+
+<h2>Below there are two examples using <i>bdo</i>:</h2>
+
+<h3>This example is using <i>dir</i> attribute with value <i>rtl</i></h3>
+
+<p>This text will go left to right.</p>
+
+<p>
+	<bdo dir="rtl">This text will go left to right. </bdo>
+</p>
+
+<h3>This example is using <i>dir</i> attribute with value <i>ltr</i></h3>
+
+<p>.tfel ot thgir og lliw txet sihT</p>
+
+<p>
+	<bdo dir="ltr">This text will go right to left. </bdo>
+</p>
+
+<h2>Below there are two examples using <i>bdi</i></h2>
+
+<h3>This example is using <i>dir</i> attribute with value <i>rtl</i></h3>
+
+<p>
+	Below is a list with the number of projects the teams participated in and
+	another list with the place won. I have used bdi to isolate the usernames from
+	the surrounding text-direction settings:
+</p>
+
+<ul>
+	<li>User <bdi>hrefs</bdi>: 13 projects</li>
+	<li>User <bdi>jdoe</bdi>: 15 projects</li>
+	<li>User <bdi>إيان</bdi>: 9 projects</li>
+</ul>
+
+<ul>
+	<li><bdi>اَلأَعْشَى</bdi> - 1st place</li>
+	<li><bdi>Jerry Cruncher</bdi> - 2nd place</li>
+</ul>
+
+<p>
+	If we are to write it without the <b>bdi</b> tag, then the output would look
+	like this:
+</p>
+
+<ul>
+	<li>اَلأَعْشَى - 1st place</li>
+	<li>User إيان: 9 projects</li>
+	<li>Jerry Cruncher - 2nd place</li>
+</ul>
+
+<h2>Below there are two examples using <i>abbr</i>:</h2>
+
+<p>
+	I made use of <b>title</b> attribute Tto show the description for the
+	abbreviation/acronym when you mouse over the element.
+</p>
+
+<p>Example 1:</p>
+
+<p>
+	Ashok's joke made me
+	<abbr title="Laugh Out Loud">LOL</abbr>
+	big time.
+</p>
+
+<p>Example 2:</p>
+
+<p>
+	<abbr title="HyperText Markup Language">HTML</abbr>
+	is a markup language used to create the semantics and structure of a web page.
+</p>
+
+<h3>Code examples:</h3>
+
+<p><b>bdo</b> examples:</p>
+
+<pre>
+  &lt;p&gt;
+    &lt;bdo dir="rtl"&gt;This text will go left to right. &lt;/bdo&gt;
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    &lt;bdo dir="ltr"&gt;This text will go right to left. &lt;/bdo&gt;
+  &lt;/p&gt;
+
+</pre>
+
+<p><b>bdi</b> examples:</p>
+
+<pre>
+  &lt;ul&gt;
+    &lt;li&gt;User &lt;bdi&gt;hrefs&lt;/bdi&gt;: 13 projects&lt;/li&gt;
+    &lt;li&gt;User &lt;bdi&gt;jdoe&lt;/bdi&gt;: 15 projects&lt;/li&gt;
+    &lt;li&gt;User &lt;bdi&gt;إيان&lt;/bdi&gt;: 9 projects&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;&lt;bdi&gt;اَلأَعْشَى&lt;/bdi&gt; - 1st place&lt;/li&gt;
+    &lt;li&gt;&lt;bdi&gt;Jerry Cruncher&lt;/bdi&gt; - 2nd place&lt;/li&gt;
+  &lt;/ul&gt;
+</pre>
+
+<p><b>abbr</b> examples:</p>
+
+<pre>
+  &lt;p&gt;
+    Ashok's joke made me
+    &lt;abbr title="Laugh Out Loud"&gt;LOL&lt;/abbr&gt;
+    big time.
+  &lt;/p&gt;
+
+  &lt;p&gt;
+    &lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;
+    is a markup language used to create the semantics and structure of a web page.
+  &lt;/p&gt;
+</pre>

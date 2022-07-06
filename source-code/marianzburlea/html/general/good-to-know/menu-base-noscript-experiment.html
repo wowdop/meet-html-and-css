@@ -1,0 +1,240 @@
+<h1><i>menu</i> tag simple experiments</h1>
+
+<h2>Simple menu</h2>
+
+<p>
+	In this example, <b>menu</b> is used to display a navigation through different
+	pages on the left side of some content
+</p>
+
+<p>
+	The example below represent a very simple menu with two options, one to
+	refresh the page one is for sending an email.
+</p>
+
+<table border="2" cellpadding="50">
+	<tr>
+		<td>
+			<menu style="list-style: none">
+				<li>
+					<a href="#">Reload</a>
+				</li>
+
+				<li>
+					<a href="https://mail.google.com/mail/u/0/#inbox">Email</a>
+				</li>
+			</menu>
+		</td>
+
+		<td>
+			<p>
+				I created a table in this example to display a menu on the left side of
+				the content. It is very simple to reproduce
+			</p>
+		</td>
+	</tr>
+</table>
+
+<br />
+
+<p>Code example:</p>
+
+<pre>
+  &lt;table border="2" cellspacing="10"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;menu&gt;
+          &lt;li&gt;
+            &lt;a href="#"&&gt;Refresh&lt;/a&gt;
+          &lt;/li&gt;
+
+          &lt;li&gt;
+            &lt;a href="https://mail.google.com/mail/u/0/#inbox"&&gt;Email&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/menu&gt;
+      &lt;/td&gt;
+
+      &lt;td&gt;
+        &lt;p&gt;
+        I created a table in this example to display a menu on the left side of
+        the content. It is very simple to reproduce
+        &lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+</pre>
+
+<br />
+
+<h2>Menu inside menu</h2>
+
+<p>
+	You can also add a <b>menu</b> tag inside a <b>menu</b> tag in order to create
+	a submenu.
+</p>
+
+<table border="2" cellspacing="5" cellpadding="30">
+	<tr>
+		<td>
+			<menu style="list-style: none">
+				<li>
+					<a href="#">Profile</a>
+				</li>
+
+				<menu style="list-style: none">
+					<li>
+						<a href="#">Settings</a>
+					</li>
+
+					<li>
+						<a href="#">Recover</a>
+					</li>
+				</menu>
+
+				<li>
+					<a href="#">Pages</a>
+				</li>
+
+				<menu style="list-style: none">
+					<li>
+						<a href="#">Home</a>
+					</li>
+
+					<li>
+						<a href="#">News</a>
+					</li>
+
+					<li>
+						<a href="#">Forum</a>
+					</li>
+				</menu>
+			</menu>
+		</td>
+
+		<td>
+			<p>
+				I created a table in this example to display a menu on the left side of
+				the content.
+			</p>
+
+			<p>
+				It contains a menu inside a menu to create an appealing look and to
+				differentiate the main menu labels and the submenu labels
+			</p>
+		</td>
+	</tr>
+</table>
+
+<br />
+
+<p>Code example:</p>
+
+<pre>
+  &lt;table border="2" cellspacing="5" cellpadding="30"&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;menu style="list-style: none"&gt;
+          &lt;li&gt;
+            &lt;a href="#"&gt;Profile&lt;/a&gt;
+          &lt;/li&gt;
+
+          &lt;menu style="list-style: none"&gt;
+            &lt;li&gt;
+              &lt;a href="#"&gt;Settings&lt;/a&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+              &lt;a href="#"&gt;Recover&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/menu&gt;
+
+          &lt;li&gt;
+            &lt;a href="#"&gt;Pages&lt;/a&gt;
+          &lt;/li&gt;
+
+          &lt;menu style="list-style: none"&gt;
+            &lt;li&gt;
+              &lt;a href="#"&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+              &lt;a href="#"&gt;News&lt;/a&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+              &lt;a href="#"&gt;Forum&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/menu&gt;
+        &lt;/menu&gt;
+      &lt;/td&gt;
+
+      &lt;td&gt;
+        &lt;p&gt;
+          I created a table in this example to display a menu on the left side of
+          the content.
+        &lt;/p&gt;
+
+        &lt;p&gt;
+          It contains a menu inside a menu to create an appealing look and to
+          differentiate the main menu labels and the submenu labels
+        &lt;/p&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
+</pre>
+
+<br />
+
+<h2>Base example code</h2>
+
+<head>
+	<base href="menu-base-experiment.html" target="_blank" />
+</head>
+
+<img src="../../../../public/image/html.jpeg" width="100" height="100" />
+
+<p>
+	<a href="menu-base-noscript-experiment.html">Click here</a> to load the same
+	page, but in a different tab, even though this <b>a</b> tag has no
+	<b>target</b> attribute.
+</p>
+
+<br />
+
+<p>Code example:</p>
+
+<pre>
+&lt;head&gt;
+  &lt;base href="menu-base-experiment.html" target="_blank" /&gt;
+&lt;/head&gt;
+
+&lt;img src="../../../../public/image/html.jpeg" width="100" height="100" /&gt;
+
+&lt;p&gt;
+  &lt;a href="menu-base-experiment.html"&gt;Click here&lt;/a&gt; to load the same page, but
+  in a different tab, even though this &lt;b&gt;a&lt;/b&gt; tag has no
+  &lt;b&gt;target&lt;/b&gt; attribute.
+&lt;/p&gt;
+</pre>
+
+<h2>Noscript example code</h2>
+
+<noscript>
+	<a href="https://www.mozilla.org/">External Link</a>
+</noscript>
+
+<p>This rocks!</p>
+
+<br />
+
+<p>Code example:</p>
+
+<pre>
+  &lt;noscript&gt;
+    &lt;a href="https://www.mozilla.org/"&gt;External Link&lt;/a&gt;
+  &lt;/noscript&gt;
+
+  &lt;p&gt;
+    This rocks!
+  &lt;/p&gt;
+</pre>

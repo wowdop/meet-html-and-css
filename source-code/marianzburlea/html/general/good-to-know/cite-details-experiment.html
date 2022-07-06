@@ -1,0 +1,161 @@
+<h1>Meet <i>cite</i> and <i>details</i> tags</h1>
+
+<h2>Cite tag</h2>
+<p>
+	The <b>&lt;cite&gt;</b> tag defines the title of a creative work (e.g. a book,
+	a poem, a song, a movie, a painting, a sculpture, etc.).
+</p>
+
+<h3>Let's take a look at example 1</h3>
+
+<img
+	src="https://cdn.cnn.com/cnnnext/dam/assets/131107152744-mona-lisa.jpg"
+	alt="Thepicture represents the painting called Mona Lisa"
+	width="100"
+	height="130"
+/>
+<p>
+	<cite>Mona Lisa</cite>
+	by Leonardo da Vinci. Painted in 1503.
+</p>
+
+<p>
+	<b>
+		As you can see, the name of the painting is different than the other words.
+	</b>
+</p>
+
+<p>Code example:</p>
+<pre>
+  &lt;p&gt;
+    &lt;cite>Mona Lisa&lt;/cite&gt;
+    by Leonardo da Vinci. Painted in 1503.
+  &lt;/p&gt;
+</pre>
+
+<h3>Let's take a look at example 2</h3>
+
+<figure>
+	<blockquote>
+		<p>
+			It was a bright cold day in April, and the clocks were striking thirteen.
+		</p>
+	</blockquote>
+
+	<figcaption>
+		First sentence in
+		<cite>
+			<a href="http://www.george-orwell.org/1984/0.html">
+				Nineteen Eighty-Four
+			</a>
+		</cite>
+		by George Orwell (Part 1, Chapter 1).
+	</figcaption>
+</figure>
+
+<p>
+	<b>
+		I made use of <i>figure</i> tag to create the example above and where you
+		can see the text that is written in <i>italic</i>, I have used the
+		<i>a</i> tag, so go ahead and click on it.
+	</b>
+</p>
+
+<p>Code example:</p>
+<pre>
+  &lt;figure&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;
+        It was a bright cold day in April, and the clocks were striking thirteen.
+      &lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;figcaption&gt;
+      First sentence in
+      &lt;cite&gt;
+        &lt;a href="http://www.george-orwell.org/1984/0.html"&gt;
+          Nineteen Eighty-Four
+        &lt;/a&gt;
+      &lt;/cite&gt;
+      by George Orwell (Part 1, Chapter 1).
+    &lt;/figcaption&gt;
+  &lt;/figure&gt;
+</pre>
+
+<h2>Details tag</h2>
+
+<p>
+	The <b>&lt;details&gt;</b> tag specifies additional details that the user can
+	open and close on demand. The <b>&lt;details&gt;</b> tag is often used to
+	create an interactive widget that the user can open and close. By default, the
+	widget is closed. When open, it expands, and displays the content within.
+</p>
+
+<h3>Let's take a look at example 1</h3>
+
+<p>Click on <i>WoW DoP</i> below.</p>
+
+<details>
+	<summary>WoW DoP</summary>
+
+	<p>
+		WoW DoP is the best place where you can start from scratch and learn the
+		coding way to become a successfull web developer. Join the program and watch
+		your life change in just a a matter of a few months
+	</p>
+</details>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;details&gt;
+		&lt;summary&gt;WoW DoP&lt;/summary&gt;
+
+		&lt;p&gt;
+			WoW DoP is the best place where you can start from scratch and learn the
+			coding way to become a successfull web developer. Join the program and watch
+			your life change in just a a matter of a few months
+		&lt;/p&gt;
+	&lt;/details&gt;
+</pre>
+
+<h3>Let's take a look at example 2</h3>
+
+<p>
+	<b>
+		If we take a look at the example below, I have added the
+		<i>open</i> attribute so that the details section is already open.
+	</b>
+</p>
+
+<small>
+	<b>
+		*<i>open</i> is a boolean, therefore it has only two values: 'true' and
+		"false".
+	</b>
+</small>
+
+<hr />
+
+<details open>
+	<summary>Moving to London</summary>
+
+	<p>
+		John decided to change his life and move to London to follow his dream of
+		becoming the most successfull web developer.
+	</p>
+</details>
+
+<hr />
+
+<p>Code example:</p>
+
+<pre>
+&lt;details open&gt;
+	&lt;summary&gt;Moving to London&lt;/summary&gt;
+
+	&lt;p&gt;
+		John decided to change his life and move to London to follow his dream of becoming the most successfull web developer.
+	&lt;/p&gt;
+&lt;/details&gt;
+</pre>
