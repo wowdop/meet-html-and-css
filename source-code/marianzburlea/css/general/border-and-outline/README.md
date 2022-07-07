@@ -107,7 +107,20 @@ and
 [border-decoration-break in CSS](https://www.google.com/search?q=border-decoration-break+in+css)
 and
 
-[border-shdow in CSS](https://www.google.com/search?q=border-shadow+in+css)
+[border-shadow in CSS](https://www.google.com/search?q=border-shadow+in+css)
+and
+
+[outline in CSS](https://www.google.com/search?q=outline+in+css)
+and
+
+[outline-color in CSS](https://www.google.com/search?q=outline-color+in+css)
+and
+
+[outline-style in CSS](https://www.google.com/search?q=outline-style+in+css)
+and
+
+[outline-width in CSS](https://www.google.com/search?q=outline-width+in+css)
+and
 
 And found
 
@@ -214,6 +227,18 @@ and
 and
 
 [CSS box-shadow in W3](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
+and
+
+[CSS outline in W3](https://www.w3schools.com/cssref/css_outline.asp)
+and
+
+[CSS outline-color in W3](https://www.w3schools.com/cssref/pr_outline-color.asp)
+and
+
+[CSS outline-style in W3](https://www.w3schools.com/cssref/pr_outline-style.asp)
+and
+
+[CSS outline-width in W3](https://www.w3schools.com/cssref/pr_outline-width.asp)
 
 Also Found
 
@@ -316,6 +341,18 @@ and
 and
 
 [box-shadow property](https://www.script-tutorials.com/css-ref/box-shadow/)
+and
+
+[outline property](https://www.script-tutorials.com/css-ref/outline/)
+and
+
+[outline-color property](https://www.script-tutorials.com/css-ref/outline-color/)
+and
+
+[outline-style property](https://www.script-tutorials.com/css-ref/outline-style/)
+and
+
+[outline-width property](https://www.script-tutorials.com/css-ref/outline-width/)
 
 ## Notes:
 
@@ -888,9 +925,162 @@ Values for this property:
 ```html:
   <style>
 
+.shadow-box-one {
+	border: 2px solid blue;
+	box-shadow: 5px 10px;
+}
+
+.shadow-box-two {
+	border: 2px solid blue;
+	box-shadow: 5px 10px blueviolet;
+}
+
+.shadow-box-three {
+	border: 2px solid blue;
+	box-shadow: 5px 10px 18px rgb(192, 226, 43);
+}
+
+.shadow-box-four {
+	border: 2px solid blue;
+	box-shadow: 5px 10px 18px 10px rgb(43, 226, 128);
+}
+
+.shadow-box-five {
+	border: 2px solid blue;
+	box-shadow: 5px 10px rgb(43, 226, 128), 10px 15px blue, 8px 16px pink;
+}
+
+.shadow-box-six {
+	border: 2px solid blue;
+	box-shadow: 5px 10px inset;
+}
   </style>
 ```
 
 <!--  -->
+
+# outline
+
+An **outline** is a line that is drawn around elements, OUTSIDE the borders, to make the element "stand out".
+
+In CSS there are the following outline properties:
+
+- outline
+- outline-style
+- outline-color
+- outline-width
+- outline-offset.
+
+<b>Note:</b>
+
+- Outline differs from borders!
+  Unlike border, the outline is drawn outside the element's border, and may overlap other content.
+- Also, the outline is NOT a part of the element's dimensions.
+- The element's total width and height is not affected by the width of the outline.
+
+# CSS outline-style, outline-color and outline-width
+
+**outline-style** property specifies the style of an outline.
+
+The **outline-style** property specifies the style of the outline, and can have one of the following values:
+
+- none: (default) specifies no outline.
+- hidden: specifies a hidden outline.
+- dotted: specifies a dotted outline.
+- dashed: specifies a dashed outline.
+- solid: specifies a solid outline.
+- double: specifies a double outline.
+- groove: specifies a 3D grooved outline. The effect depends on the outline-color value.
+- ridge: specifies a 3D ridged outline. The effect depends on the outline-color value.
+- inset: specifies a 3D inset outline. The effect depends on the outline-color value.
+- outset: specifies a 3D outset outline. The effect depends on the outline-color value.The effect depends on the outline-color value
+- none: specifies no outline.
+- hidden: specifies a hidden outline.
+
+<b>
+Note: None of the other outline properties will have ANY effect unless the outline-style property is set!
+</b>
+
+**outline-color** property specifies the color of an outline and can have one of the following values:
+
+- color: specifies the color of the outline.
+- invert: performs a color inversion. This ensures that the outline is visible, regardless of color background.
+
+<b>Note:</b>
+
+- Always declare the outline-style property before the outline-color property.
+- An element must have an outline before you change the color of it.
+
+**outline-width** property specifies the width of an outline and can have one of the following values:
+
+- medium: specifies a medium outline.
+- thin: specifies a thin outline.
+- thick: specifies a thick outline.
+- length: allows you to define the thickness of the outline.
+
+<b>
+Note: None of the other outline properties will have ANY effect unless the outline-style property is set!
+</b>
+
+## Example list
+
+### Examples
+
+```html:
+  <style>
+
+	.shadow-box-one {
+		outline-style: dashed;
+		outline-color: rgb(106, 47, 255);
+		outline-width: 8px;
+	}
+
+	.shadow-box-two {
+		outline-style: solid;
+		outline-color: rgb(255, 245, 47);
+		outline-width: 8px;
+	}
+
+	.shadow-box-three {
+		background-color: rgb(249, 243, 243);
+		outline-style: double;
+		/* outline-color: rgb(62, 13, 239); */
+		outline-color: invert;
+		outline-width: 8px;
+	}
+
+	.shadow-box-four {
+		outline-style: groove;
+		outline-color: greenyellow;
+		outline-width: 8px;
+	}
+
+	.shadow-box-five {
+		outline-style: ridge;
+		outline-color: rgb(47, 196, 255);
+		outline-width: 8px;
+	}
+
+	.shadow-box-six {
+		outline-style: inset;
+		outline-color: rgb(255, 47, 175);
+		outline-width: 8px;
+	}
+
+	.shadow-box-seven {
+		outline-style: outset;
+		outline-color: rgb(255, 154, 47);
+		outline-width: 8px;
+	}
+
+	.shadow-box-eight {
+		outline-style: dotted;
+		outline-color: rgb(255, 47, 57);
+		outline-width: 8px;
+	}
+  </style>
+```
+
+ <!--  -->
 
 @iulia-zburlea

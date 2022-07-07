@@ -9,6 +9,27 @@
 		display: inline;
 		color: red;
 	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		border: 2px dotted blue;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 3px groove darkcyan;
+		width: 50%;
+		padding: 0 40px;
+	}
+
+	.color {
+		background-color: red;
+		color: white;
+	}
 </style>
 
 <h1>Display in CSS</h1>
@@ -64,6 +85,51 @@
 	&lt;/div&gt;
 </pre>
 
+<h2>Example using grid</h2>
+
+<p>
+	An HTML element becomes a grid container when its display property is set to
+	grid or inline-grid.
+</p>
+
+<p>
+	All direct children of the grid container automatically become grid items.
+</p>
+
+<p>The vertical lines of grid items are called columns.</p>
+<p>The horizontal lines of grid items are called rows.</p>
+<p>The spaces between each column/row are called gaps.</p>
+
+<p>You can adjust the gap size by using one of the following properties:</p>
+
+<ul>
+	<li>column-gap</li>
+	<li>row-gap</li>
+	<li>gap</li>
+</ul>
+
+<p>Code example:</p>
+
+<div class="grid">
+	<p>This is a paragraph.</p>
+	<p>This is a different paragraph.</p>
+</div>
+
+<pre>
+	&lt;style&gt;
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		border: 2px dotted blue;
+	}
+	&lt;/style&gt;
+
+	&lt;div class="grid"&gt;
+		&lt;p&gt;This is a paragraph.&lt;/p&gt;
+		&lt;p&gt;This is a different paragraph.&lt;/p&gt;
+	&lt;/div&gt;
+</pre>
+
 <h2>Example using inline</h2>
 
 <div>
@@ -90,6 +156,124 @@
 	&lt;div&gt;
 		This text is inside a div and
 		&lt;p class="inline"&gt;this text is in a &lt;b&gt;p&lt;/b&gt; tag&lt;/p&gt;
+	&lt;/div&gt;
+</pre>
+
+<h2>justify-content and align-items</h2>
+
+<p>
+	The <b>justify-content</b> property aligns the flexible container's items when
+	the items do not use all available space on the main-axis (horizontally).
+</p>
+
+<p><b>Tip:</b> Use the align-items property to align the items vertically.</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>flex-start</td>
+		<td>
+			Default value. Items are positioned at the beginning of the container
+		</td>
+	</tr>
+	<tr>
+		<td>flex-end</td>
+		<td>Items are positioned at the end of the container</td>
+	</tr>
+	<tr>
+		<td>center</td>
+		<td>Items are positioned in the center of the container</td>
+	</tr>
+	<tr>
+		<td>space-between</td>
+		<td>Items will have space between them</td>
+	</tr>
+	<tr>
+		<td>space-around</td>
+		<td>Items will have space before, between, and after them</td>
+	</tr>
+	<tr>
+		<td>space-evenly</td>
+		<td>Items will have equal space around them</td>
+	</tr>
+</table>
+
+<p>
+	The <b>align-items</b> property specifies the default alignment for items
+	inside the flexible container.
+</p>
+
+<p>
+	<b>Tip:</b> Use the <b>align-self</b> property of each item to override the
+	align-items property.
+</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>stretch</td>
+		<td>Default. Items are stretched to fit the container</td>
+	</tr>
+	<tr>
+		<td>center</td>
+		<td>Items are positioned at the center of the container</td>
+	</tr>
+	<tr>
+		<td>flex-start</td>
+		<td>Items are positioned at the beginning of the container</td>
+	</tr>
+	<tr>
+		<td>flex-end</td>
+		<td>Items are positioned at the end of the container</td>
+	</tr>
+	<tr>
+		<td>baseline</td>
+		<td>Items are positioned at the baseline of the container</td>
+	</tr>
+</table>
+
+<h3>Example using both</h3>
+
+<div class="container">
+	<p class="color">This is one paragraphs inside the container.</p>
+	<p class="color">
+		This is another paragraph and I want both of them to be in the middle of the
+		element horizontally and vertically
+	</p>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 3px groove darkcyan;
+		width: 50%;
+		padding: 0 40px;
+	}
+
+	.color {
+		background-color: red;
+		color: white;
+	}
+	&lt;/style&gt;
+
+	&lt;div class="container"&gt;
+		&lt;p class="color"&gt;This is one paragraphs inside the container.&lt;/p&gt;
+		&lt;p class="color"&gt;
+			This is another paragraph and I want both of them to be in the middle of the
+			element horizontally and vertically
+		&lt;/p&gt;
 	&lt;/div&gt;
 </pre>
 

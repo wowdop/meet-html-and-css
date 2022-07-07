@@ -1,0 +1,15 @@
+<button id="over">Hover over me and look at the message in the console</button>
+
+<button id="cuc">Example</button>
+
+<script>
+	const elementHover = document.querySelector('#over');
+	elementHover.addEventListener('mouseover', () => {
+		console.log('Have a good one!');
+	});
+
+	const elementLets = document.querySelector('#cuc');
+	elementLets.addEventListener('click', () => {
+		console.log('element cuc has been clicked weeeeeeeeeeeee');
+	});
+</script>

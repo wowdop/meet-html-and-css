@@ -17,6 +17,12 @@ and
 and
 
 [max-height css w3](https://www.google.com/search?q=max-height+css+w3)
+and
+
+[justify-content css w3](https://www.google.com/search?q=justify-content+css+w3)
+and
+
+[align-items css w3](https://www.google.com/search?q=align-items+css+w3)
 
 And found
 
@@ -33,6 +39,12 @@ and
 and
 
 [CSS max-height in W3](https://www.w3schools.com/cssref/pr_max-height.asp)
+and
+
+[CSS align-items in W3](https://www.w3schools.com/cssref/css3_pr_align-items.asp)
+and
+
+[CSS justify-content in W3](https://www.w3schools.com/cssref/css3_pr_justify-content.asp)
 
 ## Notes:
 
@@ -111,7 +123,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at er
 </div>
 ```
 
-### Example 1
+### Example 5
 
 ```html:
 <div class="flex">
@@ -120,6 +132,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at er
 		There are two paragraphs here displayed in a column, with a background
 		color.
 	</p>
+</div>
+```
+
+### Example 6
+
+```html:
+<style>
+		.grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		border: 2px dotted blue;
+	}
+</style>
+
+<div class="grid">
+	<p>This is a paragraph.</p>
+	<p>This is a different paragraph.</p>
 </div>
 ```
 
@@ -209,6 +238,97 @@ Note: This prevents the value of the height property from becoming smaller than 
 		min-height: 200px;
 		background-color: wheat;
 	}
+```
+
+### justify-items
+
+The **justify-content** property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+
+**Tip:** Use the **align-items** property to align the items vertically.
+
+| Value         | Description                                                           |
+| ------------- | --------------------------------------------------------------------- |
+| flex-start    | Default value. Items are positioned at the beginning of the container |
+| flex-end      | Items are positioned at the end of the container                      |
+| center        | Items are positioned in the center of the container                   |
+| space-between | Items will have space between them                                    |
+| space-around  | Items will have space before, between, and after them                 |
+| space-evenly  | Items will have equal space around them                               |
+
+## Example list
+
+### Example 1
+
+```html:
+<style>
+		.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 3px groove darkcyan;
+		width: 50%;
+		padding: 0 40px;
+	}
+
+	.color {
+		background-color: red;
+		color: white;
+	}
+</style>
+
+<div class="container">
+	<p class="color">This is one paragraphs inside the container.</p>
+	<p class="color">
+		This is another paragraph and I want both of them to be in the middle of the
+		element horizontally and vertically
+	</p>
+</div>
+```
+
+### align-items
+
+The align-items property specifies the default alignment for items inside the flexible container.
+
+Tip: Use the align-self property of each item to override the align-items property.
+
+| Value      | Description                                            |
+| ---------- | ------------------------------------------------------ |
+| stretch    | Default. Items are stretched to fit the container      |
+| center     | Items are positioned at the center of the container    |
+| flex-start | Items are positioned at the beginning of the container |
+| flex-end   | Items are positioned at the end of the container       |
+| baseline   | Items are positioned at the baseline of the container  |
+
+## Example list
+
+### Example 1
+
+```html:
+<style>
+		.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 3px groove darkcyan;
+		width: 50%;
+		padding: 0 40px;
+	}
+
+	.color {
+		background-color: red;
+		color: white;
+	}
+</style>
+
+<div class="container">
+	<p class="color">This is one paragraphs inside the container.</p>
+	<p class="color">
+		This is another paragraph and I want both of them to be in the middle of the
+		element horizontally and vertically
+	</p>
+</div>
 ```
 
 @MariaTeo

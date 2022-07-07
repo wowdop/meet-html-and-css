@@ -1,0 +1,242 @@
+<style>
+	div {
+		width: 100px;
+		height: 100px;
+		background: red;
+		position: relative;
+		animation: move-around 5s infinite;
+	}
+
+	@keyframes move-around {
+		0% {
+			top: 0px;
+			left: 0px;
+			background: red;
+		}
+		25% {
+			top: 0px;
+			left: 100px;
+			background: blue;
+		}
+		50% {
+			top: 100px;
+			left: 100px;
+			background: yellow;
+		}
+		75% {
+			top: 100px;
+			left: 0px;
+			background: green;
+		}
+		100% {
+			top: 0px;
+			left: 0px;
+			background: red;
+		}
+	}
+
+	.delay {
+		width: 100px;
+		height: 100px;
+		background-color: red;
+		position: relative;
+		animation-name: delay;
+		animation-duration: 4s;
+		animation-delay: 2s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes delay {
+		0% {
+			background-color: red;
+			left: 0px;
+			top: 0px;
+		}
+		25% {
+			background-color: yellow;
+			left: 200px;
+			top: 0px;
+		}
+	}
+</style>
+
+<h1>
+	@keyframes, animation, animation-name, animation-duration, animation-delay,
+	animation-iteration-count, animation-direction, animation-timing-function in
+	CSS
+</h1>
+
+<h2>@keyframes</h2>
+
+<p>The <b>@keyframes</b> rule specifies the animation code.</p>
+
+<p>
+	The animation is created by gradually changing from one set of CSS styles to
+	another.
+</p>
+
+<p>During the animation, you can change the set of CSS styles many times.</p>
+
+<p>
+	Specify when the style change will happen in percent, or with the keywords
+	"from" and "to", which is the same as 0% and 100%. 0% is the beginning of the
+	animation, 100% is when the animation is complete.
+</p>
+
+<p>
+	<b>Tip:</b> For best browser support, you should always define both the 0% and
+	the 100% selectors.
+</p>
+
+<p>
+	<b>Note:</b> Use the <b>animation</b> properties to control the appearance of
+	the animation, and also to bind the animation to selectors.
+</p>
+
+<p><b>Note:</b> The <b>!important</b> rule is ignored in a keyframe.</p>
+
+<p>
+	<b>Note:</b> The <b>animation-duration</b>property defines how long an
+	animation should take to complete. If the animation-duration property is not
+	specified, no animation will occur, because the default value is 0s (0
+	seconds).
+</p>
+
+<p>
+	It is also possible to use percent. By using percent, you can add as many
+	style changes as you like.
+</p>
+
+<p>
+	The <b>animation-delay</b> property specifies a delay for the start of an
+	animation.
+</p>
+
+<p>
+	Negative values are also allowed. If using negative values, the animation will
+	start as if it had already been playing for N seconds.
+</p>
+
+<p>
+	The <b>animation-iteration-count</b> property specifies the number of times an
+	animation should run.
+</p>
+
+<p>
+	The <b>animation-direction</b> property specifies whether an animation should
+	be played forwards, backwards or in alternate cycles.
+</p>
+
+<p>The a<b>animation-direction</b> property can have the following values:</p>
+
+<ul>
+	<li>
+		normal - The animation is played as normal (forwards). This is default
+	</li>
+	<li>reverse - The animation is played in reverse direction (backwards)</li>
+	<li>alternate - The animation is played forwards first, then backwards</li>
+	<li>
+		alternate-reverse - The animation is played backwards first, then forwards
+	</li>
+</ul>
+
+The <b>animation-timing-function</b> property specifies the speed curve of the
+animation. The <b>animation-timing-function</b> property can have the following
+values:
+
+<ul>
+	<li>
+		ease - Specifies an animation with a slow start, then fast, then end slowly
+		(this is default)
+	</li>
+	<li>linear - Specifies an animation with the same speed from start to end</li>
+	<li>ease-in - Specifies an animation with a slow start</li>
+	<li>ease-out - Specifies an animation with a slow end</li>
+	<li>ease-in-out - Specifies an animation with a slow start and end</li>
+	<li>
+		cubic-bezier(n,n,n,n) - Lets you define your own values in a cubic-bezier
+		function
+	</li>
+</ul>
+
+<h3>Example</h3>
+
+<div></div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="delay">This one is delayed</div>
+
+<pre>
+	&lt;style&gt;
+	div {
+		width: 100px;
+		height: 100px;
+		background: red;
+		position: relative;
+		animation: move-around 5s infinite;
+	}
+
+	@keyframes move-around {
+		0% {
+			top: 0px;
+			left: 0px;
+			background: red;
+		}
+		25% {
+			top: 0px;
+			left: 100px;
+			background: blue;
+		}
+		50% {
+			top: 100px;
+			left: 100px;
+			background: yellow;
+		}
+		75% {
+			top: 100px;
+			left: 0px;
+			background: green;
+		}
+		100% {
+			top: 0px;
+			left: 0px;
+			background: red;
+		}
+	}
+
+	.delay {
+		width: 100px;
+		height: 100px;
+		background-color: red;
+		position: relative;
+		animation-name: delay;
+		animation-duration: 4s;
+		animation-delay: 2s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes delay {
+		0% {
+			background-color: red;
+			left: 0px;
+			top: 0px;
+		}
+		25% {
+			background-color: yellow;
+			left: 200px;
+			top: 0px;
+		}
+	}
+  &lt;/style&gt;
+
+  <div></div>
+
+  <div class="delay">This one is delayed</div>
+
+</pre>
