@@ -281,30 +281,30 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `direction` property ````````````` - section: general/text - @mariateo
 1. the `line-height` property ``````````` - section: general/text - @mariateo
 1. the `text-decoration` property ``````` - section: general/text - @mariateo
-1. the `text-indent` property ``````````` - section: general/text - @mariateoß
-1. the `text-transform` property ```````` - section: general/text - @mariateoß
+1. the `text-indent` property ``````````` - section: general/text - @mariateo
+1. the `text-transform` property ```````` - section: general/text - @mariateo
 
-1. the `letter-spacing` property ```````` - section: general/text - @mariateoß
-1. the `word-spacing` property `````````` - section: general/text - @mariateoß
+1. the `letter-spacing` property ```````` - section: general/text - @mariateo
+1. the `word-spacing` property `````````` - section: general/text - @mariateo
 
-1. the `text-align` property ```````````` - section: general/text - @mariateoß
-1. the `vertical-align` property ```````` - section: general/text - @mariateoß
-1. the `text-align-last` property ``````` - section: general/text - @mariateoß
+1. the `text-align` property ```````````` - section: general/text - @mariateo
+1. the `vertical-align` property ```````` - section: general/text - @mariateo
+1. the `text-align-last` property ``````` - section: general/text - @mariateo
 
-1. the `hanging-punctuation` property ``` - section: general/text - @mariateoß
-1. the `punctuation-trim` property `````` - section: general/text - @mariateoß
+1. the `hanging-punctuation` property ``` - section: general/text - @mariateo
+1. the `punctuation-trim` property `````` - section: general/text - @mariateo
 
-1. the `text-justify` property `````````` - section: general/text - @mariateoß
-1. the `text-outline` property `````````` - section: general/text - @mariateoß
-1. the `text-overflow` property ````````` - section: general/text - @mariateoß
-1. the `text-shadow` property ``````````` - section: general/text - @mariateoß
+1. the `text-justify` property `````````` - section: general/text - @mariateo
+1. the `text-outline` property `````````` - section: general/text - @mariateo
+1. the `text-overflow` property ````````` - section: general/text - @mariateo
+1. the `text-shadow` property ``````````` - section: general/text - @mariateo
 
-1. the `text-wrap` property ````````````` - section: general/text - @mariateoß
-1. the `word-break` property ```````````` - section: general/text - @mariateoß
-1. the `word-wrap` property ````````````` - section: general/text - @mariateoß
+1. the `text-wrap` property ````````````` - section: general/text - @mariateo
+1. the `word-break` property ```````````` - section: general/text - @mariateo
+1. the `word-wrap` property ````````````` - section: general/text - @mariateo
 
-1. the `unicode-bidi` property `````````` - section: general/text - @mariateoß
-1. the `white-space` property ``````````` - section: general/text - @mariateoß
+1. the `unicode-bidi` property `````````` - section: general/text - @mariateo
+1. the `white-space` property ``````````` - section: general/text - @mariateo
 
    ##### Border and Outline Properties
 
@@ -354,44 +354,11 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
    ##### Box Properties
 
-1. the `overflow-x` property
-1. the `overflow-y` property
-1. the `overflow-style` property
-1. the `rotation` property
-1. the `rotation-point` property
-
-   ##### Linebox Properties
-
-1. the `alignment-adjust` property
-1. the `alignment-baseline` property
-
-1. the `baseline-shift` property
-1. the `dominant-baseline` property
-
-1. the `drop-initial-before-align` property
-1. the `drop-initial-after-adjust` property
-1. the `drop-initial-size` property
-1. the `drop-initial-value` property
-
-1. the `inline-box-align` property
-
-1. the `line-stacking` property
-1. the `line-stacking-ruby` property
-1. the `line-stacking-shift` property
-1. the `line-stacking-strategy` property
-
-1. the `text-height` property
-
-   ##### Flexible Box Properties
-
-1. the `box-align` property
-1. the `box-direction` property
-1. the `box-flex` property
-1. the `box-flex-group` property
-1. the `box-lines` property
-1. the `box-ordinal-group` property
-1. the `box-orient` property
-1. the `box-pack` property
+1. the `overflow-x` property ```````` - section: general/box - @mariateo
+1. the `overflow-y` property ```````` - section: general/box - @mariateo
+1. the `overflow-style` property ```````` - section: general/box - @mariateo
+1. the `rotation` property ```````` - section: general/box - @mariateo
+1. the `rotation-point` property ```````` - section: general/box - @mariateo
 
    ##### Dimension Properties
 
@@ -405,30 +372,30 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
    ##### Margin Properties
 
-1. the `margin` property - See Must Know Tags
-1. the `margin-bottom` property
-1. the `margin-top` property
-1. the `margin-left` property
-1. the `margin-right` property
+1. the `margin` property ```````` - section: intro/margin-and-padding - @mariateo
+1. the `margin-bottom` property ```````` - section: general/margin - @mariateo
+1. the `margin-top` property ```````` - section: general/margin - @mariateo
+1. the `margin-left` property ```````` - section: general/margin - @mariateo
+1. the `margin-right` property ```````` - section: general/margin - @mariateo
 
    ##### Padding Properties
 
-1. the `padding` property - See Must Know Tags
-1. the `padding-bottom` property
-1. the `padding-top` property
-1. the `padding-left` property
-1. the `padding-right` property
+1. the `padding` property ```````` - section: intro/margin-and-padding - @mariateo
+1. the `padding-bottom` property ```````` - section: general/margin - @mariateo
+1. the `padding-top` property ```````` - section: general/margin - @mariateo
+1. the `padding-left` property ```````` - section: general/margin - @mariateo
+1. the `padding-right` property ```````` - section: general/margin - @mariateo
 
    ##### Positioning Properties
 
-1. the `position` property
+1. the `position` property ```````` - section: intro/position-z-index - @mariateo
 
-1. the `bottom` property
-1. the `top` property
-1. the `left` property
-1. the `right` property
+1. the `bottom` property ```````` - section: intro/position-z-index - @mariateo
+1. the `top` property ```````` - section: intro/position-z-index - @mariateo
+1. the `left` property ```````` - section: intro/position-z-index - @mariateo
+1. the `right` property ```````` - section: intro/position-z-index - @mariateo
 
-1. the `display` property
+1. the `display` property ```````` - section: intro/display-min-max-width-height - @mariateo
 1. the `visibility` property
 1. the `overflow` property
 
@@ -439,27 +406,7 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `clip-path` property
 
 1. the `cursor` property
-1. the `z-index` property
-
-   ##### Speech Properties
-
-1. the `mark` property
-1. the `mark-before` property
-1. the `mark-after` property
-
-1. the `rest` property
-1. the `rest-before` property
-1. the `rest-after` property
-
-1. the `voice-balance` property
-1. the `voice-duration` property
-1. the `voice-pitch` property
-1. the `voice-range` property
-1. the `voice-rate` property
-1. the `voice-stress` property
-1. the `voice-volume` property
-
-1. the `phonemes` property
+1. the `z-index` property ```````` - section: intro/position-z-index - @mariateo
 
    ##### Grid Properties
 

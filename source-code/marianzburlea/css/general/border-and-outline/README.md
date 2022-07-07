@@ -74,6 +74,41 @@ and
 [border-image in CSS](https://www.google.com/search?q=border-image+in+css)
 and
 
+[border-image-source in CSS](https://www.google.com/search?q=border-image-source+in+css)
+and
+
+[border-image-slice in CSS](https://www.google.com/search?q=border-image-slice+in+css)
+and
+
+[border-image-width in CSS](https://www.google.com/search?q=border-image-source+in+css)
+and
+
+[border-image-outset in CSS](https://www.google.com/search?q=border-image-width+in+css)
+and
+
+[border-image-repeat in CSS](https://www.google.com/search?q=border-image-repeat+in+css)
+and
+
+[border-style in CSS](https://www.google.com/search?q=border-style+in+css)
+and
+
+[border-top-style in CSS](https://www.google.com/search?q=border-top-style+in+css)
+and
+
+[border-right-style in CSS](https://www.google.com/search?q=border-right-style+in+css)
+and
+
+[border-bottom-style in CSS](https://www.google.com/search?q=border-bottom-style+in+css)
+and
+
+[border-left-style in CSS](https://www.google.com/search?q=border-left-style+in+css)
+and
+
+[border-decoration-break in CSS](https://www.google.com/search?q=border-decoration-break+in+css)
+and
+
+[border-shdow in CSS](https://www.google.com/search?q=border-shadow+in+css)
+
 And found
 
 <!-- w3 -->
@@ -129,8 +164,6 @@ and
 [CSS border-image in W3](https://www.w3schools.com/cssref/css3_pr_border-image.asp)
 and
 
-<!--  -->
-
 [CSS border-width in W3](https://www.w3schools.com/cssref/pr_border-width.asp)
 and
 
@@ -145,6 +178,42 @@ and
 
 [CSS border-left-width in W3](https://www.w3schools.com/cssref/pr_border-left_width.asp)
 and
+
+[CSS border-image-source in W3](https://www.w3schools.com/cssref/css3_pr_border-image-source.asp)
+and
+
+[CSS border-image-slice in W3](https://www.w3schools.com/cssref/css3_pr_border-image-slice.asp)
+and
+
+[CSS border-image-width in W3](https://www.w3schools.com/cssref/css3_pr_border-image-width.asp)
+and
+
+[CSS border-image-outset in W3](https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp)
+and
+
+[CSS border-image-repeat in W3](https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp)
+and
+
+[CSS border-style in W3](https://www.w3schools.com/cssref/pr_border-style.asp)
+and
+
+[CSS border-top-style in W3](https://www.w3schools.com/cssref/pr_border-top_style.asp)
+and
+
+[CSS border-right-style in W3](https://www.w3schools.com/cssref/pr_border-right_style.asp)
+and
+
+[CSS border-bottom-style in W3](https://www.w3schools.com/cssref/pr_border-bottom_style.asp)
+and
+
+[CSS border-left-style in W3](https://www.w3schools.com/cssref/pr_border-left_style.asp)
+
+<!--  -->
+
+[CSS box-decoration-break in W3](https://www.w3schools.com/cssref/css3_pr_box-decoration-break.asp)
+and
+
+[CSS box-shadow in W3](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
 
 Also Found
 
@@ -212,6 +281,41 @@ and
 
 [border-image property](https://www.script-tutorials.com/css-ref/border-image/)
 and
+
+[border-image-source property](https://www.script-tutorials.com/css-ref/border-image-source/)
+and
+
+[border-image-slice property](https://www.script-tutorials.com/css-ref/border-image-slice/)
+and
+
+[border-image-width property](https://www.script-tutorials.com/css-ref/border-image-width/)
+and
+
+[border-image-outset property](https://www.script-tutorials.com/css-ref/border-image-outset/)
+and
+
+[border-image-repeat property](https://www.script-tutorials.com/css-ref/border-image-repeat/)
+and
+
+[border-style property](https://www.script-tutorials.com/css-ref/border-style/)
+and
+
+[border-top-style property](https://www.script-tutorials.com/css-ref/border-top-style/)
+and
+
+[border-right-style property](https://www.script-tutorials.com/css-ref/border-right-style/)
+and
+
+[border-bottom-style property](https://www.script-tutorials.com/css-ref/border-bottom-style/)
+and
+
+[border-left-style property](https://www.script-tutorials.com/css-ref/border-left-style/)
+and
+
+[box-decoration-break property](https://www.script-tutorials.com/css-ref/box-decoration-break/)
+and
+
+[box-shadow property](https://www.script-tutorials.com/css-ref/box-shadow/)
 
 ## Notes:
 
@@ -547,7 +651,246 @@ The border-image property is a shorthand property for:
 - The border-image is used instead of the border styles given by the border-style properties.
 - It is important to note that if the computed value of border-image-source, which can be set either by border-image-source or the shorthand border-image, is none, or if the image cannot be displayed, the border styles will be used.
 
-....
+# CSS border-image-source, border-image-slice, border-image-width, border-image-outset, border-image-repeat
 
-The **border-width**
+The **border-image-source** property specifies the path to the image to be used as a border (instead of the normal border around an element).
+
+<b>Note:</b> If the value is "none", or if the image cannot be displayed, the border styles will be used.
+
+The **border-image-slice** property specifies how to slice the image specified by border-image-source. The image is always sliced into nine sections: four corners, four edges and the middle.
+
+<b>Note:</b> The "middle" part is treated as fully transparent, unless the fill keyword is set.
+
+The **border-image-width** property specifies the width of the border image.
+
+The **border-image-outset** property specifies the amount by which the border image area extends beyond the border box.
+
+The **border-image-repeat** proproperty specifies whether the border image should be:
+
+- repeated,
+- rounded,
+- spaced,
+- stretched.
+
+## Example list
+
+### Examples
+
+```html:
+  <style>
+    .border-header {
+        border: 10px solid transparent;
+        padding: 16px;
+        border-image-source: url('https://picsum.photos/200');
+        border-image-slice: 20;
+      }
+
+      .border-part-one {
+        border: 10px solid transparent;
+        padding: 16px;
+        border-image: url('https://picsum.photos/200?random=1');
+        border-image-slice: 20%;
+      }
+
+      .border-part-two {
+        border: 10px solid transparent;
+        padding: 16px;
+        border-image-source: url('https://picsum.photos/200?random=2');
+        border-image-slice: 20%;
+        border-image-width: 10px;
+      }
+
+      .border-part-three {
+        height:50%;
+        background-color: white;
+        border: 10px solid transparent;
+        padding: 16px;
+        border-image-source: url('https://picsum.photos/200');
+        border-image-repeat: stretch;
+        border-image-slice: 60;
+        border-image-width: 10px;
+        border-image-outset: 16px;
+
+      }
+  </style>
+```
+
+# border-style
+
+The **border-style** property sets the style of an element's four borders. This property can have from one to four values.
+
+This property can have from one to four values:
+
+- Four values:
+
+  - first value applies to top,
+  - second value applies to right,
+  - third value applies to bottom,
+  - fourth value applies to left.
+
+- Three values:
+
+  - first value applies to top,
+  - second value applies to right and left,
+  - third value applies to bottom.
+
+- Two values:
+
+  - first value applies to top and bottom,
+  - the second value applies to right and left.
+
+- One value: the value applies to all four borders equally.
+
+Values:
+
+- hidden: The same as "none", except in border conflict resolution for table elements
+- dotted: Specifies a dotted border
+- dashed: Specifies a dashed border
+- solid: Specifies a solid border
+- double: double
+- groove: Specifies a 3D grooved border. The effect depends on the border-color value
+- ridge: Specifies a 3D ridged border. The effect depends on the border-color value
+- inset: Specifies a 3D inset border. The effect depends on the border-color value
+- outset: Specifies a 3D outset border. The effect depends on the border-color value.
+
+**border-top-style** property sets the style of an element's top border.
+**border-right-style** property sets the style of an element's right border.
+**border-bottom-style** property sets the style of an element's bottom border.
+**border-left-style** property sets the style of an element's left border.
+
+## Example list
+
+### Examples
+
+```html:
+  <style>
+.border-header{
+	border-style: inset outset;
+	border-color: rgb(49, 128, 0);
+}
+
+.border-container {
+	border-top-style: dotted;
+	border-top-color: greenyellow;
+
+	border-right-style: dashed;
+	border-right-color: rgb(21, 216, 246);
+
+	border-bottom-style: double;
+	border-bottom-color: yellow;
+
+	border-left-style: groove;
+	border-left-color: rgb(235, 74, 117);
+
+}
+
+.border-part-one {
+	border-style: ridge;
+	border-color: rgb(208, 110, 208);
+
+}
+  </style>
+```
+
+<!--  -->
+
+# box-decoration-break
+
+**box-decoration-break** property specifies the behavior when a box is broken at a page break.
+
+When a box is broken at a page break, column break, or, for inline elements, at a line break, the box-decoration-break property specifies whether individual boxes are treated as broken pieces of one continuous box, or whether each box is individually wrapped with the border and padding.
+For backgrounds it defines how the background positioning area is derived from these multiple boxes and how the element's background is drawn within them.
+
+Values for this property:
+
+- slice: (Default)
+  - Box decorations are applied to the element as a whole and break at the edges of the element fragments.
+  - No border and no padding are inserted at the break. border-radius has no effect at its corners; and the border-image is rendered for the whole box as if it were unbroken.
+  - The effect is as though the element were rendered with no break present, and then sliced by the break afterward.
+- clone:
+  - Box decorations apply to each fragment of the element as if the fragments were individual elements.
+  - Borders wrap the four edges of each fragment of the element, and backgrounds are redrawn in full for each fragment.
+  - A no-repeat background image will thus be rendered once in each box of the element.
+- initial:
+  - Sets this property to its default value.
+- inherit:
+  - Inherits this property from its parent element.
+
+## Example list
+
+### Examples
+
+```html:
+  <style>
+    span {
+	border: 5px solid rgb(227, 227, 11);
+	border-radius: 16px;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.p-border-clone{
+	-webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.p-border-slice {
+	border: 5px solid black;
+	border-radius: 16px;
+	font-size: 14px;
+	line-height: 2;
+	padding: 8px;
+
+	-webkit-box-decoration-break: slice;
+  -o-box-decoration-break: slice;
+  box-decoration-break: slice;
+  </style>
+```
+
+# box-shadow
+
+**box-shadow** property attaches one or more shadows to an element.
+
+Values for this property:
+
+- none:
+  - Default value.
+  - No shadow is displayed.
+- h-offset: (Required)
+  - The horizontal offset of the shadow.
+  - A positive value puts the shadow on the right side of the box.
+  - A negative value puts the shadow on the left side of the box.
+- v-offset: (Required)
+  - The vertical offset of the shadow.
+  - A positive value puts the shadow below the box.
+  - A negative value puts the shadow above the box.
+- blur: (Optional)
+  - The blur radius.
+  - The higher the number, the more blurred the shadow will be.
+- spread: (Optional)
+  - The spread radius.
+  - A positive value increases the size of the shadow.
+  - A negative value decreases the size of the shadow.
+- color: (Optional)
+  - Sets the color of the shadow.
+  - The default value is the text color.
+  - <b>Note:</b> In Safari (on PC) the color parameter is required. If you do not specify the color, the shadow is not displayed at all.
+- inset: (Optional)
+  - Changes the shadow from an outer shadow (outset) to an inner shadow.
+- initial: Sets this property to its default value.
+- inherit: Inherits this property from its parent element.
+
+## Example list
+
+### Examples
+
+```html:
+  <style>
+
+  </style>
+```
+
+<!--  -->
+
 @iulia-zburlea

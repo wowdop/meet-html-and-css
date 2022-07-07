@@ -1,0 +1,78 @@
+<style>
+	.left {
+		margin-left: 50px;
+	}
+
+	.right {
+		margin-right: 50px;
+	}
+
+	.right-wrap {
+		border: 1px solid cadetblue;
+		display: flex;
+	}
+</style>
+
+<h1>margin-left and margin-right in CSS</h1>
+
+<h2>margin-left</h2>
+
+<p>The <b>margin-left</b> property sets the left margin of an element.</p>
+
+<p><b>Note:</b> Negative values are allowed.</p>
+
+<h3>Example using margin-left:</h3>
+
+<div class="left">This text has left margin</div>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+	.left {
+		margin-left: 50px;
+	}
+  &lt;/style&gt;
+
+	&lt;div class="left"&gt;This text has left margin&lt;/div&gt;
+
+</pre>
+
+<h2>margin-right</h2>
+
+<p>The <b>margin-right</b> property sets the right margin of an element.</p>
+
+<p><b>Note:</b> Negative values are allowed.</p>
+
+<h3>Example using margin-right:</h3>
+
+<div class="right-wrap">
+	<div class="right">This text has right margin</div>
+	<div>
+		You can see that now, as both these elements are inside a flex element. This
+		is not the best practice when it comes to adding gap inbetween elements.
+	</div>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.right {
+		margin-right: 50px;
+	}
+
+	.right-wrap {
+		border: 1px solid cadetblue;
+		display: flex;
+	}
+  &lt;/style&gt;
+
+	&lt;div class="right-wrap"&gt;
+		&lt;div class="right"&gt;This text has right margin&lt;/div&gt;
+		&lt;div&gt;
+			You can see that now, as both these elements are inside a flex element. This
+			is not the best practice when it comes to adding gap inbetween elements.
+		&lt;/div&gt;
+	&lt;/div&gt;
+</pre>

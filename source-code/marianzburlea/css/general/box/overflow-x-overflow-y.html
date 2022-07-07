@@ -1,0 +1,322 @@
+<style>
+	.ex1 {
+		background-color: lightskyblue;
+		width: 40px;
+		overflow-x: scroll;
+	}
+
+	.ex2 {
+		background-color: lightskyblue;
+		width: 40px;
+		overflow-x: hidden;
+	}
+
+	.ex3 {
+		background-color: lightskyblue;
+		width: 40px;
+		overflow-x: auto;
+	}
+
+	.ex4 {
+		background-color: lightskyblue;
+		width: 40px;
+		overflow-x: visible;
+	}
+
+	.ex1-y {
+		background-color: lightsteelblue;
+		height: 40px;
+		width: 200px;
+		overflow-y: scroll;
+	}
+
+	.ex2-y {
+		background-color: lightsteelblue;
+		height: 40px;
+		width: 200px;
+		overflow-y: hidden;
+	}
+
+	.ex3-y {
+		background-color: lightsteelblue;
+		height: 40px;
+		width: 200px;
+		overflow-y: auto;
+	}
+
+	.ex4-y {
+		background-color: lightsteelblue;
+		height: 40px;
+		width: 200px;
+		overflow-y: visible;
+	}
+</style>
+
+<h1>overflow-x and overflow-y in CSS</h1>
+
+<h2>overflow-x</h2>
+
+<p>
+	The <b>overflow-x</b> property specifies whether to clip the content, add a
+	scroll bar, or display overflow content of a block-level element, when it
+	overflows at the left and right edges.
+</p>
+<p>
+	<b>Tip:</b> Use the <b>overflow-y</b> property to determine clipping at the
+	top and bottom edges.
+</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>visible</td>
+		<td>
+			The content is not clipped, and it may be rendered outside the left and
+			right edges. This is default
+		</td>
+	</tr>
+	<tr>
+		<td>hidden</td>
+		<td>The content is clipped - and no scrolling mechanism is provided</td>
+	</tr>
+	<tr>
+		<td>scroll</td>
+		<td>The content is clipped and a scrolling mechanism is provided</td>
+	</tr>
+	<tr>
+		<td>auto</td>
+		<td>
+			Should cause a scrolling mechanism to be provided for overflowing boxes
+		</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using overflow-x:</h3>
+
+<h4>overflow-x: scroll:</h4>
+<div class="ex1">
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit...
+</div>
+
+<h4>overflow-x: hidden:</h4>
+<div class="ex2">
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit..
+</div>
+
+<h4>overflow-x: auto:</h4>
+<div class="ex3">
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit...
+</div>
+
+<h4>overflow-x: visible (default):</h4>
+<div class="ex4">
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit...
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.ex1 {
+		background-color: lightskyblue;
+		width: 40px;
+		overflow-x: scroll;
+	}
+
+	.ex2 {
+		background-color: lightskyblue;
+		width: 40px;
+		overflow-x: hidden;
+	}
+
+	.ex3 {
+		background-color: lightskyblue;
+		width: 40px;
+		overflow-x: auto;
+	}
+
+	.ex4 {
+		background-color: lightskyblue;
+		width: 40px;
+		overflow-x: visible;
+	}
+  &lt;/style&gt;
+
+	&lt;h4&gt;overflow-x: scroll:&lt;/h4&gt;
+	&lt;div class="ex1"&gt;
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit...
+	&lt;/div&gt;
+
+	&lt;h4&gt;overflow-x: hidden:&lt;/h4&gt;
+	&lt;div class="ex2"&gt;
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit..
+	&lt;/div&gt;
+
+	&lt;h4&gt;overflow-x: auto:&lt;/h4&gt;
+	&lt;div class="ex3"&gt;
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit...
+	&lt;/div&gt;
+
+	&lt;h4&gt;overflow-x: visible (default):&lt;/h4&gt;
+	&lt;div class="ex4"&gt;
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit...
+	&lt;/div&gt;
+</pre>
+
+<h2>overflow-y</h2>
+
+<p>
+	The <b>overflow-y</b> property specifies whether to clip the content, add a
+	scroll bar, or display overflow content of a block-level element, when it
+	overflows at the top and bottom edges.
+</p>
+
+<p>
+	<b>Tip:</b> Use the <b>overflow-x</b> property to determine clipping at the
+	left and right edges.
+</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>visible</td>
+		<td>
+			The content is not clipped, and it may be rendered outside the content
+			box. This is default
+		</td>
+	</tr>
+	<tr>
+		<td>hidden</td>
+		<td>The content is clipped - and no scrolling mechanism is provided</td>
+	</tr>
+	<tr>
+		<td>scroll</td>
+		<td>The content is clipped and a scrolling mechanism is provided</td>
+	</tr>
+	<tr>
+		<td>auto</td>
+		<td>
+			Should cause a scrolling mechanism to be provided for overflowing boxes
+		</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using overflow-y:</h3>
+
+<h4>overflow-y: scroll:</h4>
+<div class="ex1-y">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+	erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+	consequat gravida libero rhoncus ut.
+</div>
+
+<h4>overflow-y: hidden:</h4>
+<div class="ex2-y">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+	erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+	consequat gravida libero rhoncus ut.
+</div>
+
+<h4>overflow-y: auto:</h4>
+<div class="ex3-y">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+	erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+	consequat gravida libero rhoncus ut.
+</div>
+
+<h4>overflow-y: visible (default):</h4>
+<div class="ex4-y">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+	erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+	consequat gravida libero rhoncus ut.
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.ex1-y {
+		background-color: lightsteelblue;
+		height: 40px;
+		width: 200px;
+		overflow-y: scroll;
+	}
+
+	.ex2-y {
+		background-color: lightsteelblue;
+		height: 40px;
+		width: 200px;
+		overflow-y: hidden;
+	}
+
+	.ex3-y {
+		background-color: lightsteelblue;
+		height: 40px;
+		width: 200px;
+		overflow-y: auto;
+	}
+
+	.ex4-y {
+		background-color: lightsteelblue;
+		height: 40px;
+		width: 200px;
+		overflow-y: visible;
+	}
+  &lt;/style&gt;
+
+	&lt;h4&gt;overflow-y: scroll:&lt;/h4&gt;
+	&lt;div class="ex1-y"&gt;
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+		erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+		consequat gravida libero rhoncus ut.
+	&lt;/div&gt;
+
+	&lt;h4&gt;overflow-y: hidden:&lt;/h4&gt;
+	&lt;div class="ex2-y"&gt;
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+		erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+		consequat gravida libero rhoncus ut.
+	&lt;/div&gt;
+
+	&lt;h4&gt;overflow-y: auto:&lt;/h4&gt;
+	&lt;div class="ex3-y"&gt;
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+		erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+		consequat gravida libero rhoncus ut.
+	&lt;/div&gt;
+
+	&lt;h4&gt;overflow-y: visible (default):&lt;/h4&gt;
+	&lt;div class="ex4-y"&gt;
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+		erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam,
+		consequat gravida libero rhoncus ut.
+	&lt;/div&gt;
+</pre>

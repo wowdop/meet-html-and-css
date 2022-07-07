@@ -2,7 +2,7 @@
 
 ## Research
 
-**For `color` and `font` properties - See general/color-and-font**
+**For `text` properties - See general/text**
 
 <!-- google -->
 

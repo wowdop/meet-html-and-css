@@ -1,16 +1,50 @@
-	<!-- border-image
-	border-image-repeat
-	border-image-outset
-	border-image-slice
-	border-image-source
-	border-image-width -->
+<style>
+	.border-container {
+		padding: 16px;
+		gap: 48px;
+	}
 
+	.border-header {
+		border: 10px solid transparent;
+		padding: 16px;
+		border-image-source: url('https://picsum.photos/200');
+		border-image-slice: 20;
+	}
 
+	.border-part-one {
+		border: 10px solid transparent;
+		padding: 16px;
+		border-image: url('https://picsum.photos/200?random=1');
+		border-image-slice: 20%;
+	}
+
+	.border-part-two {
+		border: 10px solid transparent;
+		padding: 16px;
+		border-image-source: url('https://picsum.photos/200?random=2');
+		border-image-slice: 20%;
+		border-image-width: 10px;
+	}
+
+	.border-part-three {
+		height:50%;
+		background-color: white;
+		border: 10px solid transparent;
+		padding: 16px;
+		border-image-source: url('https://picsum.photos/200');
+		border-image-repeat: stretch;
+		border-image-slice: 60;
+		border-image-width: 10px;
+		border-image-outset: 16px;
+	}
+</style>
 
 <div class="border-header">
   <img src="https://picsum.photos/100/100?random=3" alt="last-me-me"></img>
   <h1>The Last Dinosaurs</h1>
 </div>
+
+<p> ala bala</p>
 
 <div class="border-container">
 	<div class="border-part-one">
@@ -32,21 +66,28 @@
 			again.
 		</p>
 
+	</div>
+
+	<p> ala bala</p>
+
+	<div class="border-part-two">
 		<p>
 			On leaving their home of thousands of years, everything was new to them,
 			very different to what they had been used to inside the crater. However,
 			for days, the dinosaurs continued on, resolute.
 		</p>
-	</div>
 
-	<div class="border-part-two">
 		<p>
 			Finally, from the top of some mountains, they saw a small town. Its houses
 			and townsfolk seemed like tiny dots. Never having seen human beings
 			before, the dinosaurs leapt down the mountainside, ready to destroy
 			anything that stood in their way...
 		</p>
+	</div>
 
+	<p> ala bala</p>
+
+	<div class="border-part-three">
 		<p>
 			However, as they approached that little town, the houses were getting
 			bigger and bigger... and when the dinosaurs finally arrived, it turned out
