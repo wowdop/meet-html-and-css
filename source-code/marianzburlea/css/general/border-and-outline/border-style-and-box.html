@@ -1,0 +1,251 @@
+<style>
+.border-body {
+	background-image: url('https://picsum.photos/seed/picsum/200/300');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+	.border-header,
+	.border-container,
+	.border-part-one,
+	.border-part-two,
+	.border-part-three {
+		border: 8px;
+		padding: 16px;
+		gap: 32px;
+	}
+
+.border-header{
+	border-style: inset outset;
+	border-color: rgb(49, 128, 0);
+}
+
+.border-container {
+	border-top-style: dotted;
+	border-top-color: greenyellow;
+
+	border-right-style: dashed;
+	border-right-color: rgb(21, 216, 246);
+
+	border-bottom-style: double;
+	border-bottom-color: yellow;
+
+	border-left-style: groove;
+	border-left-color: rgb(235, 74, 117);
+
+}
+
+.border-part-one {
+	border-style: ridge;
+	border-color: rgb(208, 110, 208);
+
+}
+
+.border-part-two {
+	border-style: inset;
+	border-color: rgb(0, 128, 36);
+
+}
+
+.border-part-three {
+	border-style: outset;
+	border-color: rgb(128, 0, 6);
+
+}
+
+span {
+	border: 5px solid rgb(227, 227, 11);
+	border-radius: 16px;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.p-border-clone{
+	-webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.p-border-slice {
+	border: 5px solid black;
+	border-radius: 16px;
+	font-size: 14px;
+	line-height: 2;
+	padding: 8px;
+	-webkit-box-decoration-break: slice;
+  -o-box-decoration-break: slice;
+  box-decoration-break: slice;
+}
+
+.shadow-box-examples {
+	margin: 16px;
+}
+
+.shadow-box-one,
+.shadow-box-two,
+.shadow-box-three,
+.shadow-box-four,
+.shadow-box-five,
+.shadow-box-six {
+	padding: 16px;
+	margin-bottom: 32px;
+}
+
+.shadow-box-one {
+	border: 2px solid blue;
+	box-shadow: 5px 10px;
+}
+
+.shadow-box-two {
+	border: 2px solid blue;
+	box-shadow: 5px 10px blueviolet;
+}
+
+.shadow-box-three {
+	border: 2px solid blue;
+	box-shadow: 5px 10px 18px rgb(192, 226, 43);
+}
+
+.shadow-box-four {
+	border: 2px solid blue;
+	box-shadow: 5px 10px 18px 10px rgb(43, 226, 128);
+}
+
+.shadow-box-five {
+	border: 2px solid blue;
+	box-shadow: 5px 10px rgb(43, 226, 128), 10px 15px blue, 8px 16px pink;
+}
+
+.shadow-box-six {
+	border: 2px solid blue;
+	box-shadow: 5px 10px inset;
+}
+
+</style>
+
+<div class="border-body">
+
+	<div class="border-header">
+		<img src="https://picsum.photos/100/100?random=3" alt="last-me-me"></img>
+		<h1>The Last Dinosaurs</h1>
+	</div>
+
+	<p> ala bala</p>
+
+	<div class="border-container">
+		<div class="border-part-one">
+			<p>
+				In a lost land of tropical forests, on top of the only mountain in the
+				region, trapped inside an old volcanic crater system, lived the last ever
+				group of large, ferocious dinosaurs. For thousands and thousands of years
+				they had survived all the changes on Earth, and now, led by the great
+				Ferocitaurus, they were planning to come out of hiding and to dominate the
+				world once more.
+			</p>
+
+			<p>
+				<b>Ferocitaurus</b> was an awesome Tyrannosaurus Rex who had decided they
+				had spent too much time isolated from the rest of the world. So, over a
+				few years, the dinosaurs worked together, demolishing the walls of the
+				great crater. When the work was done, all the dinosaurs carefully
+				sharpened their claws and teeth, in readiness to terrorise the world once
+				again.
+			</p>
+
+		</div>
+
+		<p> ala bala</p>
+
+		<div class="border-part-two">
+			<p>
+				On leaving their home of thousands of years, everything was new to them,
+				very different to what they had been used to inside the crater. However,
+				for days, the dinosaurs continued on, resolute.
+			</p>
+
+			<p>
+				Finally, from the top of some mountains, they saw a small town. Its houses
+				and townsfolk seemed like tiny dots. Never having seen human beings
+				before, the dinosaurs leapt down the mountainside, ready to destroy
+				anything that stood in their way...
+			</p>
+		</div>
+
+		<p> ala bala</p>
+
+		<div class="border-part-three">
+			<p>
+				However, as they approached that little town, the houses were getting
+				bigger and bigger... and when the dinosaurs finally arrived, it turned out
+				that the houses were much bigger than the dinosaurs themselves. A boy who
+				was passing by said: "Daddy! Daddy! I've found some tiny dinosaurs! Can I
+				keep them?"
+			</p>
+
+			<p>
+				And such is life. <b>The terrifying Ferocitaurus</b> and his friends ended
+				up as pets for the village children. Seeing how millions of years of
+				evolution had turned their species into midget dinosaurs, they learned
+				that nothing lasted forever, and that you must always be ready to adapt.
+			</p>
+		</div>
+	</div>
+
+	<div>
+			<span class="p-border-clone">
+				I <br>
+				am <br>
+				going <br>
+				to <br>
+				run <br>
+				wild <br>
+				quite soon.<br>
+			</span>
+		</div>
+		<div>
+			<span class="p-border-slice">
+				I <br>
+				am <br>
+				going <br>
+				to <br>
+				succed <br>
+				This <br>
+				thing. <br>
+			</span>
+	</div>
+</div>
+
+<div class="shadow-box-examples">
+	<p class="shadow-box-one">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<p class="shadow-box-two">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<p class="shadow-box-three">
+		<b>Blur Effect:</b>
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<p class="shadow-box-four">
+		<b>Spread radius of the shadow:</b>
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<p class="shadow-box-five">
+		<b>Multiple shadows:</b>
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<p class="shadow-box-six">
+		<b>Inset keyword::</b>
+		<br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+</div>

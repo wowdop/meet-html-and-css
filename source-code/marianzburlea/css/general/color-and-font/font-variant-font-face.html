@@ -1,0 +1,119 @@
+<!--
+1. the `font` property - See Must Know Tags
+1. the `font-family` property - See Must Know Tags
+1. the `font-style` property - See Must Know Tags
+
+1. the `font-variant` property
+1. the `@font-face` property
+
+1. the `font-size-adjust` property
+1. the `font-size` property - See Must Know Tags
+1. the `font-stretch` property -->
+
+<style>
+	@font-face {
+		font-family: Branda;
+		src: url('../../../../public/font/Branda-yolq.ttf');
+	}
+
+	.branda {
+		font-family: Branda;
+	}
+
+	.small-caps {
+		font-variant: small-caps;
+	}
+</style>
+
+<h1>font-variant in CSS</h1>
+
+<h2>font-variant</h2>
+
+<p>
+	In a small-caps font, all lowercase letters are converted to uppercase
+	letters. However, the converted uppercase letters appears in a smaller font
+	size than the original uppercase letters in the text.
+</p>
+
+<p>
+	The <b>font-variant</b> property specifies whether or not a text should be
+	displayed in a small-caps font.
+</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>normal</td>
+		<td>The browser displays a normal font. This is default</td>
+	</tr>
+	<tr class="small-caps">
+		<td>small-caps</td>
+		<td>The browser displays a small-caps font</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.small-caps {
+		font-variant: small-caps;
+	}
+  &lt;/style&gt;
+</pre>
+
+<h2>@font-face</h2>
+
+<p>
+	With the @font-face rule, web designers do not have to use one of the
+	"web-safe" fonts anymore.
+</p>
+
+<p>
+	In the @font-face rule you must first define a name for the font (e.g.
+	myFirstFont), and then point to the font file.
+</p>
+
+<p>
+	To use the font for an HTML element, refer to the name of the font
+	(myFirstFont) through the font-family property.
+</p>
+
+<p>
+	You need to download a file with a font that you desire and place it usually
+	in <b>public/font</b>. I
+</p>
+
+<p>Code example:</p>
+
+<div class="branda">
+	This is some text that is styled using <b>@font-face</b>
+</div>
+
+<pre>
+  &lt;style&gt;
+	@font-face {
+		font-family: Branda;
+		src: url('../../../../public/font/Branda-yolq.ttf');
+	}
+
+	.branda {
+		font-family: Branda;
+	}
+  &lt;/style&gt;
+
+	&lt;div class="branda"&gt;
+		This is some text that is styled using &lt;b&gt;@font-face&lt;/b&gt;
+	&lt;/div&gt;
+</pre>

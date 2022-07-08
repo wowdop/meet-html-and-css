@@ -1,0 +1,494 @@
+<style>
+	.left {
+		text-align: left;
+	}
+
+	.right {
+		text-align: right;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.justify {
+		text-align: justify;
+	}
+
+	img.a {
+		vertical-align: baseline;
+	}
+
+	img.b {
+		vertical-align: text-top;
+	}
+
+	img.c {
+		vertical-align: text-bottom;
+	}
+
+	img.d {
+		vertical-align: sub;
+	}
+
+	img.e {
+		vertical-align: super;
+	}
+
+	div.a {
+		text-align: justify; /* For Edge */
+		-moz-text-align-last: right; /* For Firefox prior 58.0 */
+		text-align-last: right;
+	}
+
+	div.b {
+		text-align: justify; /* For Edge */
+		-moz-text-align-last: center; /* For Firefox prior 58.0 */
+		text-align-last: center;
+	}
+
+	div.c {
+		text-align: justify; /* For Edge */
+		-moz-text-align-last: justify; /* For Firefox prior 58.0 */
+		text-align-last: justify;
+	}
+</style>
+
+<h1>text-align, vertical-align and text-align-last in CSS</h1>
+
+<h2>text-align</h2>
+
+<p>
+	The <b>text-align</b> property specifies the horizontal alignment of text in
+	an element.
+</p>
+
+<table border="1" cellpadding="10" width="100%">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr class="left">
+		<td>left</td>
+		<td>Aligns the text to the left</td>
+	</tr>
+	<tr class="right">
+		<td>right</td>
+		<td>Aligns the text to the right</td>
+	</tr>
+	<tr class="center">
+		<td>center</td>
+		<td>Centers the text</td>
+	</tr>
+	<tr class="justify">
+		<td>justify</td>
+		<td>
+			Stretches the lines so that each line has equal width (like in newspapers
+			and magazines)
+		</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using text-align:</h3>
+
+<p>Look at the table above</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.left {
+		text-align: left;
+	}
+
+	.right {
+		text-align: right;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.justify {
+		text-align: justify;
+	}
+  &lt;/style&gt;
+</pre>
+
+<h2>vertical-align</h2>
+
+<p>
+	The <b>vertical-align</b> property sets the vertical alignment of an element.
+</p>
+
+<table border="1" cellpadding="5" width="100%">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>baseline</td>
+		<td>
+			The element is aligned with the baseline of the parent. This is default
+		</td>
+	</tr>
+	<tr>
+		<td>length</td>
+		<td>
+			Raises or lower an element by the specified length. Negative values are
+			allowed.
+		</td>
+	</tr>
+	<tr>
+		<td>%</td>
+		<td>
+			Raises or lower an element by a percent of the "line-height" property.
+			Negative values are allowed
+		</td>
+	</tr>
+	<tr>
+		<td>sub</td>
+		<td>The element is aligned with the subscript baseline of the parent</td>
+	</tr>
+	<tr>
+		<td>super</td>
+		<td>The element is aligned with the superscript baseline of the parent</td>
+	</tr>
+	<tr>
+		<td>top</td>
+		<td>
+			The element is aligned with the top of the tallest element on the line
+		</td>
+	</tr>
+	<tr>
+		<td>text-top</td>
+		<td>The element is aligned with the top of the parent element's font</td>
+	</tr>
+	<tr>
+		<td>middle</td>
+		<td>The element is placed in the middle of the parent element</td>
+	</tr>
+	<tr>
+		<td>bottom</td>
+		<td>The element is aligned with the lowest element on the line</td>
+	</tr>
+	<tr>
+		<td>text-bottom</td>
+		<td>The element is aligned with the bottom of the parent element's font</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using vertical-align:</h3>
+
+<h4>vertical-align: baseline (default):</h4>
+<p>
+	An
+	<img
+		class="a"
+		src="../../../../public/image/peony.png"
+		width="9"
+		height="9"
+	/>
+	image with a default alignment.
+</p>
+
+<h4>vertical-align: text-top:</h4>
+<p>
+	An
+	<img
+		class="b"
+		src="../../../../public/image/peony.png"
+		width="9"
+		height="9"
+	/>
+	image with a text-top alignment.
+</p>
+
+<h4>vertical-align: text-bottom:</h4>
+<p>
+	An
+	<img
+		class="c"
+		src="../../../../public/image/peony.png"
+		width="9"
+		height="9"
+	/>
+	image with a text-bottom alignment.
+</p>
+
+<h4>vertical-align: sub:</h4>
+<p>
+	An
+	<img
+		class="d"
+		src="../../../../public/image/peony.png"
+		width="9"
+		height="9"
+	/>
+	image with a sub alignment.
+</p>
+
+<h4>vertical-align: sup:</h4>
+<p>
+	An
+	<img
+		class="e"
+		src="../../../../public/image/peony.png"
+		width="9"
+		height="9"
+	/>
+	image with a super alignment.
+</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	img.a {
+		vertical-align: baseline;
+	}
+
+	img.b {
+		vertical-align: text-top;
+	}
+
+	img.c {
+		vertical-align: text-bottom;
+	}
+
+	img.d {
+		vertical-align: sub;
+	}
+
+	img.e {
+		vertical-align: super;
+	}
+  &lt;/style&gt;
+
+  &lt;p&gt;
+    An
+    &lt;img
+      class="a"
+      src="../../../../public/image/peony.png"
+      width="9"
+      height="9"
+    /&gt;
+    image with a default alignment.
+  &lt;/p&gt;
+
+  &lt;h4&gt;vertical-align: text-top:&lt;/h4&gt;
+  &lt;p&gt;
+    An
+    &lt;img
+      class="b"
+      src="../../../../public/image/peony.png"
+      width="9"
+      height="9"
+    /&gt;
+    image with a text-top alignment.
+  &lt;/p&gt;
+
+  &lt;h4&gt;vertical-align: text-bottom:&lt;/h4&gt;
+  &lt;p&gt;
+    An
+    &lt;img
+      class="c"
+      src="../../../../public/image/peony.png"
+      width="9"
+      height="9"
+    /&gt;
+    image with a text-bottom alignment.
+  &lt;/p&gt;
+
+  &lt;h4&gt;vertical-align: sub:&lt;/h4&gt;
+  &lt;p&gt;
+    An
+    &lt;img
+      class="d"
+      src="../../../../public/image/peony.png"
+      width="9"
+      height="9"
+    /&gt;
+    image with a sub alignment.
+  &lt;/p&gt;
+
+  &lt;h4&gt;vertical-align: sup:&lt;/h4&gt;
+  &lt;p&gt;
+    An
+    &lt;img
+      class="e"
+      src="../../../../public/image/peony.png"
+      width="9"
+      height="9"
+    /&gt;
+    image with a super alignment.
+  &lt;/p&gt;
+</pre>
+
+<h2>text-align-last</h2>
+
+<p>
+	The <b>text-align-last</b> property specifies how to align the last line of a
+	text.
+</p>
+
+<p>
+	Notice that the <b>text-align-last</b> property sets the alignment for all
+	last lines within the selected element. So, if you have a &lt;div&gt; with
+	three paragraphs in it, <b>text-align-last</b> will apply to the last line of
+	EACH of the paragraphs. To use <b>text-align-last</b> on only the last
+	paragraph in the container, you can use :last child, see example below.
+</p>
+
+<p>
+	<b>Note:</b> In Edge prior 79, the <b>text-align-last</b> property only works
+	on text that has "text-align: justify".
+</p>
+
+<table>
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>auto</td>
+		<td>Default value. The last line is justified and aligned left</td>
+	</tr>
+	<tr>
+		<td>left</td>
+		<td>The last line is aligned to the left</td>
+	</tr>
+	<tr>
+		<td>right</td>
+		<td>The last line is aligned to the right</td>
+	</tr>
+	<tr>
+		<td>center</td>
+		<td>The last line is center-aligned</td>
+	</tr>
+	<tr>
+		<td>justify</td>
+		<td>The last line is justified as the rest of the lines</td>
+	</tr>
+	<tr>
+		<td>start</td>
+		<td>
+			The last line is aligned at the beginning of the line (left if the
+			text-direction is left-to-right, and right is the text-direction is
+			right-to-left)
+		</td>
+	</tr>
+	<tr>
+		<td>end</td>
+		<td>
+			The last line is aligned at the end of the line (right if the
+			text-direction is left-to-right, and left is the text-direction is
+			right-to-left)
+		</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using text-align-last:</h3>
+
+<h4>text-align-last: right:</h4>
+<div class="a">
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+		at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+		diam, consequat gravida libero rhoncus ut.
+	</p>
+</div>
+
+<h4>text-align-last: center:</h4>
+<div class="b">
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+		at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+		diam, consequat gravida libero rhoncus ut.
+	</p>
+</div>
+
+<h4>text-align-last: justify:</h4>
+<div class="c">
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+		at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+		diam, consequat gravida libero rhoncus ut.
+	</p>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+  div.a {
+    text-align: justify; /* For Edge */
+    -moz-text-align-last: right; /* For Firefox prior 58.0 */
+    text-align-last: right;
+  }
+
+  div.b {
+    text-align: justify; /* For Edge */
+    -moz-text-align-last: center; /* For Firefox prior 58.0 */
+    text-align-last: center;
+  }
+
+  div.c {
+    text-align: justify; /* For Edge */
+    -moz-text-align-last: justify; /* For Firefox prior 58.0 */
+    text-align-last: justify;
+  }
+  &lt;/style&gt;
+
+  &lt;h4&gt;text-align-last: right:&lt;/h4&gt;
+  &lt;div class="a"&gt;
+    &lt;p&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+      at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+      diam, consequat gravida libero rhoncus ut.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;h4&gt;text-align-last: center:&lt;/h4&gt;
+  &lt;div class="b"&gt;
+    &lt;p&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+      at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+      diam, consequat gravida libero rhoncus ut.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;h4&gt;text-align-last: justify:&lt;/h4&gt;
+  &lt;div class="c"&gt;
+    &lt;p&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam
+      at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus
+      diam, consequat gravida libero rhoncus ut.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+</pre>

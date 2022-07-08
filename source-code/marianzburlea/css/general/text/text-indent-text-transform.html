@@ -1,0 +1,104 @@
+<style>
+	.indent {
+		text-indent: 2rem;
+	}
+
+	.capitalize {
+		text-transform: capitalize;
+	}
+
+	.uppercase {
+		text-transform: uppercase;
+	}
+
+	.lowercase {
+		text-transform: lowercase;
+	}
+</style>
+
+<h1>text-indent and text-transform in CSS</h1>
+
+<h2>text-indent</h2>
+
+<p>
+	The <b>text-indent</b> property specifies the indentation of the first line in
+	a text-block.
+</p>
+
+<p>
+	<b>Note:</b> Negative values are allowed. The first line will be indented to
+	the left if the value is negative.
+</p>
+
+<h3>Example using text-indent:</h3>
+
+<div class="indent">Look at this text how it is indented.</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.indent {
+		text-indent: 2rem;
+	}
+  &lt;/style&gt;
+
+	&lt;div class="indent"&gt;Look at this text how it is indented.&lt;/div&gt;
+</pre>
+
+<h2>text-transform</h2>
+
+<p>The <b>text-transform</b> property controls the capitalization of text.</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>none</td>
+		<td>No capitalization. The text renders as it is. This is default</td>
+	</tr>
+	<tr class="capitalize">
+		<td>capitalize</td>
+		<td>Transforms the first character of each word to uppercase</td>
+	</tr>
+	<tr class="uppercase">
+		<td>uppercase</td>
+		<td>Transforms all characters to uppercase</td>
+	</tr>
+	<tr class="lowercase">
+		<td>lowercase</td>
+		<td>Transforms all characters to lowercase</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value. Read about initial</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element. Read about inherit</td>
+	</tr>
+</table>
+
+<h3>Example using text-trasnform:</h3>
+
+<p>Look at the table above and you will see the properties in action.</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.capitalize {
+		text-transform: capitalize;
+	}
+
+	.uppercase {
+		text-transform: uppercase;
+	}
+
+	.lowercase {
+		text-transform: lowercase;
+	}
+  &lt;/style&gt;
+</pre>

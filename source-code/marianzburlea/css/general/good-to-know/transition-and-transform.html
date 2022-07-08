@@ -1,0 +1,144 @@
+<style>
+	.transition-ex-1 {
+		background-image: url('https://picsum.photos/seed/picsum/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 200px;
+		height: 200px;
+		transition: width, height;
+		transition-duration: 0.2s;
+	}
+	.transition-ex-1:hover {
+		width: 300px;
+		height: 400px;
+	}
+
+	input[type='text'] {
+		width: 150px;
+		transition: width 0.35s ease-in-out;
+	}
+
+	input[type='text']:focus {
+		width: 300px;
+	}
+
+	.transition-ex-3 {
+		background-image: url('https://picsum.photos/seed/picsum/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		width: 100px;
+		height: 100px;
+
+		transition-property: width, height;
+		transition-duration: 2s;
+	}
+
+	.transition-ex-3:hover {
+		width: 200px;
+		height: 200px;
+	}
+
+	.transition-ex-4 {
+		background-image: url('https://picsum.photos/id/1002/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		width: 100px;
+		height: 100px;
+
+		transition-property: width, height;
+		transition-duration: 2s;
+		transition-timing-function: ease, step-start;
+	}
+
+	.transition-ex-4:hover {
+		width: 200px;
+		height: 200px;
+	}
+
+	.transition-ex-5 {
+		background-image: url('https://picsum.photos/id/237/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		width: 100px;
+		height: 100px;
+
+		transition-property: width, height;
+		transition-duration: 5s;
+		transition-delay: 0.5s;
+	}
+
+	.transition-ex-5:hover {
+		width: 200px;
+		height: 200px;
+	}
+
+	.transform-ex-6-1 {
+		background-image: url('https://picsum.photos/id/237/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		width: 150px;
+		height: 80px;
+		transform: rotate(30deg);
+	}
+
+	.transform-ex-6-2 {
+		width: 150px;
+		height: 80px;
+		background-color: rgb(0, 187, 255);
+		transform: skewY(30deg);
+	}
+
+	.transform-ex-6-3 {
+		width: 150px;
+		height: 80px;
+		background-color: rgb(0, 255, 123);
+		transform: scaleY(1.5);
+	}
+</style>
+
+<div class="transition-ex-1">
+	<p><b>Transition Property</b></p>
+
+	<p>Hover over an element that changes its width from 100px to 300px.</p>
+</div>
+
+<div class="transition-ex-2">
+	<p><b> Transition Property </b></p>
+
+	<p>
+		Set the default value for the input at 150px. <br />
+		Hower, when the <b>input field</b> gets focus, make it as wide as 300px.
+	</p>
+
+	In search of the lost neuron:
+	<input type="text" name="search-the-neuron" />
+</div>
+
+<div class="transition-ex-3">
+	<p><b>Transition-property Property</b></p>
+</div>
+
+<div class="transition-ex-4">
+	<p><b>Transition-timing-function Property</b></p>
+</div>
+
+<div class="transition-ex-5">
+	<p><b>Transition-delay Property</b></p>
+</div>
+
+<div class="transform-ex-6-1">
+	<p><b>Transform Property</b></p>
+	<br />
+</div>
+
+<div class="transform-ex-6-2">
+	<p><b>Transform Property</b></p>
+</div>
+
+<div class="transform-ex-6-3">
+	<p><b>Transform Property</b></p>
+</div>

@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="./background-style.css" />
+
+<h1>Backgrounds in CSS</h1>
+
+<h2>
+  An external style sheet is used to define the style for many HTML pages. To
+  use an external style sheet, add a link to it in the &lt;head&gt; section of
+  each HTML page:
+</h2>
+
+<p>The example here sets the to all paragraphs to aquamarine</p>
+
+<h3>background-color</h3>
+
+<p>
+  By using <i>background-color</i>, you can specify a background color for any
+  HTML element.
+</p>
+
+<p>Take a look at this paragraph!</p>
+
+<h3>background-image</h3>
+
+<p>
+  The background-image property sets one or more background images for an
+  element.
+</p>
+
+<div></div>
+
+<p>
+  Take a look at this picture! I made use of <b>style</b> element to select a
+  <b>div</b> element and gave it a background image with width, height, and a
+  background color.
+</p>
+
+<p>The whole css file looks like this:</p>
+
+<pre>
+  p {
+    background-color: aquamarine;
+  }
+
+  div {
+    background-image: url("/public/image/peony.png");
+    width: 200px;
+    height: 250px;
+    background-color: purple;
+  }
+</pre>

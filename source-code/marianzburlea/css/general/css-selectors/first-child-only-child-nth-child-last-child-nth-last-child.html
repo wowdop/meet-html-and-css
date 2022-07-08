@@ -1,0 +1,292 @@
+<style>
+	div {
+		border: 2px dashed darkred;
+		padding: 1rem;
+	}
+
+	p:first-child {
+		background-color: seagreen;
+		color: aliceblue;
+	}
+
+	.only-child:only-child {
+		background-color: olive;
+		color: wheat;
+	}
+
+	.nth-child:nth-child(1) {
+		background-color: tomato;
+		color: yellow;
+	}
+
+	.odd:nth-child(odd) {
+		background-color: royalblue;
+		color: whitesmoke;
+	}
+
+	.last-child:last-child {
+		background-color: darkmagenta;
+		color: chartreuse;
+	}
+
+	.nth-last-child:nth-last-child(3) {
+		background-color: powderblue;
+		color: indigo;
+	}
+</style>
+
+<h1>
+	:first-child, :only-child, :nth-child(), :last-child and :nth-last-child() in
+	CSS
+</h1>
+
+<h2>:first-child</h2>
+
+<p>
+	The <b>:first-child</b> selector is used to select the specified selector,
+	only if it is the first child of its parent.
+</p>
+
+<h3>Example using <b>:first-child</b></h3>
+
+<div>
+	<p>Here lies some text</p>
+	<p>Being spread across</p>
+	<p>Multiple paragraphs</p>
+	<p>Only the first child has style.</p>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	p:first-child {
+		background-color: seagreen;
+		color: aliceblue;
+	}
+  &lt;/style&gt;
+
+  &lt;div&gt;
+    &lt;p&gt;Here lies some text&lt;/p&gt;
+    &lt;p&gt;Being spread across&lt;/p&gt;
+    &lt;p&gt;Multiple paragraphs&lt;/p&gt;
+    &lt;p&gt;Only the first child has style.&lt;/p&gt;
+  &lt;/div&gt;
+</pre>
+
+<h2>:only-child</h2>
+
+<p>
+	The <b>:only-child</b> selector matches every element that is the only child
+	of its parent.
+</p>
+
+<h3>Example using <b>:only-child</b></h3>
+
+<div>
+	<p class="only-child">We are practicing CSS selectors.</p>
+	<p class="only-child">using <b>:only-child</b> selector</p>
+	<p class="only-child">Let's see how it works</p>
+	<p class="only-child">There are 4 children in this parent</p>
+</div>
+
+<br />
+
+<div>
+	<p class="only-child">This is only one child, in this parent.</p>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.only-child:only-child {
+		background-color: olive;
+		color: wheat;
+	}
+  &lt;/style&gt;
+
+  &lt;div&gt;
+    &lt;p class="only-child"&gt;We are practicing CSS selectors.&lt;/p&gt;
+    &lt;p class="only-child"&gt;using &lt;b&gt;:only-child&lt;/b&gt; selector&lt;/p&gt;
+    &lt;p class="only-child"&gt;Let's see how it works&lt;/p&gt;
+    &lt;p class="only-child"&gt;There are 4 children in this parent&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;br /&gt;
+
+  &lt;div&gt;
+    &lt;p class="only-child"&gt;This is only one child, in this parent.&lt;/p&gt;
+  &lt;/div&gt;
+</pre>
+
+<h2>:nth-child()</h2>
+
+<p>
+	The :nth-child(n) selector matches every element that is the nth child of its
+	parent.
+</p>
+
+<p>
+	<i>n</i> can be a number, a keyword (odd or even), or a formula (like an + b).
+</p>
+
+<p>
+	<strong>Tip:</strong> Look at the <b>:nth-of-type()</b> selector to select the
+	element that is the <b>nth</b> child, of the same type (tag name), of its
+	parent.
+</p>
+<p>
+	<b>Odd</b> and <b>even</b> are keywords that can be used to match child
+	elements whose index is <b>odd</b> or <b>even</b> (the index of the first
+	child is 1).
+</p>
+
+<h3>Example using <b>:nth-child()</b></h3>
+
+<div>
+	<p class="nth-child">
+		This is child number 1 that will be selected and styled in CSS using the
+		<i><b>:nth-child</b></i> CSS selector.
+	</p>
+	<p class="nth-child">This is child number 2</p>
+	<p class="nth-child">This is child number 3</p>
+	<p class="nth-child">This is child number 4</p>
+</div>
+
+<br />
+
+<div>
+	<p class="odd">There are more children here</p>
+	<p class="odd">And only the odd number</p>
+	<p class="odd">Has a style in CSS</p>
+	<p class="odd">It works the same for the even number</p>
+	<p class="odd">If you use the selector: <b>:nth-child(even)</b>.</p>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+  .nth-child:nth-child(1) {
+		background-color: tomato;
+		color: yellow;
+	}
+
+	.odd:nth-child(odd) {
+		background-color: royalblue;
+		color: whitesmoke;
+	}
+  &lt;/style&gt;
+
+  &lt;div&gt;
+    &lt;p class="nth-child"&gt;
+      This is child number 1 that will be selected and styled in CSS using the
+      &lt;i&gt;&lt;b&gt;:nth-child&lt;/b&gt;&lt;/i&gt; CSS selector.
+    &lt;/p&gt;
+    &lt;p class="nth-child"&gt;This is child number 2&lt;/p&gt;
+    &lt;p class="nth-child"&gt;This is child number 3&lt;/p&gt;
+    &lt;p class="nth-child"&gt;This is child number 4&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div&gt;
+    &lt;p class="odd"&gt;There are more children here&lt;/p&gt;
+    &lt;p class="odd"&gt;And only the odd number&lt;/p&gt;
+    &lt;p class="odd"&gt;Has a style in CSS&lt;/p&gt;
+    &lt;p class="odd"&gt;It works the same for the even number&lt;/p&gt;
+    &lt;p class="odd"&gt;If you use the selector: &lt;b&gt;:nth-child(even)&lt;/b&gt;.&lt;/p&gt;
+  &lt;/div&gt;
+
+</pre>
+
+<h2>:last-child</h2>
+
+<p>
+	The <b>p:last-child</b> selector matches every element that is the last child
+	of its parent.
+</p>
+<p>
+	<strong>Tip:</strong> <b>p:last-child</b> is equal to
+	<b>p:nth-last-child(1)</b>.
+</p>
+
+<h3>Example using <b>:last-child</b></h3>
+
+<div>
+	<p class="last-child">
+		The first paragraph gets the style from <b>:first-child</b>
+	</p>
+	<p class="last-child">There are multiple paragraphs here</p>
+	<p class="last-child">The last one will have</p>
+	<p class="last-child">Different background color and text color</p>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.last-child:last-child {
+		background-color: darkmagenta;
+		color: chartreuse;
+	}
+  &lt;/style&gt;
+
+  &lt;div&gt;
+    &lt;p class="last-child"&gt;
+      The first paragraph gets the style from &lt;b&gt;:first-child&lt;/b&gt;
+    &lt;/p&gt;
+    &lt;p class="last-child"&gt;There are multiple paragraphs here&lt;/p&gt;
+    &lt;p class="last-child"&gt;The last one will have&lt;/p&gt;
+    &lt;p class="last-child"&gt;Different background color and text color&lt;/p&gt;
+  &lt;/div&gt;
+
+</pre>
+
+<h2>:nth-last-child()</h2>
+
+<p>
+	The :nth-last-child(n) selector matches every element that is the nth child,
+	regardless of type, of its parent, counting from the last child.
+</p>
+<p>
+	<i><b>n</b></i> can be a number, a keyword, or a formula.
+</p>
+
+<p>
+	<strong> Tip: </strong> Look at the :nth-last-of-type() selector to select the
+	element that is the nth child, of a specified type, of its parent, counting
+	from the last child.
+</p>
+
+<h3>Example using <b>:nth-last-child()</b></h3>
+
+<div>
+	<p class="nth-last-child">This is an example</p>
+	<p class="nth-last-child">Using <b>:nth-last-child</b></p>
+	<p class="nth-last-child">There are multiple children</p>
+	<p class="nth-last-child">And the style will be different</p>
+	<p class="nth-last-child">Counting from the last child</p>
+	<p class="nth-last-child">Look at this</p>
+	<p class="nth-last-child">This is the result</p>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.nth-last-child:nth-last-child(3) {
+		background-color: powderblue;
+		color: indigo;
+	}
+  &lt;/style&gt;
+
+	&lt;div&gt;
+		&lt;p class="nth-last-child"&gt;This is an example&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;Using &lt;b&gt;:nth-last-child&lt;/b&gt;&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;There are multiple children&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;And the style will be different&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;Counting from the last child&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;Look at this&lt;/p&gt;
+		&lt;p class="nth-last-child"&gt;This is the result&lt;/p&gt;
+	&lt;/div&gt;
+</pre>

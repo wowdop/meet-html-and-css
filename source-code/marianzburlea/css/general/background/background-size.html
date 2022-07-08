@@ -1,0 +1,105 @@
+<style>
+	.size {
+		background-image: url('https://picsum.photos/id/870/200/300?grayscale&blur=2');
+		border: 2px solid black;
+		padding: 32px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		text-shadow: 2px 2px whitesmoke;
+	}
+</style>
+
+<h1>background-size in CSS</h1>
+
+<h2>background-size</h2>
+
+<p>
+	The <b>background-size</b> property specifies the size of the background
+	images.
+</p>
+
+<p>
+	There are four different syntaxes you can use with this property: the keyword
+	syntax (<b>"auto"</b>, <b>"cover"</b> and <b>"contain"</b>), the one-value
+	syntax (sets the width of the image (height becomes <b>"auto"</b>), the
+	two-value syntax (first value: width of the image, second value: height), and
+	the multiple background syntax (separated with comma).
+</p>
+
+<table border="1" cellpadding="10">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>auto</td>
+		<td>
+			Default value. The background image is displayed in its original size
+		</td>
+	</tr>
+	<tr>
+		<td>length</td>
+		<td>
+			Sets the width and height of the background image. The first value sets
+			the width, the second value sets the height. If only one value is given,
+			the second is set to "auto". Read about length units
+		</td>
+	</tr>
+	<tr>
+		<td>percentage</td>
+		<td>
+			Sets the width and height of the background image in percent of the parent
+			element. The first value sets the width, the second value sets the height.
+			If only one value is given, the second is set to "auto"
+		</td>
+	</tr>
+	<tr>
+		<td>cover</td>
+		<td>
+			Resize the background image to cover the entire container, even if it has
+			to stretch the image or cut a little bit off one of the edges
+		</td>
+	</tr>
+	<tr>
+		<td>contain</td>
+		<td>Resize the background image to make sure the image is fully visible</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using background-size:</h3>
+
+<p>
+	Below is an image. Its actual sizes are 200x300 and by using css property
+	<b>background-size: cover;</b> which makes it cover the entire container.
+</p>
+
+<strong>
+	<div class="size">Look at this text how it covers the image.</div>
+</strong>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.size {
+		background-image: url('https://picsum.photos/id/870/200/300?grayscale&blur=2');
+		border: 2px solid black;
+		padding: 32px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		text-shadow: 2px 2px whitesmoke;
+	}
+  &lt;/style&gt;
+
+  &lt;strong&gt;
+    &lt;div class="size"&gt;Look at this text how it covers the image.&lt;/div&gt;
+  &lt;/strong&gt;
+</pre>

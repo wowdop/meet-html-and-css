@@ -1,0 +1,352 @@
+<style>
+	.adjust {
+		font-family: Verdana;
+		font-size-adjust: 2%;
+	}
+
+	.number {
+		font-size: 16px;
+	}
+
+	.large {
+		font-size: large;
+	}
+
+	.percentage {
+		font-size: 50%;
+	}
+
+	.ultra-condensed {
+		font-stretch: ultra-condensed;
+	}
+
+	.extra-condensed {
+		font-stretch: extra-condensed;
+	}
+
+	.condensed {
+		font-stretch: condensed;
+	}
+
+	.semi-condensed {
+		font-stretch: semi-condensed;
+	}
+
+	.expanded {
+		font-stretch: expanded;
+	}
+
+	.semi-expanded {
+		font-stretch: semi-expanded;
+	}
+
+	.extra-expanded {
+		font-stretch: extra-expanded;
+	}
+
+	.ultra-expanded {
+		font-stretch: ultra-expanded;
+	}
+
+	.ultra-condensed,
+	.extra-condensed,
+	.condensed,
+	.semi-condensed,
+	.expanded,
+	.semi-expanded,
+	.extra-expanded,
+	.ultra-expanded {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+</style>
+
+<h1>font-size-adjust, font-size and font-stretch in CSS</h1>
+
+<h2>font-size-adjust</h2>
+
+<p>
+	The font-size-adjust property gives you better control of the font size when
+	the first selected font is not available.
+</p>
+
+<p>
+	When a font is not available, the browser uses the second specified font. This
+	could result in a big change for the font size. To prevent this, use the
+	font-size-adjust property.
+</p>
+
+<p>
+	All fonts have an "aspect value" which is the size-difference between the
+	lowercase letter "x" and the uppercase letter "X".
+</p>
+
+<p>
+	When the browser knows the "aspect value" for the first selected font, the
+	browser can figure out what font-size to use when displaying text with the
+	second choice font.
+</p>
+
+<p>Property Values</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>number</td>
+		<td>Defines the aspect value to use</td>
+	</tr>
+	<tr>
+		<td>none</td>
+		<td>Default value. No font size adjustment</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using font-size-adjust:</h3>
+
+<div class="adjust">I want to adjust the size of this text to 2%</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.adjust {
+		font-family: Verdana;
+		font-size-adjust: 2%;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="adjust"&gt;I want to adjust the size of this text to 2%&lt;/div&gt;
+</pre>
+
+<h2>font-size</h2>
+
+<p>The <b>font-size</b> property sets the size of a font.</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>medium</td>
+		<td>Sets the font-size to a medium size. This is default</td>
+	</tr>
+	<tr>
+		<td>xx-small</td>
+		<td>Sets the font-size to an xx-small size</td>
+	</tr>
+	<tr>
+		<td>x-small</td>
+		<td>Sets the font-size to an extra small size</td>
+	</tr>
+	<tr>
+		<td>small</td>
+		<td>Sets the font-size to a small size</td>
+	</tr>
+	<tr>
+		<td>large</td>
+		<td>Sets the font-size to a large size</td>
+	</tr>
+	<tr>
+		<td>x-large</td>
+		<td>Sets the font-size to an extra large size</td>
+	</tr>
+	<tr>
+		<td>xx-large</td>
+		<td>Sets the font-size to an xx-large size</td>
+	</tr>
+	<tr>
+		<td>smaller</td>
+		<td>Sets the font-size to a smaller size than the parent element</td>
+	</tr>
+	<tr>
+		<td>larger</td>
+		<td>Sets the font-size to a larger size than the parent element</td>
+	</tr>
+	<tr>
+		<td>length</td>
+		<td>Sets the font-size to a fixed size in px, cm, etc.</td>
+	</tr>
+	<tr>
+		<td>%</td>
+		<td>Sets the font-size to a percent of the parent element's font size</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using font-size:</h3>
+
+<div class="number">The font size is a number</div>
+<div class="large">The font size is set to large</div>
+<div class="percentage">The font size is a percentage</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.number {
+		font-size: 16px;
+	}
+
+	.large {
+		font-size: large;
+	}
+
+	.percentage {
+		font-size: 50%;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="number"&gt;The font size is a number&lt;/div&gt;
+  &lt;div class="large"&gt;The font size is set to large&lt;/div&gt;
+  &lt;div class="percentage"&gt;The font size is a percentage&lt;/div&gt;
+
+</pre>
+
+<h2>font-stretch</h2>
+
+<p>
+	The font-stretch property allows you to make text narrower (condensed) or
+	wider (expanded).
+</p>
+
+<p>
+	<b>Note:</b> Some fonts provide additional faces; condensed faces and expanded
+	faces. For these fonts, you can use the font-stretch property to select a
+	normal, condensed, or expanded font face.
+</p>
+
+<p>
+	<b>Note:</b> This property has no effect if the selected font does not offer
+	condensed or expanded faces!
+</p>
+
+<h3>Property values</h3>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr class="ultra-condensed">
+		<td>ultra-condensed</td>
+		<td>Makes the text as narrow as it gets</td>
+	</tr>
+	<tr class="extra-condensed">
+		<td>extra-condensed</td>
+		<td>
+			Makes the text narrower than condensed, but not as narrow as
+			ultra-condensed
+		</td>
+	</tr>
+	<tr class="condensed">
+		<td>condensed</td>
+		<td>
+			Makes the text narrower than semi-condensed, but not as narrow as
+			extra-condensed
+		</td>
+	</tr>
+	<tr class="semi-condensed">
+		<td>semi-condensed</td>
+		<td>Makes the text narrower than normal, but not as narrow as condensed</td>
+	</tr>
+	<tr>
+		<td>normal</td>
+		<td>Default value. No font stretching</td>
+	</tr>
+	<tr class="semi-expanded">
+		<td>semi-expanded</td>
+		<td>Makes the text wider than normal, but not as wide as expanded</td>
+	</tr>
+	<tr class="expanded">
+		<td>expanded</td>
+		<td>
+			Makes the text wider than semi-expanded, but not as wide as extra-expanded
+		</td>
+	</tr>
+	<tr class="extra-expanded">
+		<td>extra-expanded</td>
+		<td>
+			Makes the text wider than expanded, but not as wide as ultra-expanded
+		</td>
+	</tr>
+	<tr class="ultra-expanded">
+		<td>ultra-expanded</td>
+		<td>Makes the text as wide as it gets</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<p>Code example using font-stretch:</p>
+
+<pre>
+	&lt;style&gt;
+
+	.ultra-condensed {
+		font-stretch: ultra-condensed;
+	}
+
+	.extra-condensed {
+		font-stretch: extra-condensed;
+	}
+
+	.condensed {
+		font-stretch: condensed;
+	}
+
+	.semi-condensed {
+		font-stretch: semi-condensed;
+	}
+
+	.expanded {
+		font-stretch: expanded;
+	}
+
+	.semi-expanded {
+		font-stretch: semi-expanded;
+	}
+
+	.extra-expanded {
+		font-stretch: extra-expanded;
+	}
+
+	.ultra-expanded {
+		font-stretch: ultra-expanded;
+	}
+
+	.ultra-condensed,
+	.extra-condensed,
+	.condensed,
+	.semi-condensed,
+	.expanded,
+	.semi-expanded,
+	.extra-expanded,
+	.ultra-expanded {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	&lt;/style&gt;
+</pre>

@@ -1,0 +1,193 @@
+<style>
+  .b {
+  white-space: nowrap;
+  width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+  }
+
+  .c {
+    white-space: nowrap;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: "----";
+    border: 1px solid #000000;
+  }
+
+  .word-wrap {
+    width: 150px;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+  }
+</style>
+
+<h1>text-overflow, white-space and word-wrap in CSS</h1>
+
+<h2>text-overflow</h2>
+
+<p>
+	The <b>text-overflow</b> property specifies how overflowed content that is not
+	displayed should be signaled to the user. It can be clipped, display an
+	ellipsis (...), or display a custom string.
+</p>
+<p>Both of the following properties are required for text-overflow:</p>
+
+<ul>
+	<li>white-space: nowrap;</li>
+	<li>overflow: hidden;</li>
+</ul>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description Demo</td>
+	</tr>
+	<tr>
+		<td>clip</td>
+		<td>Default value. The text is clipped and not accessible</td>
+	</tr>
+	<tr>
+		<td>ellipsis</td>
+		<td>Render an ellipsis ("...") to represent the clipped text</td>
+	</tr>
+	<tr>
+		<td>string</td>
+		<td>Render the given string to represent the clipped text</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h2>white-space</h2>
+
+<p>The white-space property specifies how white-space inside an element is handled.</p>
+
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description Demo</td>
+	</tr>
+	<tr>
+		<td>normal</td>
+		<td>	Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary. This is default
+    </td>
+	</tr>
+	<tr>
+		<td>nowrap</td>
+		<td>	Sequences of whitespace will collapse into a single whitespace. Text will never wrap to the next line. The text continues on the same line until a <br> tag is encountered
+    </td>
+	</tr>
+	<tr>
+		<td>pre</td>
+		<td>	Whitespace is preserved by the browser. Text will only wrap on line breaks. Acts like the <pre> tag in HTML
+    </td>
+	</tr>
+	<tr>
+		<td>pre-line</td>
+		<td>	Sequences of whitespace will collapse into a single whitespace. Text will wrap when necessary, and on line breaks
+    </td>
+	</tr>
+	<tr>
+		<td>pre-wrap	</td>
+		<td>Whitespace is preserved by the browser. Text will wrap when necessary, and on line breaks
+    </td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using white-space:</h3>
+
+<h4>text-overflow: ellipsis:</h4>
+<div class="b">Hello world!</div>
+
+<h4>text-overflow: "----" (user defined string):</h4>
+<div class="c">Hello world!</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+  .b {
+    white-space: nowrap;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid #000000;
+  }
+
+  .c {
+    white-space: nowrap;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: "----";
+    border: 1px solid #000000;
+  }
+  &lt;/style&gt;
+
+  &lt;h4&gt;text-overflow: ellipsis:&lt;/h4&gt;
+  &lt;div class="b"&gt;Hello world!&lt;/div&gt;
+
+  &lt;h4&gt;text-overflow: "----" (user defined string):&lt;/h4&gt;
+  &lt;div class="c"&gt;Hello world!&lt;/div&gt;
+
+</pre>
+
+<h2>word-wrap</h2>
+
+<p>The <b>word-wrap</b> property allows long words to be able to be broken and wrap onto the next line.</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description Demo</td>
+	</tr>
+	<tr>
+		<td>normal</td>Break words only at allowed break points. This is default	Default value. The text is clipped and not accessible</td>
+	</tr>
+	<tr>
+		<td>break-word</td>
+		<td>Allows unbreakable words to be broken	</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using word-wrap:</h3>
+
+<div class="word-wrap"> This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+  .word-wrap {
+    width: 150px;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+  }
+  &lt;/style&gt;
+
+  &lt;div class="word-wrap"&gt; This div contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.&lt;/div&gt;
+
+</pre>

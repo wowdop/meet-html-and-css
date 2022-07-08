@@ -1,0 +1,121 @@
+<style>
+	div {
+		text-align: justify;
+		text-justify: inter-word;
+	}
+
+	.outline {
+		outline: 3px dashed olive;
+	}
+</style>
+
+<h1>text-justify and outline in CSS</h1>
+
+<h2>text-justify</h2>
+
+<p>
+	The <b>text-justify</b> property specifies the justification method of text
+	when text-align is set to "justify".
+</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>auto</td>
+		<td>The browser determines the justification algorithm</td>
+	</tr>
+	<tr>
+		<td>inter-word</td>
+		<td>Increases/Decreases the space between words</td>
+	</tr>
+	<tr>
+		<td>inter-character</td>
+		<td>Increases/Decreases the space between characters</td>
+	</tr>
+	<tr>
+		<td>none</td>
+		<td>Disables justification methods</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using text-justify:</h3>
+
+<div>
+	In my younger and more vulnerable years my father gave me some advice that
+	I've been turning over in my mind ever since. 'Whenever you feel like
+	criticizing anyone,' he told me, 'just remember that all the people in this
+	world haven't had the advantages that you've had.'
+</div>
+
+<p>
+	<b>Tip:</b> Resize the browser window to see how the value "justify" works.
+</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+
+  &lt;/style&gt;
+
+	&lt;div&gt;
+		In my younger and more vulnerable years my father gave me some advice that
+		I've been turning over in my mind ever since. 'Whenever you feel like
+		criticizing anyone,' he told me, 'just remember that all the people in this
+		world haven't had the advantages that you've had.'
+	&lt;/div&gt;
+</pre>
+
+<h2>outline</h2>
+
+<p>
+	An outline is a line that is drawn around elements, outside the borders, to
+	make the element "stand out".
+</p>
+
+<p>The outline property is a shorthand property for:</p>
+
+<ul>
+	<li>outline-width</li>
+	<li>outline-style (required)</li>
+	<li>outline-color</li>
+	<li>
+		If outline-color is omitted, the color applied will be the color of the
+		text.
+	</li>
+</ul>
+
+<p>
+	<b>Note:</b> Outlines differ from borders! Unlike border, the outline is drawn
+	outside the element's border, and may overlap other content. Also, the outline
+	is NOT a part of the element's dimensions; the element's total width and
+	height is not affected by the width of the outline.
+</p>
+
+<h3>Example using outline:</h3>
+
+<div class="outline">This text has some dotted outline.</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.outline {
+		outline: 3px dashed olive;
+	}
+  &lt;/style&gt;
+
+	&lt;div class="outline"&gt;This text has some dotted outline.&lt;/div&gt;
+
+</pre>

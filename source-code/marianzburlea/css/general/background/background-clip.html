@@ -1,0 +1,71 @@
+<style>
+	.clip {
+		border: 10px dotted black;
+		padding: 15px;
+		background: lightblue;
+		background-clip: content-box;
+	}
+</style>
+
+<h1>background-clip in CSS</h1>
+
+<h2>background-clip</h2>
+
+<p>
+	The <b>background-clip</b> CSS property sets whether an element's background
+	extends underneath its border box, padding box, or content box.
+</p>
+
+<p>
+	If the element has no <b>background-image</b> or <b>background-color</b>, this
+	property will only have a visual effect when the border has transparent
+	regions or partially opaque regions (due to <b>border-style</b> or
+	<b>border-image</b>); otherwise, the border masks the difference.
+</p>
+
+<h3>Values</h3>
+
+<table border="1" cellpadding="10">
+	<tr>
+		<td>border-box</td>
+		<td>
+			The background extends to the outside edge of the border (but underneath
+			the border in z-ordering).
+		</td>
+	</tr>
+	<tr>
+		<td>padding-box</td>
+		<td>
+			The background extends to the outside edge of the padding. No background
+			is drawn beneath the border.
+		</td>
+	</tr>
+	<tr>
+		<td>content-box</td>
+		<td>The background is painted within (clipped to) the content box.</td>
+	</tr>
+	<tr>
+		<td>text</td>
+		<td>The background is painted within (clipped to) the foreground text.</td>
+	</tr>
+</table>
+
+<h3>Example using background-clip:</h3>
+
+<div class="clip">This text is inside the styled element.</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.clip {
+		border: 10px dotted black;
+		padding: 15px;
+		background: lightblue;
+		background-clip: content-box;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="clip"&gt;This text is inside the styled element.&lt;/div&gt;
+
+</pre>

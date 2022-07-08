@@ -1,0 +1,75 @@
+<style>
+	.image {
+		background-image: url('https://picsum.photos/id/1/200/300');
+		background-attachment: fixed;
+		width: 200px;
+		height: 200px;
+	}
+</style>
+
+<h1>background-attachment in CSS</h1>
+
+<h2>background-attachment</h2>
+
+<p>
+	The background-attachment property sets whether a background image scrolls
+	with the rest of the page, or is fixed.
+</p>
+
+<table border="2" cellspacing="10" cellpadding="10">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>scroll</td>
+		<td>The background image will scroll with the page. This is default</td>
+	</tr>
+	<tr>
+		<td>fixed</td>
+		<td>The background image will not scroll with the page</td>
+	</tr>
+	<tr>
+		<td>local</td>
+		<td>The background image will scroll with the element's contents</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using background-attachment:</h3>
+
+<div class="image"></div>
+
+<p>Keep scrolling</p>
+<p>Keep scrolling</p>
+<p>Keep scrolling</p>
+<p>Keep scrolling</p>
+<p>Keep scrolling</p>
+<p>Keep scrolling</p>
+<p>Keep scrolling</p>
+<p>Keep scrolling</p>
+<p>Keep scrolling</p>
+<p>Keep scrolling</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+
+		.image {
+			background-image: url('https://picsum.photos/id/1/200/300');
+			background-attachment: fixed;
+			width: 200px;
+			height: 200px;
+		}
+  &lt;/style&gt;
+
+	&lt;div class="image"&gt;&lt;/div&gt;
+</pre>

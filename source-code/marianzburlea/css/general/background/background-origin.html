@@ -1,0 +1,47 @@
+<style>
+	.origin {
+		border: 10px dashed black;
+		padding: 25px;
+		background: url('https://picsum.photos/200/300/?blur=2');
+		background-repeat: no-repeat;
+		background-origin: border-box;
+		text-shadow: 2px 2px white;
+	}
+</style>
+
+<h1>background-orgin in CSS</h1>
+
+<h2>background-origin</h2>
+
+<p>
+	The <b>background-origin</b> property specifies the origin position (the
+	background positioning area) of a background image.
+</p>
+
+<p>
+	<b>Note:</b> This property has no effect if <b>background-attachment</b> is
+	<b>"fixed"</b>.
+</p>
+
+<h3>Example using background-origin:</h3>
+
+<strong>
+	<div class="origin">This text is inside the styled element.</div>
+</strong>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.origin {
+		border: 10px dashed black;
+		padding: 25px;
+		background: url('https://picsum.photos/200/300/?blur=2');
+		background-repeat: no-repeat;
+		background-origin: border-box;
+    text-shadow: 2px 2px white;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="origin"&gt;This text is inside the styled element.&lt;/div&gt;
+</pre>

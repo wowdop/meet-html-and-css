@@ -1,0 +1,74 @@
+<style>
+	img {
+		-webkit-mask-image: radial-gradient(
+			circle,
+			black 50%,
+			rgba(0, 0, 0, 0.5) 50%
+		);
+		mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+	}
+</style>
+
+<h1>mask-image</h1>
+
+<p>The CSS mask-image property specifies a mask layer image.</p>
+
+<p>
+	The mask layer image can be a PNG image, an SVG image, a CSS gradient, or an
+	SVG &lt;mask&gt; element.
+</p>
+
+<p>
+	<b>Note:</b> Most browsers only have partial support for CSS masking. You will
+	need to use the -webkit- prefix in addition to the standard property in most
+	browsers.
+</p>
+
+<p>
+	The numbers in the table below specify the first browser version that fully
+	supports the property. Numbers followed by <b>-webkit-</b> specify the first
+	version that worked with a prefix.ß
+</p>
+
+<h2>Use an Image as the Mask Layer</h2>
+
+<p>
+	To use a PNG or an SVG image as the mask layer, use a url() value to pass in
+	the mask layer image.
+</p>
+
+<p>
+	The mask image needs to have a transparent or semi-transparent area. Black
+	indicates fully transparent.
+</p>
+
+<h3>Example:</h3>
+
+<img
+	src="../../../../public/image/peony.png"
+	alt="Cinque Terre"
+	width="250"
+	height="300"
+/>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+		img {
+			-webkit-mask-image: radial-gradient(
+				circle,
+				black 50%,
+				rgba(0, 0, 0, 0.5) 50%
+			);
+			mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+		}
+	&lt;/style&gt;
+
+	&lt;img
+	src="../../../../public/image/peony.png"
+	alt="Cinque Terre"
+	width="250"
+	height="300"
+/&gt;
+</pre>

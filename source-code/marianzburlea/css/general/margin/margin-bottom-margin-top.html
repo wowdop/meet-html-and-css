@@ -1,0 +1,81 @@
+<style>
+	.bottom {
+		margin-bottom: 40px;
+		border: 1px solid blueviolet;
+	}
+
+	.top {
+		margin-top: 50px;
+	}
+
+	.both {
+		margin: 50px 0;
+	}
+</style>
+
+<h1>margin-bottom and margin-top in CSS</h1>
+
+<h2>margin-bottom</h2>
+
+<p>The <b>margin-bottom</b> property sets the bottom margin of an element.</p>
+
+<p><b>Note:</b> Negative values are allowed.</p>
+
+<h3>Example using margin-bottom:</h3>
+
+<div class="bottom">This text has some bottom margin of <i>40px</i></div>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+	.bottom {
+		margin-bottom: 40px;
+		border: 1px solid blueviolet;
+	}
+  &lt;/style&gt;
+
+	&lt;div class="bottom"&gt;This text has some bottom margin of &lt;i&gt;40px&lt;/i&gt;&lt;/div&gt;
+
+</pre>
+
+<h2>margin-top</h2>
+
+<p>The <b>margin-top</b> property sets the top margin of an element.</p>
+
+<p><b>Note:</b> Negative values are allowed.</p>
+
+<p>
+	Top and bottom margins of elements are sometimes collapsed into a single
+	margin that is equal to the largest of the two margins.
+</p>
+
+<h3>Example using margin-top:</h3>
+
+<div class="top">This text has some top margin.</div>
+
+<div class="both">
+	This text has both top and bottom margin using only one line that looks like
+	this: <b> margin: 50px 0;</b>
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.top {
+		margin-top: 50px;
+	}
+
+	.both {
+		margin: 50px 0;
+	}
+  &lt;/style&gt;
+
+	&lt;div class="top"&gt;This text has some top margin.&lt;/div&gt;
+
+	&lt;div class="both"&gt;
+		This text has both top and bottom margin using only one line that looks like
+		this: &lt;b&gt; margin: 50px 0;&lt;/b&gt;
+	&lt;/div&gt;
+</pre>

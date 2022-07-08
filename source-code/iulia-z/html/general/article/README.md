@@ -168,5 +168,3 @@ visit the <ins>**`article/article-experiment-4.html`**</ins> to see how we struc
 ```
 
 visit the <ins>**`article/article-experiment-5.html`**</ins> file to find out how we made use of the article tag to display data about a "new way of learning".
-
-@marianzburlea

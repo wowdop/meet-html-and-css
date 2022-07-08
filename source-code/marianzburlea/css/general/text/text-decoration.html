@@ -1,0 +1,105 @@
+<style>
+	.underline {
+		text-decoration: underline;
+	}
+
+	.overline {
+		text-decoration: overline;
+	}
+
+	.under-over {
+		text-decoration: underline overline;
+	}
+
+	.through {
+		text-decoration: line-through;
+	}
+</style>
+
+<h1>text-decoration in CSS</h1>
+
+<h2>text-decoration</h2>
+
+<p>
+	The text-decoration property specifies the decoration added to text, and is a
+	shorthand property for:
+</p>
+
+<ul>
+	<li>text-decoration-line (required)</li>
+	<li>text-decoration-color</li>
+	<li>text-decoration-style</li>
+	<li>text-decoration-thickness</li>
+</ul>
+
+<table border="1" cellpadding="10">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>text-decoration-line</td>
+		<td>
+			Sets the kind of text decoration to use (like underline, overline,
+			line-through)
+		</td>
+	</tr>
+	<tr>
+		<td>text-decoration-color</td>
+		<td>Sets the color of the text decoration</td>
+	</tr>
+	<tr>
+		<td>text-decoration-style</td>
+		<td>
+			Sets the style of the text decoration (like solid, wavy, dotted, dashed,
+			double)
+		</td>
+	</tr>
+	<tr>
+		<td>text-decoration-thickness</td>
+		<td>Sets the thickness of the decoration line</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using text-decoration:</h3>
+
+<div class="underline">This text is underlined.</div>
+<div class="through">This text has a line through.</div>
+<div class="overline">This text is overlined.</div>
+<div class="under-over">This text is underlined and overlined.</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+	.underline {
+		text-decoration: underline;
+	}
+
+	.overline {
+		text-decoration: overline;
+	}
+
+	.under-over {
+		text-decoration: underline overline;
+	}
+
+	.through {
+		text-decoration: line-through;
+	}
+  &lt;/style&gt;
+
+  &lt;div class="underline"&gt;This text is underlined.&lt;/div&gt;
+  &lt;div class="through"&gt;This text has a line through.&lt;/div&gt;
+  &lt;div class="overline"&gt;This text is overlined.&lt;/div&gt;
+  &lt;div class="under-over"&gt;This text is underlined and overlined.&lt;/div&gt;
+
+</pre>

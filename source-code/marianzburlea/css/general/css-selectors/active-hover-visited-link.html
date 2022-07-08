@@ -1,0 +1,224 @@
+<style>
+	.active:active {
+		background-color: brown;
+		color: aliceblue;
+	}
+
+	.hover:hover {
+		color: darkorange;
+	}
+
+	.hover:active {
+		background-color: yellowgreen;
+	}
+
+	.visited:visited {
+		color: salmon;
+	}
+
+	.link:link {
+		background-color: rgb(176, 232, 176);
+	}
+
+	.link:hover {
+		background-color: rgb(35, 176, 35);
+		color: white;
+	}
+
+	.link:active {
+		background-color: coral;
+		color: bisque;
+	}
+</style>
+
+<h1>:active, :hover, :visited and :link in CSS</h1>
+
+<h2>:active</h2>
+
+<p>
+	The <b>:active</b> selector is used to select and style the active link. A
+	link becomes active when you click on it.
+</p>
+
+<p>
+	<strong>Tip:</strong> The <b>:active</b> selector can be used on all elements,
+	not only links.
+</p>
+
+<p>
+	<strong>Tip:</strong> Use the :link selector to style links to unvisited
+	pages, the :visited selector to style links to visited pages, and the :hover
+	selector to style links when you mouse over them.
+</p>
+
+<p>
+	<strong>Note:</strong> <b>:active</b> MUST come after <b>:hover</b> (if
+	present) in the CSS definition in order to be effective!
+</p>
+
+<h3>Example using <b>:active</b></h3>
+
+<a class="active" href="active-hover-visited.html">:active page</a>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+    .active:active {
+      background-color: brown;
+      color: aliceblue;
+    }
+  &lt;/style&gt;
+
+  &lt;a class="active" href="active-hover-visited.html"&gt;:active page&lt;/a&gt;
+</pre>
+
+<h2>:hover</h2>
+
+<p>
+	The <b>:hover</b> selector is used to select elements when you mouse over
+	them.
+</p>
+
+<p>
+	<strong>Tip:</strong> The <b>:hover</b> selector can be used on all elements,
+	not only on links.
+</p>
+
+<p>
+	<strong>Tip:</strong> Use the elector to style links to unvisited pages, the
+	:visited selector to style links to visited pages, and the :active selector to
+	style the active link.
+</p>
+
+<p>
+	<strong>Note:</strong> <b>:hover</b> MUST come after <b>:link</b> and
+	<b>:visited</b> (if they are present) in the CSS definition, in order to be
+	effective!
+</p>
+
+<h3>Example using :hover</h3>
+
+<a class="hover" href="https://slither.io">Slither game</a>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+		.hover:hover {
+			color: tomato;
+		}
+
+		.hover:active {
+			background-color: yellowgreen;
+		}
+	&lt;/style&gt;
+
+  &lt;a class="hover" href="https://slither.io"&lt;Slither game&lt;/a&lt;
+</pre>
+
+<h2>:visited</h2>
+
+<p>The <b>:visited</b> selector is used to select visited links.</p>
+
+<p>
+	<strong>Tip:</strong> Use the <b>:link</b> selector to style links to
+	unvisited pages, the <b>:hover</b> selector to style links when you mouse over
+	them, and the <b>:active</b> selector to style links when you click on them.
+</p>
+
+<p>
+	Browsers limits the styles that can be set for <b>a:visited</b> links, due to
+	security issues.
+</p>
+
+<p>
+	<strong>Note:</strong> <b>:visited</b> MUST come after <b>:link</b> and
+	<b>:visited</b> (if they are present) in the CSS definition, in order to be
+	effective!
+</p>
+
+<p>Allowed styles are:</p>
+<ul>
+	<li>color</li>
+	<li>background-color</li>
+	<li>border-color (and border-color for separate sides)</li>
+	<li>outline color</li>
+	<li>column-rule-color</li>
+	<li>the color parts of fill and stroke</li>
+</ul>
+
+<p>All other styles are inherited from a:link.</p>
+
+<h3>Example using :visited</h3>
+
+<a class="visited" href="#">
+	Check out :disabled, :enabled and :checked properties
+</a>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+		.visited:visited {
+			color: salmon;
+		}
+	&lt;/style&gt;
+
+	&lt;a class="visited" href="#"&gt;
+		Check out :disabled, :enabled and :checked properties
+	&lt;/a&gt;
+</pre>
+
+<h2>:link</h2>
+
+<p>The <b>:link</b> selector is used to select unvisited links.</p>
+
+<p>
+	<strong>Note:</strong> The <b>:link</b>selector does not style links you have
+	already visited.
+</p>
+
+<p>
+	<strong>Note:</strong> The <b>:link</b> selector to style links to visited
+	pages, the <b>:hover</b> selector to style links when you mouse over them, and
+	the <b>:active</b> selector to style links when you click on them.
+</p>
+
+<h3>Example using :link</h3>
+
+<a class="link" href="#"> I am a link</a>
+
+<p>
+	Move the cursor over and watch the <b>:hover</b> effect as well. Try holding
+	the left click and see the <b>:active</b> property style
+</p>
+
+<p>Code example:</p>
+
+<pre>
+	&lt;style&gt;
+		.link:link {
+			background-color: rgb(176, 232, 176);
+		}
+
+		.link:hover {
+			background-color: rgb(35, 176, 35);
+			color: white;
+		}
+
+		.link:active {
+			background-color: coral;
+			color: bisque;
+		}
+	&lt;/style&gt;
+
+	&lt;a class="visited" href="#"&gt;
+		Check out :disabled, :enabled and :checked properties
+	&lt;/a&gt;
+</pre>
+
+<p>
+	Take a look at the Read Me as well to find more details:
+	<a href="./README.md">Read me</a> file
+</p>

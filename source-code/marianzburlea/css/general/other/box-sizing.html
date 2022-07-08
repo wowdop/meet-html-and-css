@@ -1,0 +1,124 @@
+<style>
+	.box {
+		width: 300px;
+		height: 100px;
+		border: 1px solid blue;
+		box-sizing: border-box;
+		padding: 50px;
+	}
+
+	.div1 {
+		width: 300px;
+		height: 100px;
+		border: 1px solid yellow;
+	}
+
+	.div2 {
+		width: 300px;
+		height: 100px;
+		padding: 50px;
+		border: 1px solid red;
+	}
+</style>
+
+<h1>Box sizing</h1>
+
+<p>
+	The CSS box-sizing property allows us to include the padding and border in an
+	element's total width and height.
+</p>
+
+<p>By default, the width and height of an element is calculated like this:</p>
+
+<ul>
+	<li>width + padding + border = actual width of an element</li>
+	<li>height + padding + border = actual height of an element</li>
+</ul>
+
+<p>
+	This means: When you set the width/height of an element, the element often
+	appears bigger than you have set (because the element's border and padding are
+	added to the element's specified width/height).
+</p>
+
+<p>
+	The box-sizing property allows us to include the padding and border in an
+	element's total width and height.
+</p>
+
+<p>
+	If you set box-sizing: border-box; on an element, padding and border are
+	included in the width and height.
+</p>
+
+<p>
+	Since the result of using the <b>box-sizing: border-box;</b> is so much
+	better, many developers want all elements on their pages to work this way.
+</p>
+
+<p>
+	The code below ensures that all elements are sized in this more intuitive way.
+	Many browsers already use <b>box-sizing: border-box;</b> for many form
+	elements (but not all - which is why inputs and text areas look different at
+	width: 100%;).
+</p>
+
+<p>Applying this to all elements is safe and wise:</p>
+
+<pre>
+  * {
+   box-sizing: border-box;
+  }
+</pre>
+
+<h2>Examples:</h2>
+
+<div class="box">Look at me</div>
+<br />
+
+<div class="div1">This is 300x100</div>
+<br />
+
+<div class="div2">
+	This is also 300x100, but it has padding added. Without
+	<b>box-sizing: border-box;</b>, the sizes change
+</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+    .box {
+      width: 300px;
+      height: 100px;
+      border: 1px solid blue;
+      box-sizing: border-box;
+      padding: 50px;
+    }
+
+    .div1 {
+      width: 300px;
+      height: 100px;
+      border: 1px solid blue;
+    }
+
+    .div2 {
+      width: 300px;
+      height: 100px;
+      padding: 50px;
+      border: 1px solid red;
+    }
+  &lt;/style&gt;
+
+
+  &lt;div class="box"&gt;Look at me&lt;/div&gt;
+
+  &lt;div class="div1"&gt;This is 300x100&lt;/div&gt;
+
+
+  &lt;div class="div2"&gt;
+    This is also 300x100, but it has padding added. Without &lt;b&gt;box-sizing:
+      border-box;&lt;/b&gt;, the sizes change
+  &lt;/div&gt;
+
+</pre>

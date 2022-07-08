@@ -1,0 +1,37 @@
+h1 {
+  color: orangered;
+  text-align: center;
+  font: 200;
+  font-style: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifß;
+  font-weight: bold;
+}
+
+h2 {
+  color: dodgerblue;
+  text-align: center;
+  font: 100;
+  font-style: oblique;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial, sans-serifß;
+  font-weight: lighter;
+}
+
+.newer-version-lyrics {
+  color: deepskyblue;
+}
+
+.old-version-lyrics {
+  color: forestgreen;
+  font: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+#i-go-to-the-right {
+  text-align: right;
+  font-style: oblique;
+}

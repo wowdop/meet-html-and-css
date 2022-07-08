@@ -1,0 +1,117 @@
+<style>
+	.box {
+		border: 6px ridge rosybrown;
+	}
+
+	.wrapper {
+		height: 100px;
+		position: relative;
+	}
+
+	#green {
+		background-color: green;
+		position: absolute;
+		z-index: 1;
+		opacity: 0.7;
+		top: 20px;
+	}
+
+	#yellow {
+		background-color: yellow;
+		position: absolute;
+		left: 250px;
+		top: 20px;
+	}
+	#blue {
+		background-color: blue;
+		position: absolute;
+		left: 150px;
+		opacity: 0.8;
+	}
+</style>
+
+<h1>Z-index</h1>
+
+<p>
+	The z-index property specifies the stack order of an element. An element with
+	greater stack order is always in front of an element with a lower stack order.
+	Note: z-index only works on positioned elements (position: absolute, position:
+	relative, position: fixed, or position: sticky) and flex items (elements that
+	are direct children of display:flex elements). Note: If two positioned
+	elements overlap without a z-index specified, the element positioned last in
+	the HTML code will be shown on top.
+</p>
+<p>
+	<b>Note:</b> z-index only works on positioned elements (position: absolute,
+	position: relative, position: fixed, or position: sticky) and flex items
+	(elements that are direct children of display:flex elements).
+</p>
+<p>
+	<b>Note:</b> If two positioned elements overlap without a z-index specified,
+	the element positioned last in the HTML code will be shown on top.
+</p>
+
+<h2>Example 1:</h2>
+<div class="wrapper">
+	<div class="box" id="green">I am green and sit on top</div>
+	<div class="box" id="yellow">I am yellow and I am at the very bottom</div>
+	<div class="box" id="blue">I am blue and I sit inbetween</div>
+</div>
+
+<p>
+	I made use of <b>z-index</b> property with the value of <b><i>1</i></b> in the
+	style of the <i>green</i> element to make it sit on top of the
+	<i>blue</i> element.
+</p>
+<p>
+	I also added another property, <b>opacity</b> and you can find out more about
+	it in the <b>Color properties</b> section.
+</p>
+
+<h3>Code example:</h3>
+<pre>
+	&lt;style&gt;
+		.box {
+			border: 6px ridge rosybrown;
+		}
+
+		.wrapper {
+			height: 100px;
+			position: relative;
+		}
+
+		#green {
+			background-color: green;
+			position: absolute;
+			z-index: 1;
+			opacity: 0.7;
+			top: 20px;
+		}
+
+		#yellow {
+			background-color: yellow;
+			position: absolute;
+			left: 250px;
+			top: 20px;
+		}
+		#blue {
+			background-color: blue;
+			position: absolute;
+			left: 150px;
+			opacity: 0.8;
+		}
+	&lt;/style&gt;
+
+	&lt;div class="wrapper"&gt;
+		&lt;div class="box" id="green"&gt;I am green and sit on top&lt;/div&gt;
+		&lt;div class="box" id="blue"&gt;I am blue and I sit inbetween&lt;/div&gt;
+		&lt;div class="box" id="yellow"&gt;I am yellow and I am at the very bottom&lt;/div&gt;
+	&lt;/div&gt;
+</pre>
+
+<b
+	><small
+		>If you are to remove the <i>z-index</i> property from the green element
+		style, you will notice that it will be placed underneath the blue one
+	</small></b
+>

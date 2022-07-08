@@ -1,0 +1,188 @@
+<style>
+	.shadow {
+		text-shadow: 2px 2px salmon;
+	}
+
+	p {
+		width: 140px;
+		border: 1px solid #000000;
+	}
+
+	p.a {
+		word-break: normal;
+	}
+
+	p.b {
+		word-break: keep-all;
+	}
+
+	p.c {
+		word-break: break-all;
+	}
+</style>
+
+<h1>text-shadow adn word-break in CSS</h1>
+
+<h2>text-shadow</h2>
+
+<p>The <b>text-shadow</b> property adds shadow to text.</p>
+
+<p>
+	This property accepts a comma-separated list of shadows to be applied to the
+	text.
+</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>h-shadow</td>
+		<td>
+			Required. The position of the horizontal shadow. Negative values are
+			allowed
+		</td>
+	</tr>
+	<tr>
+		<td>v-shadow</td>
+		<td>
+			Required. The position of the vertical shadow. Negative values are allowed
+		</td>
+	</tr>
+	<tr>
+		<td>blur-radius</td>
+		<td>Optional. The blur radius. Default value is 0</td>
+	</tr>
+	<tr>
+		<td>color</td>
+		<td>
+			Optional. The color of the shadow. Look at CSS Color Values for a complete
+			list of possible color values
+		</td>
+	</tr>
+	<tr>
+		<td>none</td>
+		<td>Default value. No shadow</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using text-shadow:</h3>
+
+<div class="shadow">Look at this text that has an awesome shadow.</div>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+
+  &lt;/style&gt;
+
+  &lt;div class="shadow"&gt;Look at this text that has an awesome shadow.&lt;/div&gt;
+</pre>
+
+<h2>word-break</h2>
+
+<p>
+	The <b>word-break</b> property specifies how words should break when reaching
+	the end of a line.
+</p>
+
+<table border="1" cellpadding="5">
+	<tr>
+		<td>Value</td>
+		<td>Description</td>
+	</tr>
+	<tr>
+		<td>normal</td>
+		<td>Default value. Uses default line break rules</td>
+	</tr>
+	<tr>
+		<td>break-all</td>
+		<td>To prevent overflow, word may be broken at any character</td>
+	</tr>
+	<tr>
+		<td>keep-all</td>
+		<td>
+			Word breaks should not be used for Chinese/Japanese/Korean (CJK) text.
+			Non-CJK text behavior is the same as value "normal"
+		</td>
+	</tr>
+	<tr>
+		<td>break-word</td>
+		<td>To prevent overflow, word may be broken at arbitrary points</td>
+	</tr>
+	<tr>
+		<td>initial</td>
+		<td>Sets this property to its default value.</td>
+	</tr>
+	<tr>
+		<td>inherit</td>
+		<td>Inherits this property from its parent element.</td>
+	</tr>
+</table>
+
+<h3>Example using word-break:</h3>
+
+<h3>word-break: normal (default):</h3>
+<p class="a">
+	Thisissomeveryveryverylong word. Words will break according to usual rules.
+</p>
+
+<h3>word-break: keep-all:</h3>
+<p class="b">
+	Thisissomeveryveryverylong word that is unexpected. This text
+	will-break-at-hyphens.
+</p>
+
+<h3>word-break: break-all:</h3>
+<p class="c">
+	Thisissomeveryveryverylong word. This text will break at any character.
+</p>
+
+<p>Code example:</p>
+
+<pre>
+  &lt;style&gt;
+  p {
+    width: 140px;
+    border: 1px solid #000000;
+  }
+
+  p.a {
+    word-break: normal;
+  }
+
+  p.b {
+    word-break: keep-all;
+  }
+
+  p.c {
+    word-break: break-all;
+  }
+  &lt;/style&gt;
+
+  &lt;h3&gt;word-break: normal (default):&lt;/h3&gt;
+  &lt;p class="a"&gt;
+    Thisissomeveryveryverylong word. Words will break according to usual rules.
+  &lt;/p&gt;
+
+  &lt;h3&gt;word-break: keep-all:&lt;/h3&gt;
+  &lt;p class="b"&gt;
+    Thisissomeveryveryverylong word. This text will-break-at-hyphens.
+  &lt;/p&gt;
+
+  &lt;h3&gt;word-break: break-all:&lt;/h3&gt;
+  &lt;p class="c"&gt;
+    Thisissomeveryveryverylong word. This text will break at any character.
+  &lt;/p&gt;
+
+</pre>

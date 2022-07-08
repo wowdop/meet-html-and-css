@@ -1,0 +1,120 @@
+<style>
+	p:first-of-type {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 30px;
+		color: deeppink;
+		background-color: greenyellow;
+	}
+
+	div:first-of-type {
+		background-color: yellow;
+	}
+
+	h1:only-of-type,
+	p:only-of-type {
+		color: mediumspringgreen;
+		background-color: chocolate;
+	}
+
+	div:nth-of-type(3) {
+		background-color: rgb(95, 142, 216);
+		color: white;
+	}
+
+	li:nth-of-type(3) {
+		background-color: black;
+		color: rgb(81, 180, 210);
+	}
+
+	:nth-of-type(4) {
+		background-color: rgba(113, 47, 255, 0.843);
+		color: aliceblue;
+	}
+
+	p:nth-last-of-type(2) {
+		background-color: rgb(221, 33, 33);
+	}
+
+	p:nth-last-of-type(odd) {
+		background-color: rgb(206, 201, 201);
+	}
+
+	p:nth-last-of-type(even) {
+		background-color: rgb(219, 247, 195);
+	}
+
+	p:last-of-type,
+	div:last-of-type {
+		border-width: 4px;
+		border-style: double;
+		border-color: red;
+	}
+</style>
+
+<h1>Selectors sha la la:</h1>
+<h2>:first-of-type</h2>
+<h2>:only-of-type</h2>
+<h2>:nth-of-type</h2>
+<h2>:nth-last-of-type</h2>
+<h2>:last-of-type</h2>
+
+<div>
+	<p>The Boy Who Cried Wolf</p>
+	<p>The Golden Touch</p>
+	<p>The Fox and the Grapes</p>
+	<p>The Proud Rose</p>
+	<p>THe Milkmade and Her Pail</p>
+	<p>A Wise Old Owl</p>
+</div>
+
+<div>
+	<ul>
+		<li>The Boy Who Cried Wolf</li>
+		<li>The Golden Touch</li>
+		<li>The Fox and the Grapes</li>
+		<li>The Proud Rose</li>
+		<li>THe Milkmade and Her Pail</li>
+		<li>A Wise Old Owl</li>
+	</ul>
+</div>
+
+<div>
+	<p>Select your gender:</p>
+	<form action="">
+		<input type="radio" checked="checked" name="gender" value="female" />
+		Female
+
+		<input type="radio" checked="checked" name="gender" value="male" />
+		Male
+
+		<input type="radio" checked="checked" name="gender" value="Others" />
+		Others
+		<br />
+
+		Select the languages you speak/understand:
+		<input type="checkbox" checked="checked" name="language" value="English" />
+		I am speaking English.
+
+		<br />
+
+		<input type="checkbox" checked="checked" name="language" value="French" />
+		Je parle Française.
+		<br />
+
+		<input type="checkbox" checked="checked" name="language" value="Italian" />
+		Io parlo Italiano.
+	</form>
+</div>
+
+<div>
+	<p>The Golden Egg</p>
+</div>
+
+<div>
+	<h3>The Boy Who Cried Wolf 1234</h3>
+	<h4>The Golden Touch 1234</h4>
+	<p>The Fox and the Grapes 1234</p>
+	<p>The Proud Rose 1234</p>
+	<p>THe Milkmade and Her Pail 1234</p>
+	<p>A Wise Old Owl 1234</p>
+</div>
