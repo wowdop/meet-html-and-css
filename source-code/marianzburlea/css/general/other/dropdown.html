@@ -1,0 +1,314 @@
+<style>
+	.dropdown-menu {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-menu-content {
+		display: none;
+		position: absolute;
+		background-color: #eecaca;
+		min-width: 140px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.658);
+		padding: 12px 16px;
+		z-index: 1;
+	}
+
+	.dropdown-menu:hover .dropdown-menu-content {
+		display: block;
+	}
+
+	.dropdown-image {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-image-content {
+		display: none;
+		position: absolute;
+		background-color: #97c6dc;
+		box-shadow: 5px 8px 10px 0px rgb(100, 12, 12);
+		z-index: 1;
+	}
+
+	.dropdown-image:hover .dropdown-image-content {
+		display: block;
+	}
+
+	.desc {
+		padding: 15px;
+		font-style: italic;
+		text-align: center;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a,
+	.dropbtn {
+		display: inline-block;
+		color: white;
+		text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
+			-3px 0px 7px rgba(81, 67, 21, 0.8), 0px 4px 7px rgba(81, 67, 21, 0.8);
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	li a:hover,
+	.dropdown-navbar:hover .dropbtn {
+		background-color: red;
+	}
+
+	li.dropdown-navbar {
+		display: inline-block;
+	}
+
+	.dropdown-navbar-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 5px 8px 10px 0px rgba(13, 12, 62, 0.936);
+		z-index: 1;
+	}
+
+	.dropdown-navbar-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+	.dropdown-navbar-content a:hover {
+		background-color: #f1f1f1;
+	}
+
+	.dropdown-navbar:hover .dropdown-navbar-content {
+		display: block;
+	}
+</style>
+
+<h1>Let's create a dropdown! ☺️</h1>
+
+<h2>Dropdown menu</h2>
+
+<p>Hover over the button below and watch the magic happening.</p>
+
+<div class="dropdown-menu">
+	<button class="dropbtn">Dropdown Menu</button>
+	<div class="dropdown-menu-content">
+		<a href="#">Home</a>
+		<a href="#">Contact</a>
+		<a href="#">About</a>
+	</div>
+</div>
+
+<p>Code example</p>
+
+<pre>
+  &lt;style&gt;
+    .dropdown-menu {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-menu-content {
+      display: none;
+      position: absolute;
+      background-color: #eecaca;
+      min-width: 140px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.658);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+
+    .dropdown-menu:hover .dropdown-menu-content {
+      display: block;
+    }
+  &lt;/style&gt;
+
+  &lt;div class="dropdown-menu"&gt;
+    &lt;button class="dropbtn"&gt;Dropdown Menu&lt;/button&gt;
+    &lt;div class="dropdown-menu-content"&gt;
+      &lt;a href="#"&gt;Home&lt;/a&gt;
+      &lt;a href="#"&gt;Contact&lt;/a&gt;
+      &lt;a href="#"&gt;About&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</pre>
+
+<h2>Dropdown image</h2>
+
+<p>Hover over the image to see more details about it</p>
+
+<div class="dropdown-image">
+	<img
+		src="../../../../public/image/peony.png"
+		alt="Cinque Terre"
+		width="100"
+		height="150"
+	/>
+	<div class="dropdown-image-content">
+		<img
+			src="../../../../public/image/peony.png"
+			alt="Cinque Terre"
+			width="200"
+			height="300"
+		/>
+		<div class="desc">Beautiful peony flower</div>
+	</div>
+</div>
+
+<p>Code example</p>
+
+<pre>
+  &lt;style&gt;
+	.dropdown-image {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-image-content {
+		display: none;
+		position: absolute;
+		background-color: #97c6dc;
+		box-shadow: 5px 8px 10px 0px rgb(100, 12, 12);
+		z-index: 1;
+	}
+
+	.dropdown-image:hover .dropdown-image-content {
+		display: block;
+	}
+
+	.desc {
+		padding: 15px;
+		font-style: italic;
+		text-align: center;
+	}
+&lt;/style&gt;
+
+&lt;div class="dropdown-image"&gt;
+	&lt;img
+		src="../../../../public/image/peony.png"
+		alt="Cinque Terre"
+		width="100"
+		height="150"
+	/&gt;
+	&lt;div class="dropdown-image-content"&gt;
+		&lt;img
+			src="../../../../public/image/peony.png"
+			alt="Cinque Terre"
+			width="200"
+			height="300"
+		/&gt;
+		&lt;div class="desc"&gt;Beautiful peony flower&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+<h2>Dropdown navbar</h2>
+
+<ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#news">News</a></li>
+	<li class="dropdown-navbar">
+		<a href="#" class="dropbtn">More</a>
+		<div class="dropdown-navbar-content">
+			<a href="#">Settings</a>
+			<a href="#">Profile</a>
+			<a href="#">Learn about</a>
+		</div>
+	</li>
+</ul>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+<p>Code example</p>
+
+<pre>
+  &lt;style&gt;
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a,
+	.dropbtn {
+		display: inline-block;
+		color: white;
+		text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
+			-3px 0px 7px rgba(81, 67, 21, 0.8), 0px 4px 7px rgba(81, 67, 21, 0.8);
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	li a:hover,
+	.dropdown-navbar:hover .dropbtn {
+		background-color: red;
+	}
+
+	li.dropdown-navbar {
+		display: inline-block;
+	}
+
+	.dropdown-navbar-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 5px 8px 10px 0px rgba(13, 12, 62, 0.936);
+		z-index: 1;
+	}
+
+	.dropdown-navbar-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+	.dropdown-navbar-content a:hover {
+		background-color: #f1f1f1;
+	}
+
+  .dropdown-navbar:hover .dropdown-navbar-content {
+		display: block;
+	}
+&lt;/style&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="#news"&gt;News&lt;/a&gt;&lt;/li&gt;
+	&lt;li class="dropdown-navbar"&gt;
+		&lt;a href="#" class="dropbtn"&gt;More&lt;/a&gt;
+		&lt;div class="dropdown-navbar-content"&gt;
+			&lt;a href="#"&gt;Settings&lt;/a&gt;
+			&lt;a href="#"&gt;Profile&lt;/a&gt;
+			&lt;a href="#"&gt;Learn about&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+</pre>

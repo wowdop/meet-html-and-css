@@ -183,12 +183,12 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
 ##### Must Know CSS properties
 
-1. the `color` property `````````` - color, background & font section - @iulia-zburlea
-1. the `background-color` property - section: color, background & font - @MariaTeo
-1. the `background-image` property - section: color, background & font - @MariaTeo
-1. the `display` property `````````- section: intro/display-min-max-width-height - @MariaTeo
-1. the `align-items` property `````````- section: intro/display-min-max-width-height - @MariaTeo
-1. the `justify-content` property `````````- section: intro/display-min-max-width-height - @MariaTeo
+1. the `color` property``` `````````````` - color, background & font section - @iulia-zburlea
+1. the `background-color` property ```````- section: color, background & font - @MariaTeo
+1. the `background-image` property ```````- section: color, background & font - @MariaTeo
+1. the `display` property ````````````````- section: intro/display-min-max-width-height - @MariaTeo
+1. the `align-items` property ````````````- section: intro/display-min-max-width-height - @MariaTeo
+1. the `justify-content` property ````````- section: intro/display-min-max-width-height - @MariaTeo
 1. the `flex-direction` property `````````- section: intro/display-min-max-width-height - @MariaTeo
 
 1. the `height` property ``````````- section: color, background & font - @MariaTeo
@@ -197,14 +197,14 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `padding` property `````````- section: margin & padding section - @iulia-zburlea
 1. the `border` property ``````````- section: border - @iulia-zburlea
 1. the `border-radius` property ```- section: border - @iulia-zburlea
-1. the `outline` property ```` - section: general/border-and-outline - @iulia-zburlea
-1. the `box-shadow` property ```` - section: general/border-and-outline - @iulia-zburlea
+1. the `outline` property ```````` - section: general/border-and-outline - @iulia-zburlea
+1. the `box-shadow` property ````` - section: general/border-and-outline - @iulia-zburlea
 1. the `position` property ````````- section: position & z-index - @MariaTeo
 1. the `z-index` property `````````- section: position & z-index - @MariaTeo
-1. the `bottom` property ```````` - section: intro/position-z-index - @mariateo
-1. the `top` property ```````` - section: intro/position-z-index - @mariateo
-1. the `left` property ```````` - section: intro/position-z-index - @mariateo
-1. the `right` property ```````` - section: intro/position-z-index - @mariateo
+1. the `bottom` property ````````` - section: intro/position-z-index - @mariateo
+1. the `top` property ```````````` - section: intro/position-z-index - @mariateo
+1. the `left` property ``````````` - section: intro/position-z-index - @mariateo
+1. the `right` property `````````` - section: intro/position-z-index - @mariateo
 
    ##### CSS Selectors
 
@@ -219,7 +219,7 @@ CSS is used for defining the styles for web pages. It describes the look and for
 
 1. the `::before` property ````- section: general/css-selectors - @MariaTeo
 1. the `::after` property `````- section: general/css-selectors - @MariaTeo
-1. the `content` property ```- section: general/css-selectors - @MariaTeo
+1. the `content` property `````- section: general/css-selectors - @MariaTeo
 
 1. the `:first-child` property ````````- section: general/css-selectors - @MariaTeo
 1. the `:nth-child()` property ````````- section: general/css-selectors - @MariaTeo
@@ -229,66 +229,62 @@ CSS is used for defining the styles for web pages. It describes the look and for
 1. the `:nth-of-type` property ```````` - section: general/css-selectors - @iulia-zburlea
 1. the `:last-of-type` property ``````` - section: general/css-selectors - @iulia-zburlea
 
-1. the `:root` property - section: general/css-selectors - @mariateo
+1. the `:root` property ```` - section: general/css-selectors - @mariateo
 1. the `:selection` property - section: general/css-selectors - @mariateo
-1. the `:focus` property - section: general/css-selectors - @mariateo
-1. the `:empty` property - section: general/css-selectors - @mariateo
-1. the `:target` property - section: general/css-selectors - @mariateo
+1. the `:focus` property ````- section: general/css-selectors - @mariateo
+1. the `:empty` property ````- section: general/css-selectors - @mariateo
+1. the `:target` property ```- section: general/css-selectors - @mariateo
 
    ##### General
 
-1. the `font` property ````````````- section: color, background & font - @iulia-zburlea
-1. the `font-size` property ``````- See Must Know Tags section: general/color-and-font - @mariateo
-1. the `background-position` property ```````- section: general/background - @mariateo
-1. the `background-repeat` property ```````- section: general/background - @mariateo
-1. the `background-size` property ```````- section: general/background - @mariateo
-1. the `opacity` property ````````````````- section: general/color-and-font - @iulia-zburlea
-1. the `text-overflow` property ````````` - section: general/text - @mariateo
-1. the `text-shadow` property ``````````` - section: general/text - @mariateo
-1. the `text-wrap` property ````````````` - section: general/text - @mariateo
-1. the `word-wrap` property ````````````` - section: general/text - @mariateo
-1. the `white-space` property ``````````` - section: general/text - @mariateo
-1. the `overflow-x` property ```````` - section: general/good-to-know - @mariateo
-1. the `overflow-y` property ```````` - section: general/good-to-know - @mariateo
-1. the `cursor` property ```````` - section: general/good-to-know - @mariateo
-1. the `@keyframes` property ```````` - section: general/good-to-know - @mariateo
-1. the `animation` property ```````` - section: general/good-to-know - @mariateo
-1. the `animation-name` property ```````` - section: general/good-to-know - @mariateo
-1. the `animation-duration` property ```````` - section: general/good-to-know - @mariateo
-1. the `animation-timing-function` property ```````` - section: general/good-to-know - @mariateo
-1. the `animation-delay` property ```````` - section: general/good-to-know - @mariateo
-1. the `animation-iteration-count` property ```````` - section: general/good-to-know - @mariateo
-1. the `animation-direction` property ```````` - section: general/good-to-know - @mariateo
-1. the `animation-play-state` property ```````` - section: general/good-to-know - @mariateo
-1. the `tranform` property ```````` - section: general/good-to-know - @iulia-zburlea
-1. the `trasition` property ```````` - section: general/good-to-know - @iulia-zburlea
-1. the `transition-property ` property ```````` - section: general/good-to-know - @iulia-zburlea
-1. the `transition-duration` property ```````` - section: general/good-to-know - @iulia-zburlea
-1. the `transition-timing-function` property ```````` - section: general/good-to-know - @iulia-zburlea
-1. the `transition-delay` property ```````` - section: general/good-to-know - @iulia-zburlea
-1. the `@media` property ```````` - section: general/good-to-know - @mariateo
+1. the `font` property ````````````````````` - section: color, background & font - @iulia-zburlea
+1. the `font-size` property ```````````````` - See Must Know Tags section: general/color-and-font - @mariateo
+1. the `background-position` property `````` - section: general/background - @mariateo
+1. the `background-repeat` property ```````` - section: general/background - @mariateo
+1. the `background-size` property `````````` - section: general/background - @mariateo
+1. the `opacity` property `````````````````` - section: general/color-and-font - @iulia-zburlea
+1. the `text-overflow` property ```````````` - section: general/text - @mariateo
+1. the `text-shadow` property `````````````` - section: general/text - @mariateo
+1. the `text-wrap` property ```````````````` - section: general/text - @mariateo
+1. the `word-wrap` property ```````````````` - section: general/text - @mariateo
+1. the `white-space` property `````````````` - section: general/text - @mariateo
+1. the `overflow-x` property ``````````````` - section: general/good-to-know - @mariateo
+1. the `overflow-y` property ``````````````` - section: general/good-to-know - @mariateo
+1. the `cursor` property ``````````````````` - section: general/good-to-know - @mariateo
+1. the `@keyframes` property ``````````````` - section: general/good-to-know - @mariateo
+1. the `animation` property ```````````````` - section: general/good-to-know - @mariateo
+1. the `animation-name` property ``````````` - section: general/good-to-know - @mariateo
+1. the `animation-duration` property ``````` - section: general/good-to-know - @mariateo
+1. the `animation-timing-function` property - section: general/good-to-know - @mariateo
+1. the `animation-delay` property `````````` - section: general/good-to-know - @mariateo
+1. the `animation-iteration-count` property - section: general/good-to-know - @mariateo
+1. the `animation-direction` property ```````- section: general/good-to-know - @mariateo
+1. the `animation-play-state` property ``````- section: general/good-to-know - @mariateo
+1. the `tranform` property ````````````````` - section: general/good-to-know - @iulia-zburlea
+1. the `trasition` property ```````````````` - section: general/good-to-know - @iulia-zburlea
+1. the `transition-property ` property ````` - section: general/good-to-know - @iulia-zburlea
+1. the `transition-duration` property `````` - section: general/good-to-know - @iulia-zburlea
+1. the `transition-timing-function` property - section: general/good-to-know - @iulia-zburlea
+1. the `transition-delay` property ````````` - section: general/good-to-know - @iulia-zburlea
+1. the `@media` property ``````````````````` - section: general/good-to-know - @mariateo
 
    ##### Other Properties
 
-1. the `calc` property
-1. the `url` property ```````` - section: general/background - @mariateo
-1. the `hsl` property
-1. the `hsla` property
-1. the `flex-flow` property
-1. the `flex-grow` property
-1. the `flex-shrink` property
-1. the `flex-wrap` property
-1. the `rotateX` property
-1. the `rotateY` property
-1. the `rotateZ` property
-1. the `scaleX` property
-1. the `scaleY` property
-1. the `scaleZ` property
-1. the `translate` property
-1. the `translateX` property
-1. the `translateY` property
-1. the `translateZ` property
-1. the `translate3d` property
+1. dropdowns ``````````````````` - section: general/other - @mariateo
+1. counters ```````````````````` - section: general/other - @iulia-zburlea
+1. the `!important` property ``` - section: general/other - @iulia-zburlea
+1. the `url` property `````````` - section: general/background - @mariateo
+1. the `box-sizing` property ``` - section: general/other @mariateos
+1. the `calc` property ``` - section: general/other - @mariateo
+1. the `hsl` property ``` - section: general/other - @mariateo
+1. the `hsla` property ``` - section: general/other - @mariateo
+1. the `flex-flow` property ``` - section: general/other - @mariateo
+1. the `flex-grow` property ``` - section: general/other - @mariateo
+1. the `counter-increment` property ``` - section: general/other - @iulia-zburlea
+1. the `counter-reset` property ``` - section: general/other - @iulia-zburlea
+
+1. the `visibility` property
+1. the `overflow` property
 
 <!--
 Reference link no. 1:
@@ -439,7 +435,6 @@ https://www.script-tutorials.com/css-reference/#marquee
 1. the `backface-visibility` property
 
 1. the `appearance` property
-1. the `box-sizing` property
 1. the `icon` property
 1. the `outline-offset` property
 1. the `resize` property
@@ -459,9 +454,6 @@ https://www.script-tutorials.com/css-reference/#marquee
 1. the `padding-top` property ```````` - section: general/margin - @mariateo
 1. the `padding-left` property ```````` - section: general/margin - @mariateo
 1. the `padding-right` property ```````` - section: general/margin - @mariateo
-
-1. the `visibility` property
-1. the `overflow` property
 
 1. the `clip` property
 1. the `clip-path` property
@@ -507,8 +499,19 @@ https://www.script-tutorials.com/css-reference/#marquee
 1. the `list-style` property
 1. the `list-style-type` property
 
-1. the `counter-increment` property
-1. the `counter-reset` property
+1. the `flex-shrink` property
+1. the `flex-wrap` property
+1. the `rotateX` property
+1. the `rotateY` property
+1. the `rotateZ` property
+1. the `scaleX` property
+1. the `scaleY` property
+1. the `scaleZ` property
+1. the `translate` property
+1. the `translateX` property
+1. the `translateY` property
+1. the `translateZ` property
+1. the `translate3d` property
 
 @iulia-zburlea
 @mariateo

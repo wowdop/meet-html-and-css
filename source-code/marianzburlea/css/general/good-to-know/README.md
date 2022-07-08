@@ -71,6 +71,9 @@ and
 [CSS transform in W3](https://www.w3schools.com/cssref/css3_pr_transform.asp)
 and
 
+[CSS transform examples in W3](<https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_transform&preval=rotate(45deg)>)
+and
+
 [@media property](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 
 And also found
@@ -92,8 +95,10 @@ and
 [transition-delay property](https://www.script-tutorials.com/css-ref/transition-property/)
 and
 
-[transform property](https://www.script-tutorials.com/css-ref/transform/)
+[transition-timing-function property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
 and
+
+[transform property](https://www.script-tutorials.com/css-ref/transform/)
 
 ## Notes:
 
@@ -346,15 +351,6 @@ In addition to media types, there are also media features. Media features provid
 
 ```
 
-<!--
-1. the `trasition` property
-1. the `transition-property` property
-1. the `transition-duration` property
-1. the `transition-timing-function` property
-1. the `transition-delay` property
-1. the `tranform` property
--->
-
 # transition
 
 CSS transitions allow you to change property values smoothly, over a given duration.
@@ -391,7 +387,8 @@ CSS **transition** property is a shorthand property for setting the four transit
 		background-size: cover;
 		width: 200px;
 		height: 200px;
-		transition: 3s;
+		transition: width, height;
+		transition-duration: 0.2s;
 	}
 	.transition-ex-1:hover {
 		width: 300px;
@@ -400,7 +397,7 @@ CSS **transition** property is a shorthand property for setting the four transit
 
 	input[type='text'] {
 		width: 150px;
-		transition: 0.35s ease-in-out;
+		transition: width 0.35s ease-in-out;
 	}
 
 	input[type='text']:focus {
@@ -441,14 +438,29 @@ The transition-property property can have the following values:
 
 ```html:
 <style>
+	.transition-ex-3 {
+		background-image: url('https://picsum.photos/seed/picsum/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
 
+		width: 100px;
+		height: 100px;
+
+		transition-property: width, height;
+		transition-duration: 2s;
+	}
+
+	.transition-ex-3:hover {
+		width: 200px;
+		height: 200px;
+	}
 </style>
 
 ```
 
 # transition-duration
 
-The **transition-duration** property .......
+The **transition-duration** property specifies how many seconds (s) or milliseconds (ms) a transition effect takes to complete.
 
 ## Example list
 
@@ -456,7 +468,22 @@ The **transition-duration** property .......
 
 ```html:
 <style>
+		.transition-ex-3 {
+		background-image: url('https://picsum.photos/seed/picsum/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
 
+		width: 100px;
+		height: 100px;
+
+		transition-property: width, height;
+		transition-duration: 2s;
+	}
+
+	.transition-ex-3:hover {
+		width: 200px;
+		height: 200px;
+	}
 </style>
 
 ```
@@ -464,6 +491,8 @@ The **transition-duration** property .......
 # transition-timing-function
 
 The **transition-timing-function** property specifies the speed curve of the transition effect.
+
+This property allows a transition effect to change speed over its duration.
 
 The transition-timing-function property can have the following values:
 
@@ -477,6 +506,16 @@ The transition-timing-function property can have the following values:
   - specifies a transition effect with a slow end.
 - ease-in-out:
   - specifies a transition effect with a slow start and end.
+- step-start:
+  - equivalent to steps(1, start).
+- step-end:
+  - equivalent to steps(1, end).
+- steps(int,start|end): steps( n, <jumpterm>)
+
+  - specifies a stepping function, with two parameters.
+    - The first parameter specifies the number of intervals in the function. It must be a positive integer (greater than 0).
+    - The second parameter, which is optional, is either the value "start" or "end", and specifies the point at which the change of values occur within the interval. If the second parameter is omitted, it is given the value "end".
+
 - cubic-bezier(n,n,n,n):
   - lets you define your own values in a cubic-bezier function.
 
@@ -486,14 +525,44 @@ The transition-timing-function property can have the following values:
 
 ```html:
 <style>
+	.transition-ex-4 {
+		background-image: url('https://picsum.photos/id/1002/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
 
+		width: 100px;
+		height: 100px;
+
+		transition-property: width, height;
+		transition-duration: 2s;
+		/* transition-timing-function: linear; */
+
+		/* transition-timing-function: ease; */
+		/* transition-timing-function: ease-in; */
+		/* transition-timing-function: ease-in-out; */
+		/* transition-timing-function: ease-out; */
+
+		/* transition-timing-function: steps(5); */
+		/* transition-timing-function: steps(5, start); */
+		/* transition-timing-function: steps(5, end); */
+		/* transition-timing-function: step-start; */
+		/* transition-timing-function: step-end; */
+
+		/* transition-timing-function: cubic-bezier(0, 0, 1, 1); */
+		/* transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95); */
+
+		/* you can combine more transitions in one */
+		transition-timing-function: ease, step-start;
+	}
 </style>
 
 ```
 
 # transition-delay
 
-The **transition-delay** property specifies a delay (in seconds) for the transition effect.
+The **transition-delay** property specifies when the transition effect will start.
+
+<b>Note:</b> The **transition-delay** is defined in seconds (s) or milliseconds (ms).
 
 ## Example list
 
@@ -501,14 +570,89 @@ The **transition-delay** property specifies a delay (in seconds) for the transit
 
 ```html:
 <style>
+	.transition-ex-5 {
+		background-image: url('https://picsum.photos/id/237/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
 
+		width: 100px;
+		height: 100px;
+
+		transition-property: width, height;
+		transition-duration: 5s;
+		transition-delay: 0.5s;
+	}
+
+	.transition-ex-5:hover {
+		width: 200px;
+		height: 200px;
+	}
 </style>
 
 ```
 
 # transform
 
-The **transform** property .......
+The **transform** property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
+
+The **transform** property property can have the following values:
+
+- none:
+
+  - defines that there should be no transformation/
+
+- matrix(n,n,n,n,n,n):
+  - defines a 2D transformation, using a matrix of six values.
+- matrix3d (n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n):
+
+  - Defines a 3D transformation, using a 4x4 matrix of 16 values.
+
+- translate(x,y):
+  - Defines a 2D translation.
+- translate3d(x,y,z):
+  - Defines a 3D translation.
+- translateX(x):
+  - Defines a translation, using only the value for the X-axis.
+- translateY(y):
+  - Defines a translation, using only the value for the Y-axis.
+- translateZ(z):
+
+  - Defines a 3D translation, using only the value for the Z-axis.
+
+- scale(x,y):
+  - Defines a 2D scale transformation.
+- scale3d(x,y,z):
+  - Defines a 3D scale transformation.
+- scaleX(x):
+  - Defines a scale transformation by giving a value for the X-axis.
+- scaleY(y):
+  - Defines a scale transformation by giving a value for the Y-axis.
+- scaleZ(z):
+
+  - Defines a 3D scale transformation by giving a value for the Z-axis.
+
+- rotate(angle):
+  - Defines a 2D rotation, the angle is specified in the parameter.
+- rotate3d(x,y,z,angle):
+  - Defines a 3D rotation.
+- rotateX(angle):
+  - Defines a 3D rotation along the X-axis.
+- rotateY(angle):
+  - Defines a 3D rotation along the Y-axis.
+- rotateZ(angle):
+
+  - Defines a 3D rotation along the Z-axis.
+
+- skew(x-angle,y-angle):
+  - Defines a 2D skew transformation along the X- and the Y-axis.
+- skewX(angle):
+  - Defines a 2D skew transformation along the X-axis.
+- skewY(angle):
+
+  - Defines a 2D skew transformation along the Y-axis.
+
+- perspective(n):
+  - Defines a perspective view for a 3D transformed element.
 
 ## Example list
 
@@ -516,7 +660,29 @@ The **transform** property .......
 
 ```html:
 <style>
+	.transform-ex-6-1 {
+		background-image: url('https://picsum.photos/id/237/200/300');
+		background-repeat: no-repeat;
+		background-size: cover;
 
+		width: 150px;
+		height: 80px;
+		transform: rotate(30deg);
+	}
+
+	.transform-ex-6-2 {
+		width: 150px;
+		height: 80px;
+		background-color: rgb(0, 187, 255);
+		transform: skewY(30deg);
+	}
+
+	.transform-ex-6-3 {
+		width: 150px;
+		height: 80px;
+		background-color: rgb(0, 255, 123);
+		transform: scaleY(1.5);
+	}
 </style>
 
 ```

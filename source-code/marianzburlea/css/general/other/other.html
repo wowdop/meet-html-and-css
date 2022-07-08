@@ -1,15 +1,279 @@
-<button id="over">Hover over me and look at the message in the console</button>
+<style>
+	.calc {
+		width: calc(100vw - 70vw);
+		background-color: yellow;
+	}
 
-<button id="cuc">Example</button>
+	.hsl {
+		background-color: hsl(180, 50%, 50%);
+	}
 
-<script>
-	const elementHover = document.querySelector('#over');
-	elementHover.addEventListener('mouseover', () => {
-		console.log('Have a good one!');
-	});
+	.hsla {
+		background-color: hsla(120, 100%, 75%, 0.3);
+	}
 
-	const elementLets = document.querySelector('#cuc');
-	elementLets.addEventListener('click', () => {
-		console.log('element cuc has been clicked weeeeeeeeeeeee');
-	});
-</script>
+	.flow {
+		display: flex;
+		flex-flow: row-reverse wrap;
+	}
+
+	.grow {
+		display: flex;
+	}
+
+	.one {
+		flex-grow: 1;
+		background-color: darkseagreen;
+	}
+
+	.two {
+		flex-grow: 3;
+		background-color: rosybrown;
+	}
+
+	.three {
+		flex-grow: 2;
+		background-color: skyblue;
+	}
+
+	.submenu {
+		justify-content: center;
+		display: flex;
+	}
+
+	#submenu {
+		background-color: #eee;
+		transition: 1s ease-in-out;
+		width: 150px;
+		display: flex;
+		justify-content: center;
+	}
+
+	#submenu:hover {
+		background-color: #fc3;
+		transform: rotate(360deg) scale(2);
+	}
+</style>
+
+<h1>Other properties in CSS</h1>
+
+<h2>These are not mandatory</h2>
+
+<h3>calc()</h3>
+
+<p>
+	The <b>calc()</b> function performs a calculation to be used as the property
+	value.
+</p>
+
+<h3>Examples</h3>
+
+<div class="calc">This has a specific width</div>
+
+<pre>
+	&lt;style&gt;
+	.calc {
+		width: calc(100vw - 70vw);
+		background-color: yellow;
+	}
+  &lt;/style&gt;
+
+	&lt;div class="calc"&gt;This has a specific width&lt;/div&gt;
+
+</pre>
+
+<h3>hsl()</h3>
+
+<p>HSL stands for hue, saturation, and lightness.</p>
+
+<h4>Hue</h4>
+<p>
+	Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240
+	is blue.
+</p>
+
+<h4>Saturation</h4>
+<p>
+	Saturation is a percentage value; 0% means a shade of gray and 100% is the
+	full color.
+</p>
+
+<h4>Lightness</h4>
+<p>Lightness is also a percentage; 0% is black, 100% is white.</p>
+
+<h3>Examples</h3>
+
+<div class="hsl">Look at this pretty color.</div>
+
+<pre>
+	&lt;style&gt;
+	.hsl {
+		background-color: hsl(180, 50%, 50%);
+	}
+	&lt;/style&gt;
+
+	&lt;div class="hsl"&gt;Look at this pretty color.&lt;/div&gt;
+
+</pre>
+
+<h3>hsla()</h3>
+
+<p>
+	The hsla() function define colors using the Hue-saturation-lightness-alpha
+	model (HSLA).
+</p>
+
+<p>
+	HSLA color values are an extension of HSL color values with an alpha channel -
+	which specifies the opacity of the color.
+</p>
+
+<h3>Examples</h3>
+
+<div class="hsla">This is with <b>hsla()</b></div>
+
+<pre>
+	&lt;style&gt;
+		.hsla {
+			background-color: hsla(120, 100%, 75%, 0.3);
+		}
+	&lt;/style&gt;
+
+	&lt;div class="hsla"&gt;This is with &lt;b&gt;hsla()&lt;/b&gt;&lt;/div&gt;
+
+</pre>
+
+<h3>flex-flow</h3>
+
+<p>
+	The flex-flow property is a shorthand property for: flex-direction flex-wrap
+</p>
+
+<p>
+	<b> Note:</b> If the elements are not flexible items, the flex-flow property
+	has no effect.
+</p>
+
+<h3>Examples</h3>
+
+<div class="flow">
+	<p>This is one</p>
+	<p>This is two</p>
+	<p>This is three</p>
+</div>
+
+<pre>
+	&lt;style&gt;
+		.flow {
+			display: flex;
+			flex-flow: row-reverse wrap;
+		}
+	&lt;/style&gt;
+
+	&lt;div class="flow"&gt;
+		&lt;p&gt;This is one&lt;/p&gt;
+		&lt;p&gt;This is two&lt;/p&gt;
+		&lt;p&gt;This is three&lt;/p&gt;
+	&lt;/div&gt;
+</pre>
+
+<h3>flex-grow</h3>
+
+<p>
+	The <b>flex-grow</b> property specifies how much the item will grow relative
+	to the rest of the flexible items inside the same container.
+</p>
+
+<p>
+	<b>Note:</b> If the element is not a flexible item, the
+	<b>flex-grow</b> property has no effect.
+</p>
+
+<h3>Examples</h3>
+
+<div class="grow">
+	<p class="one">This is a paragraphs</p>
+	<p class="two">This is another one</p>
+	<p class="three">Yay</p>
+</div>
+
+<pre>
+	&lt;style&gt;
+		.grow {
+			display: flex;
+		}
+
+		.one {
+			flex-grow: 1;
+			background-color: darkseagreen;
+		}
+
+		.two {
+			flex-grow: 3;
+			background-color: rosybrown;
+		}
+
+		.three {
+			flex-grow: 2;
+			background-color: skyblue;
+		}
+	&lt;/style&gt;
+
+	&lt;div class="grow"&gt;
+		&lt;p class="one"&gt;This is a paragraphs&lt;/p&gt;
+		&lt;p class="two"&gt;This is another one&lt;/p&gt;
+		&lt;p class="three"&gt;Yay&lt;/p&gt;
+	&lt;/div&gt;
+</pre>
+
+<h3>transform</h3>
+
+<h3>Examples</h3>
+
+<div class="submenu">
+	<div id="submenu">Place mouse over</div>
+</div>
+
+<pre>
+	&lt;style&gt;
+
+	&lt;/style&gt;
+
+
+</pre>
+
+<h3></h3>
+
+<h3>Examples</h3>
+
+<pre>
+	&lt;style&gt;
+
+	&lt;/style&gt;
+
+
+</pre>
+
+<h3></h3>
+
+<h3>Examples</h3>
+
+<pre>
+	&lt;style&gt;
+
+	&lt;/style&gt;
+
+
+</pre>
+
+<h3></h3>
+
+<h3>Examples</h3>
+
+<pre>
+	&lt;style&gt;
+
+	&lt;/style&gt;
+
+
+</pre>
